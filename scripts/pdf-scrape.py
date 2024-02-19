@@ -106,7 +106,7 @@ def page_number_converter(page_number: str):
 
 
 
-def final():
+def wheat_maize_yield():
 
     real_pg_no1 = page_number_converter(18)
     real_pg_no2 = page_number_converter(19)
@@ -191,8 +191,93 @@ def final():
 
 
 
+
+def paddy_yield():
+
+    real_pg_no1 = page_number_converter(14)
+    real_pg_no2 = page_number_converter(15)
+    real_pg_no3 = page_number_converter(16)
+    real_pg_no4 = page_number_converter(17)
+
+
+    table1 = converting_pdf_to_table_data(real_pg_no1, 
+    ['KOSHI', 'TAPLEJUNG','35','145', '4.14', '6,737', '20,306', '3.01', '6,772', '20,451', '3.02'],
+    ['KOSHI', 'SUNSARI', '5,260', '26,277', '5.00', '48,132', '174,043', '3.62', '53,392', '200,320', '3.75'],
+    11)  
+    table2 = converting_pdf_to_table_data(real_pg_no1, 
+    ['MADHESH', 'SAPTARI','550', '2,475', '4.50', '50,314', '169,720', '3.37', '50,864', '172,195', '3.39'],
+    ['MADHESH','RAUTAHAT', '1,000','4,720', '4.72','39,529', '125,045','3.16','40,529', '129,765','3.20'],
+    11)
+    table3 = converting_pdf_to_table_data(real_pg_no2, 
+    ['MADHESH', 'BARA','15,105',	'66,613','4.41',	'40,093','147,940','3.69','55,198','214,553','3.89'],
+    ['MADHESH','PARSA', '3,550','18,815','5.30','41,666','202,596','4.80','45,216','221,411', '4.90'],
+    11)
+
+    table4 = converting_pdf_to_table_data(real_pg_no2, 
+    ['BAGMATI',	'SINDHUPALCHOK',	'2,985',	'13,134',	'4.40',	'8,877',	'25,744',	'2.90',	'11,862',	'38,878',	'3.28'],
+    ['BAGMATI',	'CHITWAN',	'4,975',	'20,980',	'4.22',	'22,428',	'83,564',	'3.73',	'27,403',	'104,544',	'3.82'],
+    11)
+    table5 = converting_pdf_to_table_data(real_pg_no2, 
+    ['GANDAKI',	'GORKHA',	'1,320',	'5,075',	'3.84',	'11,266',	'43,175',	'3.40',	'12,586',	'48,250',	'3.83'],
+    ['GANDAKI',	'TANAHU',	'2,490',	'11,163',	'4.48',	'8,517',	'32,799',	'3.77',	'11,007',	'43,962',	'3.99'],
+    11)
+    table6 = converting_pdf_to_table_data(real_pg_no3, 
+    ['GANDAKI',	'KASKI',	'450',	'2,112',	'4.69',	'19,605',	'57,419',	'3.80',	'20,055',	'59,531',	'2.97'],
+    ['GANDAKI',	'NAWALPARASI EAST',	'700',	'3,360',	'4.80',	'18,816',	'75,827',	'4.01',	'19,516',	'79,187',	'4.06'],
+    11)  
+    table7 = converting_pdf_to_table_data(real_pg_no3, 
+    ['LUMBINI',	'PALPA',	'770',	'3,002',	'3.90',	'7,005',	'26,619',	'3.80',	'7,775',	'29,621',	'3.81'],
+    ['LUMBINI',	'ROLPA',	'-',	'-',	'-',	'4,407',	'11,617',	'2.64',	'4,407',	'11,617',	'2.64'],
+    11)  
+    table8 = converting_pdf_to_table_data(real_pg_no4, 
+    ['KARNALI',	'DOLPA',	'-',	'-',	'-',	'198',	'348',	'1.99',	'198',	'348',	'1.76'],
+    ['KARNALI',	'SURKHET',	'139',	'624',	'4.49',	'12,679',	'50,279',	'4.18',	'12,818',	'50,903',	'3.97'],
+    11) 
+    table9 = converting_pdf_to_table_data(real_pg_no4, 
+    ['SUDURPASHCHIM',	'BAJURA',	'-',	'-',	'-',	'4,150',	'10,832',	'2.65',	'4,150',	'10,832',	'2.61'],
+    ['SUDURPASHCHIM',	'KANCHANPUR',	'230',	'989',	'4.30',	'48,515',	'131,476',	'3.84',	'48,745',	'132,465',	'2.72'],
+    11) 
+
+    added1 = groups_to_json(groups=table1,  
+    heading = ['Province', 'District', 'SArea', 'SProduction', 'SpringYield', 'MArea', 'MProduction', 'MainYield', 'TArea', 'TProduction', 'TotalYield'])
+    added2 = groups_to_json(groups=table2,  
+        heading = ['Province', 'District', 'SArea', 'SProduction', 'SpringYield', 'MArea', 'MProduction', 'MainYield', 'TArea', 'TProduction', 'TotalYield'])
+    added3 = groups_to_json(groups=table3,  
+        heading =['Province', 'District', 'SArea', 'SProduction', 'SpringYield', 'MArea', 'MProduction', 'MainYield', 'TArea', 'TProduction', 'TotalYield'])
+    added4 = groups_to_json(groups=table4,  
+        heading = ['Province', 'District', 'SArea', 'SProduction', 'SpringYield', 'MArea', 'MProduction', 'MainYield', 'TArea', 'TProduction', 'TotalYield'])
+    added5 = groups_to_json(groups=table5,  
+        heading = ['Province', 'District', 'SArea', 'SProduction', 'SpringYield', 'MArea', 'MProduction', 'MainYield', 'TArea', 'TProduction', 'TotalYield'])
+    added6 = groups_to_json(groups=table6,  
+        heading = ['Province', 'District', 'SArea', 'SProduction', 'SpringYield', 'MArea', 'MProduction', 'MainYield', 'TArea', 'TProduction', 'TotalYield'])
+    added7 = groups_to_json(groups=table7,  
+        heading = ['Province', 'District', 'SArea', 'SProduction', 'SpringYield', 'MArea', 'MProduction', 'MainYield', 'TArea', 'TProduction', 'TotalYield'])
+    added8 = groups_to_json(groups=table8,  
+        heading = ['Province', 'District', 'SArea', 'SProduction', 'SpringYield', 'MArea', 'MProduction', 'MainYield', 'TArea', 'TProduction', 'TotalYield'])
+    added9 = groups_to_json(groups=table9,  
+        heading = ['Province', 'District', 'SArea', 'SProduction', 'SpringYield', 'MArea', 'MProduction', 'MainYield', 'TArea', 'TProduction', 'TotalYield'])
+
+   
+    data = added1+added2+added3+added4+added5+added6+added7+added8+added9
+    paddy_data = [{'District': entry['District'],
+                    'Spring_yield': entry['SpringYield'],
+                    'Main_yield': entry['MainYield'],
+                    'Total_yield': entry['TotalYield'],
+                    } for entry in data]
+
+
+    print(paddy_data)
+    file_path1 = './data/paddy_yield.json'
+  
+
+    with open(file_path1, 'w') as json_file:
+        json.dump(paddy_data, json_file)
+
+    return paddy_data
+
+
 if __name__ == '__main__':
-    final()
+    paddy_yield()
 
 
         # table = converting_pdf_to_table_data(real_pg_no, 
