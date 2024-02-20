@@ -238,24 +238,26 @@ def paddy_yield():
     ['SUDURPASHCHIM',	'KANCHANPUR',	'230',	'989',	'4.30',	'48,515',	'131,476',	'3.84',	'48,745',	'132,465',	'2.72'],
     11) 
 
+
+    paddy_heading = ['Province', 'District', 'SArea', 'SProduction', 'SpringYield', 'MArea', 'MProduction', 'MainYield', 'TArea', 'TProduction', 'TotalYield']
     added1 = groups_to_json(groups=table1,  
-    heading = ['Province', 'District', 'SArea', 'SProduction', 'SpringYield', 'MArea', 'MProduction', 'MainYield', 'TArea', 'TProduction', 'TotalYield'])
+    heading = paddy_heading )
     added2 = groups_to_json(groups=table2,  
-        heading = ['Province', 'District', 'SArea', 'SProduction', 'SpringYield', 'MArea', 'MProduction', 'MainYield', 'TArea', 'TProduction', 'TotalYield'])
+        heading = paddy_heading)
     added3 = groups_to_json(groups=table3,  
-        heading =['Province', 'District', 'SArea', 'SProduction', 'SpringYield', 'MArea', 'MProduction', 'MainYield', 'TArea', 'TProduction', 'TotalYield'])
+        heading =paddy_heading)
     added4 = groups_to_json(groups=table4,  
-        heading = ['Province', 'District', 'SArea', 'SProduction', 'SpringYield', 'MArea', 'MProduction', 'MainYield', 'TArea', 'TProduction', 'TotalYield'])
+        heading = paddy_heading)
     added5 = groups_to_json(groups=table5,  
-        heading = ['Province', 'District', 'SArea', 'SProduction', 'SpringYield', 'MArea', 'MProduction', 'MainYield', 'TArea', 'TProduction', 'TotalYield'])
+        heading = paddy_heading)
     added6 = groups_to_json(groups=table6,  
-        heading = ['Province', 'District', 'SArea', 'SProduction', 'SpringYield', 'MArea', 'MProduction', 'MainYield', 'TArea', 'TProduction', 'TotalYield'])
+        heading = paddy_heading)
     added7 = groups_to_json(groups=table7,  
-        heading = ['Province', 'District', 'SArea', 'SProduction', 'SpringYield', 'MArea', 'MProduction', 'MainYield', 'TArea', 'TProduction', 'TotalYield'])
+        heading = paddy_heading)
     added8 = groups_to_json(groups=table8,  
-        heading = ['Province', 'District', 'SArea', 'SProduction', 'SpringYield', 'MArea', 'MProduction', 'MainYield', 'TArea', 'TProduction', 'TotalYield'])
+        heading = paddy_heading)
     added9 = groups_to_json(groups=table9,  
-        heading = ['Province', 'District', 'SArea', 'SProduction', 'SpringYield', 'MArea', 'MProduction', 'MainYield', 'TArea', 'TProduction', 'TotalYield'])
+        heading = paddy_heading)
 
    
     data = added1+added2+added3+added4+added5+added6+added7+added8+added9
@@ -276,18 +278,128 @@ def paddy_yield():
     return paddy_data
 
 
+
+def millet_barley_yield():
+
+    real_pg_no1 = page_number_converter(21)
+    real_pg_no2 = page_number_converter(22)
+    real_pg_no3 = page_number_converter(23)
+    real_pg_no4 = page_number_converter(24)
+
+
+    table1 = converting_pdf_to_table_data(real_pg_no1, 
+    ['KOSHI',	'TAPLEJUNG',	'2,987',	'4,242',	'1.42',	'131',	'174',	'1.32',	'269',	'405',	'1.51'],
+    ['KOSHI',	'SUNSARI',	'505',	'585',	'1.16',	'299',	'380',	'1.27',	'14',	'22',	'1.57'],
+    11)  
+    table2 = converting_pdf_to_table_data(real_pg_no1, 
+    ['MADHESH',	'SAPTARI',	'183',	'231',	'1.26',	'-',	'-',	'-',	'-',	'-',	'-'],
+    ['MADHESH',	'PARSA',	'-',	'-',	'-',	'-',	'-',	'-',	'29',	'42',	'1.46'],
+    11)
+    table3 = converting_pdf_to_table_data(real_pg_no2, 
+    ['BAGMATI',	'DOLAKHA',	'3,659',	'4,854',	'1.33',	'1,057',	'1,160',	'1.10',	'136',	'165',	'1.21'],
+    ['BAGMATI',	'CHITWAN',	'1,478',	'1,693',	'1.15',	'1,300',	'1,393',	'1.07',	'15',	'28',	'1.87'],
+    11)
+
+    table4 = converting_pdf_to_table_data(real_pg_no4, 
+    ['SUDURPASHCHIM',	'BAJURA',	'5,870',	'5,907',	'1.01',	'255',	'267',	'1.05',	'1,470',	'1,970',	'1.34'],
+    ['SUDURPASHCHIM',	'KANCHANPUR',	'-',	'-',	'-',	'-',	'-',	'-',	'133',	'232',	'1.74'],
+    11) 
+    table5 = converting_pdf_to_table_data(real_pg_no2, 
+    ['GANDAKI',	'MANANG',	'-',	'-',	'-',	'361',	'610',	'1.88',	'111',	'175',	'1.58'],
+    ['GANDAKI',	'SYANGJA',	'16,501',	'20,346',	'1.23',	'273',	'294',	'1.08',	'6',	'6',	'1.00'],
+    11)
+    table6 = converting_pdf_to_table_data(real_pg_no3, 
+    ['GANDAKI',	'NAWALPARASI EAST',	'259',	'292',	'1.13',	'99',	'98',	'0.99',	'205',	'223',	'1.09'],
+    ['GANDAKI','BAGLUNG',	'18,456',	'23,247',	'1.26',	'98',	'140',	'1.43',	'90',	'120',	'1.33'],
+    11)  
+    table7 = converting_pdf_to_table_data(real_pg_no3, 
+    ['LUMBINI',	'PALPA',	'2,684',	'3,762',	'1.40',	'438',	'403',	'0.92',	'24.0',	'24.2',	'1.01'],
+    ['LUMBINI',	'NAWALPARASI WEST',	'228',	'238',	'1.04',	'6',	'7',	'1.28',	'5',	'6',	'1.23'],
+    11)  
+    table8 = converting_pdf_to_table_data(real_pg_no3, 
+    ['LUMBINI',	'RUKUM EAST',	'641',	'833',	'1.30',	'163',	'187',	'1.15',	'962',	'967',	'1.01',],
+    ['LUMBINI',	'ROLPA',	'1,126',	'1,498',	'1.33',	'102',	'95',	'0.93',	'620',	'625',	'1.01'],
+    11) 
+    table9 = converting_pdf_to_table_data(real_pg_no3, 
+    ['KARNALI',	'DOLPA',	'280',	'310',	'1.11',	'986',	'858',	'0.87',	'334',	'345',	'1.03'],
+    ['KARNALI',	'RUKUM WEST',	'466',	'633',	'1.36',	'165',	'206',	'1.25',	'480',	'702',	'1.46'],
+    11) 
+
+    table10 = converting_pdf_to_table_data(real_pg_no3, 
+    ['KARNALI',	'DOLPA',	'280',	'310',	'1.11',	'986',	'858',	'0.87',	'334',	'345',	'1.03'],
+    ['KARNALI',	'RUKUM WEST',	'466',	'633',	'1.36',	'165',	'206',	'1.25',	'480',	'702',	'1.46'],
+    11) 
+
+    table11 = converting_pdf_to_table_data(real_pg_no4, 
+    ['KARNALI',	'SALYAN',	'1,231',	'1,314',	'1.07',	'74',	'89',	'1.19',	'749',	'1,275',	'1.70'],
+    ['KARNALI',	'SURKHET',	'2,995',	'3,497',	'1.17',	'56',	'85',	'1.52',	'630',	'1,105',	'1.75'],
+    11) 
+
+
+
+    paddy_heading = ['Province', 'District', 'MArea', 'MProduction', 'MYield', 'BArea', 'BProduction', 'BYield', 'BarArea', 'BarProduction', 'BarYield']
+    added1 = groups_to_json(groups=table1,  
+    heading = paddy_heading )
+    added2 = groups_to_json(groups=table2,  
+        heading = paddy_heading)
+    added3 = groups_to_json(groups=table3,  
+        heading =paddy_heading)
+    added4 = groups_to_json(groups=table4,  
+        heading = paddy_heading)
+    added5 = groups_to_json(groups=table5,  
+        heading = paddy_heading)
+    added6 = groups_to_json(groups=table6,  
+        heading = paddy_heading)
+    added7 = groups_to_json(groups=table7,  
+        heading = paddy_heading)
+    added8 = groups_to_json(groups=table8,  
+        heading = paddy_heading)
+    added9 = groups_to_json(groups=table9,  
+        heading = paddy_heading)
+    added10 = groups_to_json(groups=table10,  
+        heading = paddy_heading)
+    added11 = groups_to_json(groups=table11,  
+        heading = paddy_heading)
+ 
+    data = added1+added2+added3+added4+added5+added6+added7+added8+added9+added10+added11
+
+    file_path1 = './data/millet_yield.json'
+    file_path2 = './data/buckwheat_yield.json'
+    file_path3 = './data/barley_yield.json'
+  
+    millet_data = [{'District': entry['District'],
+                    'Millet_yield': entry['MYield']
+                    } for entry in data]
+
+    buckwheat_data = [{'District': entry['District'],
+                   'Buckwheat_yield': entry['BYield']
+                   } for entry in data]
+    
+    barley_data = [{'District': entry['District'],
+                   'Barley_yield': entry['BarYield']
+                   } for entry in data]
+    print(millet_data)
+    print(buckwheat_data)
+    print(barley_data)
+    file_path1 = './data/millet_yield.json'
+    file_path2 = './data/buckwheat_yield.json'
+    file_path3 = './data/barley_yield.json'
+
+    with open(file_path1, 'w') as json_file:
+        json.dump(millet_data, json_file)
+    with open(file_path2, 'w') as json_file:
+        json.dump(buckwheat_data, json_file)
+    with open(file_path3, 'w') as json_file:
+        json.dump(barley_data, json_file)
+    return millet_data, buckwheat_data, barley_data
+
+
+
+
 if __name__ == '__main__':
     paddy_yield()
+    millet_barley_yield()
 
 
-        # table = converting_pdf_to_table_data(real_pg_no, 
-    #         ['LUMBINI', 'PALPA','21,643', '55,779', '2.58', '5,786', '13,572', '2.35'],
-    #         ['LUMBINI', 'ROLPA', '12,335', '38,500', '3.12', '8,596', '24,400', '2.84'],
-    #         8)
-    # grouped = data_to_groups(table_data=table, columns=11)
-    # groups_to_json(groups=table,  
-    #                heading = ['Province', 'District', 'S.Area', 'S.Production', 'S.Yield', 'M.Area', 'M.Production', 'M.Yield', 'T.Area', 'T.Production', 'T.Yield'])
-    # groups_to_json(groups=table,  
-    #         heading = ['Province', 'District', 'MaizeArea', 'MaizeProduction', 'MaizeYield', 'WheatArea', 'WheatProduction', 'WheatYield'])
 
   
