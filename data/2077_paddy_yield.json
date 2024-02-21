@@ -1,0 +1,344 @@
+[
+    {
+        "District": "TAPLEJUNG",
+        "Spring_yield": "4.10",
+        "Main_yield": "2.55",
+        "Total_yield": "2.56"
+    },
+    {
+        "District": "SANKHUWASABHA",
+        "Spring_yield": "4.35",
+        "Main_yield": "2.49",
+        "Total_yield": "2.84"
+    },
+    {
+        "District": "SOLUKHUMBU",
+        "Spring_yield": "4.10",
+        "Main_yield": "2.70",
+        "Total_yield": "2.78"
+    },
+    {
+        "District": "PANCHTHAR",
+        "Spring_yield": "4.43",
+        "Main_yield": "2.20",
+        "Total_yield": "2.75"
+    },
+    {
+        "District": "ILLAM",
+        "Spring_yield": "4.65",
+        "Main_yield": "3.04",
+        "Total_yield": "3.20"
+    },
+    {
+        "District": "TERHATHUM",
+        "Spring_yield": "4.32",
+        "Main_yield": "2.68",
+        "Total_yield": "2.76"
+    },
+    {
+        "District": "DHANKUTA",
+        "Spring_yield": "4.48",
+        "Main_yield": "3.05",
+        "Total_yield": "3.34"
+    },
+    {
+        "District": "BHOJPUR",
+        "Spring_yield": "4.51",
+        "Main_yield": "2.32",
+        "Total_yield": "2.37"
+    },
+    {
+        "District": "KHOTANG",
+        "Spring_yield": "4.51",
+        "Main_yield": "2.56",
+        "Total_yield": "2.86"
+    },
+    {
+        "District": "OKHALDHUNGA",
+        "Spring_yield": "4.12",
+        "Main_yield": "2.65",
+        "Total_yield": "2.77"
+    },
+    {
+        "District": "UDAYAPUR",
+        "Spring_yield": "4.58",
+        "Main_yield": "3.85",
+        "Total_yield": "3.92"
+    },
+    {
+        "District": "JHAPA",
+        "Spring_yield": "5.12",
+        "Main_yield": "4.21",
+        "Total_yield": "4.40"
+    },
+    {
+        "District": "MORANG",
+        "Spring_yield": "4.98",
+        "Main_yield": "4.10",
+        "Total_yield": "4.24"
+    },
+    {
+        "District": "SUNSARI",
+        "Spring_yield": "4.99",
+        "Main_yield": "3.93",
+        "Total_yield": "3.99"
+    },
+    {
+        "District": "SAPTARI",
+        "Spring_yield": "4.51",
+        "Main_yield": "3.55",
+        "Total_yield": "3.56"
+    },
+    {
+        "District": "SIRAHA",
+        "Spring_yield": "4.89",
+        "Main_yield": "3.48",
+        "Total_yield": "3.52"
+    },
+    {
+        "District": "DHANUSHA",
+        "Spring_yield": "5.01",
+        "Main_yield": "3.94",
+        "Total_yield": "3.98"
+    },
+    {
+        "District": "MAHOTTARI",
+        "Spring_yield": "4.81",
+        "Main_yield": "3.32",
+        "Total_yield": "3.47"
+    },
+    {
+        "District": "SARLAHI",
+        "Spring_yield": "5.12",
+        "Main_yield": "3.61",
+        "Total_yield": "3.62"
+    },
+    {
+        "District": "RAUTAHAT",
+        "Spring_yield": "4.65",
+        "Main_yield": "3.41",
+        "Total_yield": "3.44"
+    },
+    {
+        "District": "BARA",
+        "Spring_yield": "5.25",
+        "Main_yield": "3.86",
+        "Total_yield": "4.14"
+    },
+    {
+        "District": "PARSA",
+        "Spring_yield": "4.55",
+        "Main_yield": "4.10",
+        "Total_yield": "4.13"
+    },
+    {
+        "District": "SINDHUPALCHOK",
+        "Spring_yield": "4.49",
+        "Main_yield": "2.41",
+        "Total_yield": "2.97"
+    },
+    {
+        "District": "RASUWA",
+        "Spring_yield": "3.90",
+        "Main_yield": "3.28",
+        "Total_yield": "3.41"
+    },
+    {
+        "District": "RAMECHAP",
+        "Spring_yield": "3.95",
+        "Main_yield": "3.12",
+        "Total_yield": "3.13"
+    },
+    {
+        "District": "SINDHULI",
+        "Spring_yield": "5.10",
+        "Main_yield": "3.71",
+        "Total_yield": "3.78"
+    },
+    {
+        "District": "KAVRE",
+        "Spring_yield": "5.20",
+        "Main_yield": "3.79",
+        "Total_yield": "3.91"
+    },
+    {
+        "District": "NUWAKOT",
+        "Spring_yield": "4.12",
+        "Main_yield": "4.31",
+        "Total_yield": "4.37"
+    },
+    {
+        "District": "DHADING",
+        "Spring_yield": "4.75",
+        "Main_yield": "4.41",
+        "Total_yield": "4.47"
+    },
+    {
+        "District": "MAKWANPUR",
+        "Spring_yield": "4.89",
+        "Main_yield": "3.68",
+        "Total_yield": "3.82"
+    },
+    {
+        "District": "CHITWAN",
+        "Spring_yield": "5.25",
+        "Main_yield": "3.91",
+        "Total_yield": "4.00"
+    },
+    {
+        "District": "GORKHA",
+        "Spring_yield": "4.51",
+        "Main_yield": "3.39",
+        "Total_yield": "3.45"
+    },
+    {
+        "District": "LAMJUNG",
+        "Spring_yield": "4.41",
+        "Main_yield": "3.41",
+        "Total_yield": "3.46"
+    },
+    {
+        "District": "TANAHU",
+        "Spring_yield": "4.89",
+        "Main_yield": "3.81",
+        "Total_yield": "3.96"
+    },
+    {
+        "District": "KASKI",
+        "Spring_yield": "4.91",
+        "Main_yield": "3.82",
+        "Total_yield": "3.84"
+    },
+    {
+        "District": "PARBAT",
+        "Spring_yield": "4.56",
+        "Main_yield": "3.12",
+        "Total_yield": "3.24"
+    },
+    {
+        "District": "SYANGJA",
+        "Spring_yield": "4.61",
+        "Main_yield": "4.14",
+        "Total_yield": "4.15"
+    },
+    {
+        "District": "PALPA",
+        "Spring_yield": "4.61",
+        "Main_yield": "4.18",
+        "Total_yield": "4.22"
+    },
+    {
+        "District": "GULMI",
+        "Spring_yield": "4.56",
+        "Main_yield": "3.23",
+        "Total_yield": "3.29"
+    },
+    {
+        "District": "ARGHAKHANCHI",
+        "Spring_yield": "4.48",
+        "Main_yield": "3.24",
+        "Total_yield": "3.31"
+    },
+    {
+        "District": "NAWALPARASI WEST",
+        "Spring_yield": "5.12",
+        "Main_yield": "4.26",
+        "Total_yield": "4.27"
+    },
+    {
+        "District": "RUPANDEHI",
+        "Spring_yield": "5.34",
+        "Main_yield": "4.14",
+        "Total_yield": "4.15"
+    },
+    {
+        "District": "KAPILBASTU",
+        "Spring_yield": "5.10",
+        "Main_yield": "3.51",
+        "Total_yield": "3.51"
+    },
+    {
+        "District": "DANG",
+        "Spring_yield": "4.65",
+        "Main_yield": "4.19",
+        "Total_yield": "4.19"
+    },
+    {
+        "District": "BANKE",
+        "Spring_yield": "4.75",
+        "Main_yield": "3.46",
+        "Total_yield": "3.48"
+    },
+    {
+        "District": "BARDIYA",
+        "Spring_yield": "5.76",
+        "Main_yield": "4.30",
+        "Total_yield": "4.30"
+    },
+    {
+        "District": "BAGLUNG",
+        "Spring_yield": "4.51",
+        "Main_yield": "3.41",
+        "Total_yield": "3.43"
+    },
+    {
+        "District": "NAWALPARASI EAST",
+        "Spring_yield": "5.12",
+        "Main_yield": "3.98",
+        "Total_yield": "3.99"
+    },
+    {
+        "District": "BAJURA",
+        "Spring_yield": "3.81",
+        "Main_yield": "2.49",
+        "Total_yield": "2.50"
+    },
+    {
+        "District": "BAJHANG",
+        "Spring_yield": "4.12",
+        "Main_yield": "3.39",
+        "Total_yield": "3.41"
+    },
+    {
+        "District": "DARCHULA",
+        "Spring_yield": "4.61",
+        "Main_yield": "2.53",
+        "Total_yield": "2.76"
+    },
+    {
+        "District": "ACHHAM",
+        "Spring_yield": "4.12",
+        "Main_yield": "2.09",
+        "Total_yield": "2.10"
+    },
+    {
+        "District": "DOTI",
+        "Spring_yield": "4.45",
+        "Main_yield": "2.80",
+        "Total_yield": "2.80"
+    },
+    {
+        "District": "BAITADI",
+        "Spring_yield": "4.51",
+        "Main_yield": "2.12",
+        "Total_yield": "2.13"
+    },
+    {
+        "District": "DADELDHURA",
+        "Spring_yield": "4.56",
+        "Main_yield": "3.77",
+        "Total_yield": "3.78"
+    },
+    {
+        "District": "KAILALI",
+        "Spring_yield": "4.65",
+        "Main_yield": "4.26",
+        "Total_yield": "4.27"
+    },
+    {
+        "District": "KANCHANPUR",
+        "Spring_yield": "5.12",
+        "Main_yield": "3.88",
+        "Total_yield": "3.89"
+    }
+]

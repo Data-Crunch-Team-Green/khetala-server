@@ -1,0 +1,262 @@
+[
+    {
+        "District": "TAPLEJUNG",
+        "Barley_yield": "1.51"
+    },
+    {
+        "District": "SANKHUWASABHA",
+        "Barley_yield": "1.34"
+    },
+    {
+        "District": "SOLUKHUMBU",
+        "Barley_yield": "1.19"
+    },
+    {
+        "District": "PANCHTHAR",
+        "Barley_yield": "1.44"
+    },
+    {
+        "District": "ILLAM",
+        "Barley_yield": "1.20"
+    },
+    {
+        "District": "TERHATHUM",
+        "Barley_yield": "1.33"
+    },
+    {
+        "District": "DHANKUTA",
+        "Barley_yield": "0.82"
+    },
+    {
+        "District": "BHOJPUR",
+        "Barley_yield": "1.50"
+    },
+    {
+        "District": "KHOTANG",
+        "Barley_yield": "1.53"
+    },
+    {
+        "District": "OKHALDHUNGA",
+        "Barley_yield": "1.43"
+    },
+    {
+        "District": "UDAYAPUR",
+        "Barley_yield": "1.48"
+    },
+    {
+        "District": "JHAPA",
+        "Barley_yield": "2.00"
+    },
+    {
+        "District": "MORANG",
+        "Barley_yield": "1.04"
+    },
+    {
+        "District": "SUNSARI",
+        "Barley_yield": "1.57"
+    },
+    {
+        "District": "SAPTARI",
+        "Barley_yield": "1.58"
+    },
+    {
+        "District": "SIRAHA",
+        "Barley_yield": "1.32"
+    },
+    {
+        "District": "DHANUSHA",
+        "Barley_yield": "1.29"
+    },
+    {
+        "District": "SARLAHI",
+        "Barley_yield": "1.14"
+    },
+    {
+        "District": "RAUTAHAT",
+        "Barley_yield": "1.57"
+    },
+    {
+        "District": "BARA",
+        "Barley_yield": "2.23"
+    },
+    {
+        "District": "DOLAKHA",
+        "Barley_yield": "0.94"
+    },
+    {
+        "District": "SINDHUPALCHOK",
+        "Barley_yield": "0.85"
+    },
+    {
+        "District": "RASUWA",
+        "Barley_yield": "0.84"
+    },
+    {
+        "District": "RAMECHAP",
+        "Barley_yield": "0.90"
+    },
+    {
+        "District": "SINDHULI",
+        "Barley_yield": "0.80"
+    },
+    {
+        "District": "KAVRE",
+        "Barley_yield": "0.93"
+    },
+    {
+        "District": "BHAKTAPUR",
+        "Barley_yield": "1.00"
+    },
+    {
+        "District": "LALITPUR",
+        "Barley_yield": "0.96"
+    },
+    {
+        "District": "KATHMANDU",
+        "Barley_yield": "0.92"
+    },
+    {
+        "District": "NUWAKOT",
+        "Barley_yield": "0.98"
+    },
+    {
+        "District": "DHADING",
+        "Barley_yield": "1.00"
+    },
+    {
+        "District": "MAKAWANPUR",
+        "Barley_yield": "1.09"
+    },
+    {
+        "District": "CHITWAN",
+        "Barley_yield": "0.80"
+    },
+    {
+        "District": "LAMJUNG",
+        "Barley_yield": "1.46"
+    },
+    {
+        "District": "TANAHU",
+        "Barley_yield": "1.03"
+    },
+    {
+        "District": "KASKI",
+        "Barley_yield": "1.61"
+    },
+    {
+        "District": "PARBAT",
+        "Barley_yield": "1.30"
+    },
+    {
+        "District": "SYANGJA",
+        "Barley_yield": "1.65"
+    },
+    {
+        "District": "MYAGDI",
+        "Barley_yield": "1.33"
+    },
+    {
+        "District": "BAGLUNG",
+        "Barley_yield": "1.76"
+    },
+    {
+        "District": "PALPA",
+        "Barley_yield": "1.67"
+    },
+    {
+        "District": "GULMI",
+        "Barley_yield": "1.75"
+    },
+    {
+        "District": "ARGHAKHANCHI",
+        "Barley_yield": "1.92"
+    },
+    {
+        "District": "NAWALPARASI",
+        "Barley_yield": "6"
+    },
+    {
+        "District": "Lumbini",
+        "Barley_yield": "145"
+    },
+    {
+        "District": "Lumbini",
+        "Barley_yield": "1.87"
+    },
+    {
+        "District": "PYUTHAN",
+        "Barley_yield": "1.63"
+    },
+    {
+        "District": "ROLPA",
+        "Barley_yield": "1.19"
+    },
+    {
+        "District": "DOLPA",
+        "Barley_yield": "1.03"
+    },
+    {
+        "District": "MUGU",
+        "Barley_yield": "1.10"
+    },
+    {
+        "District": "HUMLA",
+        "Barley_yield": "1.26"
+    },
+    {
+        "District": "JUMLA",
+        "Barley_yield": "1.54"
+    },
+    {
+        "District": "KALIKOT",
+        "Barley_yield": "1.58"
+    },
+    {
+        "District": "SALYAN",
+        "Barley_yield": "1.70"
+    },
+    {
+        "District": "JAJARKOT",
+        "Barley_yield": "1.14"
+    },
+    {
+        "District": "DAILEKH",
+        "Barley_yield": "1.25"
+    },
+    {
+        "District": "SURKHET",
+        "Barley_yield": "1.58"
+    },
+    {
+        "District": "BAJURA",
+        "Barley_yield": "1.26"
+    },
+    {
+        "District": "BAJHANG",
+        "Barley_yield": "1.06"
+    },
+    {
+        "District": "DARCHULA",
+        "Barley_yield": "0.84"
+    },
+    {
+        "District": "ACHHAM",
+        "Barley_yield": "1.27"
+    },
+    {
+        "District": "DOTI",
+        "Barley_yield": "1.51"
+    },
+    {
+        "District": "BAITADI",
+        "Barley_yield": "0.91"
+    },
+    {
+        "District": "DADELDHURA",
+        "Barley_yield": "1.37"
+    },
+    {
+        "District": "KAILALI",
+        "Barley_yield": "1.56"
+    }
+]
