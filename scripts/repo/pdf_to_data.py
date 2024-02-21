@@ -16,10 +16,9 @@ class PdfConverter:
         extracted_pages = pages.extractText()
     
         # l = extracted_pages.split('\n')
-        # m = extracted_pages.split('\n')
+  
         l = re.split(r'\s+|\n+', extracted_pages)
-        # l = re.split()
-
+ 
 
         base_a = 0
         table_data = []
