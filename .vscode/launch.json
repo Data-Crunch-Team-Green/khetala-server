@@ -8,7 +8,7 @@
             "name": "Run yields",
             "type": "debugpy",
             "request": "launch",
-            "program": "scripts/report_2078.py",
+            "program": "scripts/report_2077.py",
             "console": "integratedTerminal",
             "justMyCode": true
         }

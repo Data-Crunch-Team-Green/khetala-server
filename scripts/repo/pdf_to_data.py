@@ -7,7 +7,7 @@ import re
 class PdfConverter:
     
     def converting_pdf_to_table_data(page_number: int, starting_chr: list, ending_chr: list, total_columns: int) -> list:
-        open_file = open('./data/report.pdf','rb' )
+        open_file = open('./data/report2077.pdf','rb' )
         reader = PyPDF3.PdfFileReader(open_file)
         print(reader.numPages)
 
@@ -17,7 +17,7 @@ class PdfConverter:
     
         # l = extracted_pages.split('\n')
   
-        l = re.split(r'\s+|\n+', extracted_pages)
+        l = re.split(r'\n', extracted_pages)
  
 
         base_a = 0
@@ -71,7 +71,7 @@ class PdfConverter:
 
     def page_number_converter(page_number: int):
         # real_pg = page_number - 1 + 9
-        real_pg = page_number + 7
+        real_pg = page_number + 8
         return real_pg
 
 
