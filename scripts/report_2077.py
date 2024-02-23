@@ -189,55 +189,57 @@ def millet_barley_yield():
     real_pg_no3 = pdc.page_number_converter(21)
     real_pg_no4 = pdc.page_number_converter(22)
 
-    t1 = pdc.converting_pdf_to_table_data(real_pg_no1)
-    t2 = pdc.converting_pdf_to_table_data(real_pg_no2)
-    t3 = pdc.converting_pdf_to_table_data(real_pg_no3)
-    t4 = pdc.converting_pdf_to_table_data(real_pg_no4)
+    t1 = pdc.converting_pdf_to_table_data('./raw_data/2077_data/report2077.pdf', real_pg_no1)
+    t2 = pdc.converting_pdf_to_table_data('./raw_data/2077_data/report2077.pdf',real_pg_no2)
+    t3 = pdc.converting_pdf_to_table_data('./raw_data/2077_data/report2077.pdf',real_pg_no3)
+    t4 = pdc.converting_pdf_to_table_data('./raw_data/2077_data/report2077.pdf',real_pg_no4)
 
-    table1 = pdc.converting_pdf_to_table_data(t1, 
+    table1 = pdc.filtering_needed_data(t1, 
     ['1',	'TAPLEJUNG',	'3,008',	'4,181',	'1.39',	'270',	'402',	'1.49',	'103',	'140',	'1.36'],
     ['1',	'TERHATHUM',	'2,603',	'3,269',	'1.26',	'64',	'85',	'1.33',	'23',	'22',	'0.94'],
     11)  
-    table2 = pdc.converting_pdf_to_table_data(t1, 
+
+
+    table2 = pdc.filtering_needed_data(t1, 
     ['1',	'BHOJPUR',	'5,429',	'6,980',	'1.29',	'12',	'17',	'1.43',	'35',	'32',	'0.89'],
     ['1',	'JHAPA',	'1,153',	'1,495',	'1.30',	'5',	'9',	'1.87',	'1,110',	'1,353',	'1.22'],
     11)
-    table3 = pdc.converting_pdf_to_table_data(t1, 
+    table3 = pdc.filtering_needed_data(t1, 
     ['2',	'SAPTARI',	'181',	'227',	'1.25',	'-',	'-',	'-',	'-',	'-',	'-'],
     ['2',	'DHANUSHA',	'174',	'177',	'1.01',	'2',	'2',	'1.50',	'-',	'-',	'-'],
     11)
 
-    table4 = pdc.converting_pdf_to_table_data(t1, 
+    table4 = pdc.filtering_needed_data(t1, 
     ['2',	'SARLAHI',	'702',	'627',	'0.89',	'62',	'71',	'1.14',	'-',	'-',	'-'],
     ['2',	'BARA',	'75',	'87',	'1.15',	'38',	'85',	'2.23',	'-',	'-',	'-'],
     11) 
-    table5 = pdc.converting_pdf_to_table_data(t2, 
+    table5 = pdc.filtering_needed_data(t2, 
     ['Bagmati',	'DOLAKHA',	'3,635',	'5,133',	'1.41',	'146',	'175',	'1.20',	'901',	'1,097',	'1.22'],
     ['Bagmati',	'CHITWAN',	'1,473',	'1,645',	'1.12',	'18',	'34',	'1.87',	'70',	'77',	'1.10'],
     11)
-    table6 = pdc.converting_pdf_to_table_data(t2, 
+    table6 = pdc.filtering_needed_data(t2, 
     ['Gandaki',	'MANANG',	'-',	'-',	'-',	'109',	'189',	'1.73',	'262',	'491',	'1.88'],
     ['Gandaki',	'SYANGJA',	'15,926',	'20,004',	'1.26',	'4',	'6',	'1.65',	'221',	'220',	'1.00'],
     11)  
-    table7 = pdc.converting_pdf_to_table_data(t3, 
+    table7 = pdc.filtering_needed_data(t3, 
     ['Gandaki',	'MYAGDI',	'2,530',	'3,296',	'1.30',	'279',	'372',	'1.33',	'144',	'142',	'0.99'],
     ['Gandaki',	'NAWALPARASI EAST',	'256',	'287',	'1.12',	'8',	'10',	'1.25',	'80',	'79',	'0.99'],
     11)  
-    table8 = pdc.converting_pdf_to_table_data(t3, 
+    table8 = pdc.filtering_needed_data(t3, 
     ['Lumbini',	'PALPA',	'2,655',	'3,109',	'1.17',	'19',	'35',	'1.83',	'410',	'407',	'0.99'],
     ['Lumbini',	'ROLPA',	'1,113',	'1,276',	'1.15',	'556',	'661',	'1.19',	'108',	'98',	'0.91'],
     11) 
-    table9 = pdc.converting_pdf_to_table_data(t3, 
+    table9 = pdc.filtering_needed_data(t3, 
     ['Karnali',	'DOLPA',	'277',	'305',	'1.10',	'354',	'355',	'1.00',	'646',	'679',	'1.05'],
     ['Karnali',	'RUKUM WEST',	'461',	'623',	'1.35',	'413',	'518',	'1.25',	'-',	'-',	'-'],
     11) 
 
-    table10 = pdc.converting_pdf_to_table_data(t4, 
+    table10 = pdc.filtering_needed_data(t4, 
     ['Karnali',	'SALYAN',	'1,020',	'1,194',	'1.17',	'950',	'1,276',	'1.34',	'60',	'71',	'1.19'],
     ['Karnali',	'SURKHET',	'2,215',	'2,957',	'1.34',	'931',	'1,424',	'1.53',	'-',	'-',	'-'],
     11) 
 
-    table11 = pdc.converting_pdf_to_table_data(t4, 
+    table11 = pdc.filtering_needed_data(t4, 
     ['Sudurpashchim',	'BAJURA',	'2,494',	'2,531',	'1.02',	'976',	'990',	'1.01',	'7',	'11',	'1.54'],
     ['Sudurpashchim',	'KAILALI',	'352',	'398',	'1.13',	'176',	'370',	'2.10',	'22',	'27',	'1.22'],
     11) 
@@ -276,19 +278,19 @@ def millet_barley_yield():
                     'Millet_yield': entry['MYield']
                     } for entry in data]
 
-    buckwheat_data = [{'District': entry['District'],
-                   'Buckwheat_yield': entry['BYield']
+    barley_data = [{'District': entry['District'],
+                   'Barley_yield': entry['BYield']
                    } for entry in data]
     
-    barley_data = [{'District': entry['District'],
-                   'Barley_yield': entry['BarYield']
+    buckwheat_data = [{'District': entry['District'],
+                   'Buckwheat_yield': entry['BarYield']
                    } for entry in data]
     print(millet_data)
     print(buckwheat_data)
     print(barley_data)
-    file_path1 = './data/millet_yield2077.json'
-    file_path2 = './data/buckwheat_yield2077.json'
-    file_path3 = './data/barley_yield2077.json'
+    file_path1 = './raw_data/2077_data/millet_yield2077.json'
+    file_path2 = './raw_data/2077_data/buckwheat_yield2077.json'
+    file_path3 = './raw_data/2077_data/barley_yield2077.json'
 
     with open(file_path1, 'w') as json_file:
         json.dump(millet_data, json_file)

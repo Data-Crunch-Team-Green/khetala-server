@@ -17,7 +17,7 @@ def paddy_yield():
     t3 = pdc.converting_pdf_to_table_data(real_pg_no3)
     t4 = pdc.converting_pdf_to_table_data(real_pg_no4)
 
-    table1 = pdc.converting_pdf_to_table_data(t1, 
+    table1 = pdc.filtering_needed_data(t1, 
     ['1', 'TAPLEJUNG','32','135', '4.22', '7,405', '18,809', '2.54', '7,437', '18,944', '2.55'],
     ['1',	'SUNSARI',	'5,543',	'26,282',	'4.74',	'48,012',	'192,528',	'4.01',	'53,555',	'218,810',	'4.09'],
     11)  
@@ -308,9 +308,56 @@ def millet_barley_yield():
 
 
 
+def paddy_csv():
+    paddy_data = pdc.converting_csv_to_table_data("./raw_data/2078_data/remaining.csv")
+    filtered = pdc.filtering_needed_data(extracted_data = paddy_data, 
+                                        starting_chr=['BAGMATI',
+                                                        'DOLAKHA',
+                                                        '-',
+                                                        '-',
+                                                        '-',
+                                                        '2814',
+                                                        '7457',
+                                                        '2.65',
+                                                        '2814',
+                                                        '7457',
+                                                        '2.65'], 
+                                        ending_chr=['SUDURPASHCHIM',
+                                                    'BAITADI',
+                                                    '-',
+                                                    '-',
+                                                    '4.55',
+                                                    '8447',
+                                                    '20695',
+                                                    '2.45',
+                                                    '8447',
+                                                    '20695',
+                                                    '2.45'], 
+                                        total_columns=11)
+    headings =  ['Province', 'District', 'SArea', 'SProduction', 'SpringYield', 'MArea', 'MProduction', 'MainYield', 'TArea', 'TProduction', 'TotalYield']
+    grouping = pdc.groups_to_json(groups=filtered,  heading = headings)
+    paddy_data = [{'District': entry['District'],
+                    'Spring_yield': entry['SpringYield'],
+                    'Main_yield': entry['MainYield'],
+                    'Total_yield': entry['TotalYield'],
+                    } for entry in grouping]
+
+
+    print(paddy_data)
+    file_path1 = './raw_data/2078_data/2078_paddy_yield2.json'
+  
+
+    with open(file_path1, 'w') as json_file:
+        json.dump(paddy_data, json_file)
+
+    return paddy_data
+
+
+
 if __name__ == '__main__':
     # paddy_yield()
-    millet_barley_yield()
+    paddy_csv()
+    # millet_barley_yield()
     # wheat_maize_yield()
     # millet_barley_yield()
 

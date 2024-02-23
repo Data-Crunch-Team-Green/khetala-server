@@ -1,306 +1,310 @@
 [
     {
         "District": "TAPLEJUNG",
-        "Wheat_yield": "2.31"
+        "Barley_yield": "1.49"
     },
     {
         "District": "SANKHUWASABHA",
-        "Wheat_yield": "2.35"
+        "Barley_yield": "1.31"
     },
     {
         "District": "SOLUKHUMBU",
-        "Wheat_yield": "2.10"
+        "Barley_yield": "1.17"
     },
     {
         "District": "PANCHTHAR",
-        "Wheat_yield": "2.16"
+        "Barley_yield": "1.46"
     },
     {
         "District": "ILLAM",
-        "Wheat_yield": "3.00"
+        "Barley_yield": "1.24"
     },
     {
         "District": "TERHATHUM",
-        "Wheat_yield": "2.11"
+        "Barley_yield": "1.33"
     },
     {
         "District": "DHANKUTA",
-        "Wheat_yield": "2.25"
+        "Barley_yield": "-"
     },
     {
         "District": "BHOJPUR",
-        "Wheat_yield": "2.05"
+        "Barley_yield": "1.43"
     },
     {
         "District": "KHOTANG",
-        "Wheat_yield": "2.30"
+        "Barley_yield": "1.51"
     },
     {
         "District": "OKHALDHUNGA",
-        "Wheat_yield": "2.13"
+        "Barley_yield": "1.32"
     },
     {
         "District": "UDAYAPUR",
-        "Wheat_yield": "2.75"
+        "Barley_yield": "1.54"
     },
     {
         "District": "JHAPA",
-        "Wheat_yield": "3.23"
+        "Barley_yield": "1.87"
     },
     {
         "District": "MORANG",
-        "Wheat_yield": "3.12"
+        "Barley_yield": "-"
     },
     {
         "District": "SUNSARI",
-        "Wheat_yield": "3.25"
+        "Barley_yield": "2.25"
     },
     {
         "District": "SAPTARI",
-        "Wheat_yield": "3.55"
+        "Barley_yield": "-"
     },
     {
         "District": "SIRAHA",
-        "Wheat_yield": "3.50"
+        "Barley_yield": "-"
     },
     {
         "District": "DHANUSHA",
-        "Wheat_yield": "3.32"
+        "Barley_yield": "1.50"
     },
     {
         "District": "MAHOTTARI",
-        "Wheat_yield": "3.06"
+        "Barley_yield": "1.18"
     },
     {
         "District": "SARLAHI",
-        "Wheat_yield": "3.41"
+        "Barley_yield": "1.14"
     },
     {
         "District": "RAUTAHAT",
-        "Wheat_yield": "3.73"
+        "Barley_yield": "1.57"
     },
     {
         "District": "BARA",
-        "Wheat_yield": "3.59"
+        "Barley_yield": "2.23"
     },
     {
         "District": "PARSA",
-        "Wheat_yield": "3.68"
+        "Barley_yield": "1.46"
     },
     {
         "District": "DOLAKHA",
-        "Wheat_yield": "1.99"
+        "Barley_yield": "1.20"
     },
     {
         "District": "SINDHUPALCHOK",
-        "Wheat_yield": "2.02"
+        "Barley_yield": "1.19"
     },
     {
         "District": "RASUWA",
-        "Wheat_yield": "2.01"
+        "Barley_yield": "1.33"
     },
     {
         "District": "RAMECHAP",
-        "Wheat_yield": "2.35"
+        "Barley_yield": "1.35"
     },
     {
         "District": "SINDHULI",
-        "Wheat_yield": "2.82"
+        "Barley_yield": "1.59"
     },
     {
         "District": "KAVRE",
-        "Wheat_yield": "3.00"
+        "Barley_yield": "1.63"
     },
     {
         "District": "BHAKTAPUR",
-        "Wheat_yield": "5.01"
+        "Barley_yield": "2.06"
     },
     {
         "District": "LALITPUR",
-        "Wheat_yield": "3.45"
+        "Barley_yield": "1.45"
     },
     {
         "District": "KATHMANDU",
-        "Wheat_yield": "4.41"
+        "Barley_yield": "1.51"
     },
     {
         "District": "NUWAKOT",
-        "Wheat_yield": "3.30"
+        "Barley_yield": "1.30"
     },
     {
         "District": "DHADING",
-        "Wheat_yield": "2.98"
+        "Barley_yield": "1.39"
     },
     {
-        "District": "MAKWANPUR",
-        "Wheat_yield": "3.70"
+        "District": "MAKAWANPUR",
+        "Barley_yield": "1.39"
     },
     {
         "District": "CHITWAN",
-        "Wheat_yield": "3.81"
+        "Barley_yield": "1.87"
     },
     {
         "District": "MANANG",
-        "Wheat_yield": "1.51"
+        "Barley_yield": "1.73"
     },
     {
         "District": "MUSTANG",
-        "Wheat_yield": "1.66"
+        "Barley_yield": "1.85"
     },
     {
         "District": "GORKHA",
-        "Wheat_yield": "2.33"
+        "Barley_yield": "1.41"
     },
     {
         "District": "LAMJUNG",
-        "Wheat_yield": "2.45"
+        "Barley_yield": "1.46"
     },
     {
         "District": "TANAHU",
-        "Wheat_yield": "2.51"
+        "Barley_yield": "1.03"
     },
     {
         "District": "KASKI",
-        "Wheat_yield": "2.31"
+        "Barley_yield": "1.61"
     },
     {
         "District": "PARBAT",
-        "Wheat_yield": "2.55"
+        "Barley_yield": "1.30"
     },
     {
         "District": "SYANGJA",
-        "Wheat_yield": "2.85"
+        "Barley_yield": "1.65"
     },
     {
         "District": "MYAGDI",
-        "Wheat_yield": "2.53"
+        "Barley_yield": "1.33"
     },
     {
         "District": "BAGLUNG",
-        "Wheat_yield": "2.61"
+        "Barley_yield": "1.47"
     },
     {
-        "District": "NAWALPARASIEAST",
-        "Wheat_yield": "2.95"
+        "District": "NAWALPARASI EAST",
+        "Barley_yield": "1.25"
     },
     {
         "District": "PALPA",
-        "Wheat_yield": "2.73"
+        "Barley_yield": "1.83"
     },
     {
         "District": "GULMI",
-        "Wheat_yield": "2.96"
+        "Barley_yield": "1.75"
     },
     {
         "District": "ARGHAKHANCHI",
-        "Wheat_yield": "2.94"
+        "Barley_yield": "1.93"
     },
     {
-        "District": "NAWALPARASIWEST",
-        "Wheat_yield": "2.90"
+        "District": "NAWALPARASI WEST",
+        "Barley_yield": "1.23"
     },
     {
         "District": "RUPANDEHI",
-        "Wheat_yield": "3.56"
+        "Barley_yield": "2.54"
     },
     {
         "District": "KAPILBASTU",
-        "Wheat_yield": "3.95"
+        "Barley_yield": "1.87"
     },
     {
         "District": "DANG",
-        "Wheat_yield": "2.80"
+        "Barley_yield": "1.23"
     },
     {
         "District": "BANKE",
-        "Wheat_yield": "3.84"
+        "Barley_yield": "1.38"
     },
     {
         "District": "BARDIYA",
-        "Wheat_yield": "3.90"
+        "Barley_yield": "1.50"
     },
     {
-        "District": "RUKUMEAST",
-        "Wheat_yield": "2.80"
+        "District": "RUKUM EAST",
+        "Barley_yield": "1.28"
     },
     {
         "District": "PYUTHAN",
-        "Wheat_yield": "2.98"
+        "Barley_yield": "1.63"
     },
     {
         "District": "ROLPA",
-        "Wheat_yield": "2.96"
+        "Barley_yield": "1.19"
+    },
+    {
+        "District": "DOLPA",
+        "Barley_yield": "1.00"
     },
     {
         "District": "MUGU",
-        "Wheat_yield": "1.25"
+        "Barley_yield": "1.12"
     },
     {
         "District": "HUMLA",
-        "Wheat_yield": "1.45"
+        "Barley_yield": "1.30"
     },
     {
         "District": "JUMLA",
-        "Wheat_yield": "2.38"
+        "Barley_yield": "1.71"
     },
     {
         "District": "KALIKOT",
-        "Wheat_yield": "1.37"
+        "Barley_yield": "1.58"
     },
     {
-        "District": "RUKUMWEST",
-        "Wheat_yield": "2.78"
+        "District": "RUKUM WEST",
+        "Barley_yield": "1.25"
     },
     {
         "District": "SALYAN",
-        "Wheat_yield": "3.10"
+        "Barley_yield": "1.34"
     },
     {
         "District": "JAJARKOT",
-        "Wheat_yield": "2.12"
+        "Barley_yield": "1.14"
     },
     {
         "District": "DAILEKH",
-        "Wheat_yield": "2.45"
+        "Barley_yield": "1.30"
     },
     {
         "District": "SURKHET",
-        "Wheat_yield": "3.04"
+        "Barley_yield": "1.53"
     },
     {
         "District": "BAJURA",
-        "Wheat_yield": "1.40"
+        "Barley_yield": "1.01"
     },
     {
         "District": "BAJHANG",
-        "Wheat_yield": "1.53"
+        "Barley_yield": "0.79"
     },
     {
         "District": "DARCHULA",
-        "Wheat_yield": "2.16"
+        "Barley_yield": "0.83"
     },
     {
         "District": "ACHHAM",
-        "Wheat_yield": "2.13"
+        "Barley_yield": "1.27"
     },
     {
         "District": "DOTI",
-        "Wheat_yield": "2.23"
+        "Barley_yield": "0.99"
     },
     {
         "District": "BAITADI",
-        "Wheat_yield": "2.12"
+        "Barley_yield": "0.70"
     },
     {
         "District": "DADELDHURA",
-        "Wheat_yield": "2.45"
+        "Barley_yield": "1.37"
     },
     {
         "District": "KAILALI",
-        "Wheat_yield": "3.91"
+        "Barley_yield": "2.10"
     },
     {
         "District": "KANCHANPUR",
-        "Wheat_yield": "3.85"
+        "Barley_yield": "1.50"
     }
 ]
