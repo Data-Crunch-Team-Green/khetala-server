@@ -1,0 +1,310 @@
+[
+    {
+        "District": "TAPLEJUNG",
+        "Millet_yield": "1.4"
+    },
+    {
+        "District": "SANKHUWASABHA",
+        "Millet_yield": "1.27"
+    },
+    {
+        "District": "SOLUKHUMBU",
+        "Millet_yield": "1.37"
+    },
+    {
+        "District": "PANCHTHAR",
+        "Millet_yield": "1.91"
+    },
+    {
+        "District": "ILLAM",
+        "Millet_yield": "1.17"
+    },
+    {
+        "District": "TERHATHUM",
+        "Millet_yield": "1.14"
+    },
+    {
+        "District": "DHANKUTA",
+        "Millet_yield": "1.21"
+    },
+    {
+        "District": "BHOJPUR",
+        "Millet_yield": "1.26"
+    },
+    {
+        "District": "KHOTANG",
+        "Millet_yield": "1.11"
+    },
+    {
+        "District": "OKHALDHUNGA",
+        "Millet_yield": "1.91"
+    },
+    {
+        "District": "UDAYAPUR",
+        "Millet_yield": "1.97"
+    },
+    {
+        "District": "JHAPA",
+        "Millet_yield": "1.28"
+    },
+    {
+        "District": "MORANG",
+        "Millet_yield": "1.22"
+    },
+    {
+        "District": "SUNSARI",
+        "Millet_yield": "1.17"
+    },
+    {
+        "District": "SAPTARI",
+        "Millet_yield": "1.27"
+    },
+    {
+        "District": "SIRAHA",
+        "Millet_yield": "1"
+    },
+    {
+        "District": "DHANUSHA",
+        "Millet_yield": "0.96"
+    },
+    {
+        "District": "MAHOTTARI",
+        "Millet_yield": "0"
+    },
+    {
+        "District": "SARLAHI",
+        "Millet_yield": "0.88"
+    },
+    {
+        "District": "RAUTAHAT",
+        "Millet_yield": "1.06"
+    },
+    {
+        "District": "BARA",
+        "Millet_yield": "1.08"
+    },
+    {
+        "District": "PARSA",
+        "Millet_yield": "0"
+    },
+    {
+        "District": "DOLAKHA",
+        "Millet_yield": "1.34"
+    },
+    {
+        "District": "SINDHUPALCHOK",
+        "Millet_yield": "1.31"
+    },
+    {
+        "District": "RASUWA",
+        "Millet_yield": "1.07"
+    },
+    {
+        "District": "RAMECHAP",
+        "Millet_yield": "1.16"
+    },
+    {
+        "District": "SINDHULI",
+        "Millet_yield": "1.1"
+    },
+    {
+        "District": "KAVRE",
+        "Millet_yield": "1.16"
+    },
+    {
+        "District": "BHAKTAPUR",
+        "Millet_yield": "1.24"
+    },
+    {
+        "District": "LALITPUR",
+        "Millet_yield": "1.03"
+    },
+    {
+        "District": "KATHMANDU",
+        "Millet_yield": "1.05"
+    },
+    {
+        "District": "NUWAKOT",
+        "Millet_yield": "1.24"
+    },
+    {
+        "District": "DHADING",
+        "Millet_yield": "0.92"
+    },
+    {
+        "District": "MAKWANPUR",
+        "Millet_yield": "1.25"
+    },
+    {
+        "District": "CHITWAN",
+        "Millet_yield": "1.03"
+    },
+    {
+        "District": "MANANG",
+        "Millet_yield": "0"
+    },
+    {
+        "District": "MUSTANG",
+        "Millet_yield": "0"
+    },
+    {
+        "District": "GORKHA",
+        "Millet_yield": "1.27"
+    },
+    {
+        "District": "LAMJUNG",
+        "Millet_yield": "0.97"
+    },
+    {
+        "District": "TANAHU",
+        "Millet_yield": "0.9"
+    },
+    {
+        "District": "KASKI",
+        "Millet_yield": "1.23"
+    },
+    {
+        "District": "PARBAT",
+        "Millet_yield": "0.94"
+    },
+    {
+        "District": "SYANGJA",
+        "Millet_yield": "1.16"
+    },
+    {
+        "District": "MYAGDI",
+        "Millet_yield": "1.33"
+    },
+    {
+        "District": "BAGLUNG",
+        "Millet_yield": "1.24"
+    },
+    {
+        "District": "NAWALPARASI EAST",
+        "Millet_yield": "1.02"
+    },
+    {
+        "District": "PALPA",
+        "Millet_yield": "1.06"
+    },
+    {
+        "District": "GULMI",
+        "Millet_yield": "1.02"
+    },
+    {
+        "District": "ARGHAKHANCHI",
+        "Millet_yield": "1.28"
+    },
+    {
+        "District": "NAWALPARASI WEST",
+        "Millet_yield": "1.05"
+    },
+    {
+        "District": "RUPANDEHI",
+        "Millet_yield": "1.12"
+    },
+    {
+        "District": "KAPILBASTU",
+        "Millet_yield": "0"
+    },
+    {
+        "District": "DANG",
+        "Millet_yield": "1.05"
+    },
+    {
+        "District": "BANKE",
+        "Millet_yield": "0"
+    },
+    {
+        "District": "BARDIYA",
+        "Millet_yield": "0"
+    },
+    {
+        "District": "RUKUM EAST",
+        "Millet_yield": "1.34"
+    },
+    {
+        "District": "PYUTHAN",
+        "Millet_yield": "1.11"
+    },
+    {
+        "District": "ROLPA",
+        "Millet_yield": "1.13"
+    },
+    {
+        "District": "DOLPA",
+        "Millet_yield": "1.09"
+    },
+    {
+        "District": "MUGU",
+        "Millet_yield": "0.77"
+    },
+    {
+        "District": "HUMLA",
+        "Millet_yield": "1.16"
+    },
+    {
+        "District": "JUMLA",
+        "Millet_yield": "1.05"
+    },
+    {
+        "District": "KALIKOT",
+        "Millet_yield": "1.05"
+    },
+    {
+        "District": "RUKUM WEST",
+        "Millet_yield": "1.32"
+    },
+    {
+        "District": "SALYAN",
+        "Millet_yield": "1.11"
+    },
+    {
+        "District": "JAJARKOT",
+        "Millet_yield": "1.11"
+    },
+    {
+        "District": "DAILEKH",
+        "Millet_yield": "1.15"
+    },
+    {
+        "District": "SURKHET",
+        "Millet_yield": "1.42"
+    },
+    {
+        "District": "BAJURA",
+        "Millet_yield": "1.02"
+    },
+    {
+        "District": "BAJHANG",
+        "Millet_yield": "0.75"
+    },
+    {
+        "District": "DARCHULA",
+        "Millet_yield": "0.82"
+    },
+    {
+        "District": "ACHHAM",
+        "Millet_yield": "1.12"
+    },
+    {
+        "District": "DOTI",
+        "Millet_yield": "1.08"
+    },
+    {
+        "District": "BAITADI",
+        "Millet_yield": "1.16"
+    },
+    {
+        "District": "DADELDHURA",
+        "Millet_yield": "1.18"
+    },
+    {
+        "District": "KAILALI",
+        "Millet_yield": "1.02"
+    },
+    {
+        "District": "KANCHANPUR",
+        "Millet_yield": "0"
+    }
+]
