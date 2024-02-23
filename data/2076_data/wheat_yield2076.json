@@ -1,0 +1,310 @@
+[
+    {
+        "District": "TAPLEJUNG",
+        "Wheat_yield": "1.87"
+    },
+    {
+        "District": "SANKHUWASABHA",
+        "Wheat_yield": "2.25"
+    },
+    {
+        "District": "SOLUKHUMBU",
+        "Wheat_yield": "1.91"
+    },
+    {
+        "District": "PANCHTHAR",
+        "Wheat_yield": "2.43"
+    },
+    {
+        "District": "ILLAM",
+        "Wheat_yield": "3.27"
+    },
+    {
+        "District": "TERHATHUM",
+        "Wheat_yield": "1.98"
+    },
+    {
+        "District": "DHANKUTA",
+        "Wheat_yield": "2.15"
+    },
+    {
+        "District": "BHOJPUR",
+        "Wheat_yield": "2.11"
+    },
+    {
+        "District": "KHOTANG",
+        "Wheat_yield": "2.43"
+    },
+    {
+        "District": "OKHALDHUNGA",
+        "Wheat_yield": "2.09"
+    },
+    {
+        "District": "UDAYAPUR",
+        "Wheat_yield": "2.42"
+    },
+    {
+        "District": "JHAPA",
+        "Wheat_yield": "3.93"
+    },
+    {
+        "District": "MORANG",
+        "Wheat_yield": "3.48"
+    },
+    {
+        "District": "SUNSARI",
+        "Wheat_yield": "4.05"
+    },
+    {
+        "District": "SAPTARI",
+        "Wheat_yield": "3.48"
+    },
+    {
+        "District": "SIRAHA",
+        "Wheat_yield": "3.39"
+    },
+    {
+        "District": "DHANUSHA",
+        "Wheat_yield": "3.22"
+    },
+    {
+        "District": "MAHOTTARI",
+        "Wheat_yield": "2.97"
+    },
+    {
+        "District": "SARLAHI",
+        "Wheat_yield": "3.30"
+    },
+    {
+        "District": "RAUTAHAT",
+        "Wheat_yield": "3.59"
+    },
+    {
+        "District": "BARA",
+        "Wheat_yield": "3.48"
+    },
+    {
+        "District": "PARSA",
+        "Wheat_yield": "3.57"
+    },
+    {
+        "District": "DOLAKHA",
+        "Wheat_yield": "1.95"
+    },
+    {
+        "District": "SINDHUPALCHOK",
+        "Wheat_yield": "1.16"
+    },
+    {
+        "District": "RASUWA",
+        "Wheat_yield": "1.96"
+    },
+    {
+        "District": "RAMECHAP",
+        "Wheat_yield": "2.26"
+    },
+    {
+        "District": "SINDHULI",
+        "Wheat_yield": "3.07"
+    },
+    {
+        "District": "KAVRE",
+        "Wheat_yield": "2.90"
+    },
+    {
+        "District": "BHAKTAPUR",
+        "Wheat_yield": "5.12"
+    },
+    {
+        "District": "LALITPUR",
+        "Wheat_yield": "3.41"
+    },
+    {
+        "District": "KATHMANDU",
+        "Wheat_yield": "4.14"
+    },
+    {
+        "District": "NUWAKOT",
+        "Wheat_yield": "3.40"
+    },
+    {
+        "District": "DHADING",
+        "Wheat_yield": "2.65"
+    },
+    {
+        "District": "MAKWANPUR",
+        "Wheat_yield": "3.37"
+    },
+    {
+        "District": "CHITWAN",
+        "Wheat_yield": "4.59"
+    },
+    {
+        "District": "MANANG",
+        "Wheat_yield": "1.40"
+    },
+    {
+        "District": "MUSTANG",
+        "Wheat_yield": "1.89"
+    },
+    {
+        "District": "GORKHA",
+        "Wheat_yield": "2.18"
+    },
+    {
+        "District": "LAMJUNG",
+        "Wheat_yield": "0.85"
+    },
+    {
+        "District": "TANAHU",
+        "Wheat_yield": "2.27"
+    },
+    {
+        "District": "KASKI",
+        "Wheat_yield": "2.24"
+    },
+    {
+        "District": "PARBAT",
+        "Wheat_yield": "2.56"
+    },
+    {
+        "District": "SYANGJA",
+        "Wheat_yield": "2.59"
+    },
+    {
+        "District": "MYAGDI",
+        "Wheat_yield": "2.49"
+    },
+    {
+        "District": "BAGLUNG",
+        "Wheat_yield": "2.38"
+    },
+    {
+        "District": "NAWALPARASI EAST",
+        "Wheat_yield": "2.72"
+    },
+    {
+        "District": "PALPA",
+        "Wheat_yield": "2.56"
+    },
+    {
+        "District": "GULMI",
+        "Wheat_yield": "2.95"
+    },
+    {
+        "District": "ARGHAKHANCHI",
+        "Wheat_yield": "2.95"
+    },
+    {
+        "District": "NAWALPARASI WEST",
+        "Wheat_yield": "2.75"
+    },
+    {
+        "District": "RUPANDEHI",
+        "Wheat_yield": "3.47"
+    },
+    {
+        "District": "KAPILBASTU",
+        "Wheat_yield": "4.05"
+    },
+    {
+        "District": "DANG",
+        "Wheat_yield": "2.55"
+    },
+    {
+        "District": "BANKE",
+        "Wheat_yield": "3.74"
+    },
+    {
+        "District": "BARDIYA",
+        "Wheat_yield": "3.80"
+    },
+    {
+        "District": "RUKUM EAST",
+        "Wheat_yield": "2.51"
+    },
+    {
+        "District": "PYUTHAN",
+        "Wheat_yield": "3.10"
+    },
+    {
+        "District": "ROLPA",
+        "Wheat_yield": "2.93"
+    },
+    {
+        "District": "DOLPA",
+        "Wheat_yield": "1.79"
+    },
+    {
+        "District": "MUGU",
+        "Wheat_yield": "1.01"
+    },
+    {
+        "District": "HUMLA",
+        "Wheat_yield": "1.32"
+    },
+    {
+        "District": "JUMLA",
+        "Wheat_yield": "1.82"
+    },
+    {
+        "District": "KALIKOT",
+        "Wheat_yield": "1.21"
+    },
+    {
+        "District": "RUKUM WEST",
+        "Wheat_yield": "2.70"
+    },
+    {
+        "District": "SALYAN",
+        "Wheat_yield": "2.32"
+    },
+    {
+        "District": "JAJARKOT",
+        "Wheat_yield": "1.54"
+    },
+    {
+        "District": "DAILEKH",
+        "Wheat_yield": "1.74"
+    },
+    {
+        "District": "SURKHET",
+        "Wheat_yield": "2.97"
+    },
+    {
+        "District": "BAJURA",
+        "Wheat_yield": "0.94"
+    },
+    {
+        "District": "BAJHANG",
+        "Wheat_yield": "1.57"
+    },
+    {
+        "District": "DARCHULA",
+        "Wheat_yield": "1.47"
+    },
+    {
+        "District": "ACHHAM",
+        "Wheat_yield": "1.74"
+    },
+    {
+        "District": "DOTI",
+        "Wheat_yield": "2.25"
+    },
+    {
+        "District": "BAITADI",
+        "Wheat_yield": "1.12"
+    },
+    {
+        "District": "DADELDHURA",
+        "Wheat_yield": "2.03"
+    },
+    {
+        "District": "KAILALI",
+        "Wheat_yield": "3.12"
+    },
+    {
+        "District": "KANCHANPUR",
+        "Wheat_yield": "2.56"
+    }
+]

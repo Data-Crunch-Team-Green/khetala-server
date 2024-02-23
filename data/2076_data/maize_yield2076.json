@@ -1,0 +1,310 @@
+[
+    {
+        "District": "TAPLEJUNG",
+        "Maize_yield": "3.43"
+    },
+    {
+        "District": "SANKHUWASABHA",
+        "Maize_yield": "1.94"
+    },
+    {
+        "District": "SOLUKHUMBU",
+        "Maize_yield": "2.42"
+    },
+    {
+        "District": "PANCHTHAR",
+        "Maize_yield": "1.98"
+    },
+    {
+        "District": "ILLAM",
+        "Maize_yield": "3.68"
+    },
+    {
+        "District": "TERHATHUM",
+        "Maize_yield": "2.41"
+    },
+    {
+        "District": "DHANKUTA",
+        "Maize_yield": "3.09"
+    },
+    {
+        "District": "BHOJPUR",
+        "Maize_yield": "2.64"
+    },
+    {
+        "District": "KHOTANG",
+        "Maize_yield": "2.21"
+    },
+    {
+        "District": "OKHALDHUNGA",
+        "Maize_yield": "2.58"
+    },
+    {
+        "District": "UDAYAPUR",
+        "Maize_yield": "2.23"
+    },
+    {
+        "District": "JHAPA",
+        "Maize_yield": "3.9"
+    },
+    {
+        "District": "MORANG",
+        "Maize_yield": "3.88"
+    },
+    {
+        "District": "SUNSARI",
+        "Maize_yield": "2.71"
+    },
+    {
+        "District": "SAPTARI",
+        "Maize_yield": "2.85"
+    },
+    {
+        "District": "SIRAHA",
+        "Maize_yield": "2.33"
+    },
+    {
+        "District": "DHANUSHA",
+        "Maize_yield": "2.91"
+    },
+    {
+        "District": "MAHOTTARI",
+        "Maize_yield": "2.56"
+    },
+    {
+        "District": "SARLAHI",
+        "Maize_yield": "3.24"
+    },
+    {
+        "District": "RAUTAHAT",
+        "Maize_yield": "3.19"
+    },
+    {
+        "District": "BARA",
+        "Maize_yield": "3.64"
+    },
+    {
+        "District": "PARSA",
+        "Maize_yield": "3.85"
+    },
+    {
+        "District": "DOLAKHA",
+        "Maize_yield": "2.81"
+    },
+    {
+        "District": "SINDHUPALCHOK",
+        "Maize_yield": "2.81"
+    },
+    {
+        "District": "RASUWA",
+        "Maize_yield": "2.40"
+    },
+    {
+        "District": "RAMECHAP",
+        "Maize_yield": "2.88"
+    },
+    {
+        "District": "SINDHULI",
+        "Maize_yield": "3.19"
+    },
+    {
+        "District": "KAVRE",
+        "Maize_yield": "3.11"
+    },
+    {
+        "District": "BHAKTAPUR",
+        "Maize_yield": "4.01"
+    },
+    {
+        "District": "LALITPUR",
+        "Maize_yield": "3.41"
+    },
+    {
+        "District": "KATHMANDU",
+        "Maize_yield": "3.84"
+    },
+    {
+        "District": "NUWAKOT",
+        "Maize_yield": "3.53"
+    },
+    {
+        "District": "DHADING",
+        "Maize_yield": "2.83"
+    },
+    {
+        "District": "MAKWANPUR",
+        "Maize_yield": "3.16"
+    },
+    {
+        "District": "CHITWAN",
+        "Maize_yield": "3.71"
+    },
+    {
+        "District": "MANANG",
+        "Maize_yield": "1.58"
+    },
+    {
+        "District": "MUSTANG",
+        "Maize_yield": "1.67"
+    },
+    {
+        "District": "GORKHA",
+        "Maize_yield": "2.58"
+    },
+    {
+        "District": "LAMJUNG",
+        "Maize_yield": "2.41"
+    },
+    {
+        "District": "TANAHU",
+        "Maize_yield": "3.25"
+    },
+    {
+        "District": "KASKI",
+        "Maize_yield": "2.54"
+    },
+    {
+        "District": "PARBAT",
+        "Maize_yield": "2.32"
+    },
+    {
+        "District": "SYANGJA",
+        "Maize_yield": "3.65"
+    },
+    {
+        "District": "MYAGDI",
+        "Maize_yield": "3.47"
+    },
+    {
+        "District": "BAGLUNG",
+        "Maize_yield": "3.49"
+    },
+    {
+        "District": "NAWALPARASI EAST",
+        "Maize_yield": "2.51"
+    },
+    {
+        "District": "PALPA",
+        "Maize_yield": "2.31"
+    },
+    {
+        "District": "GULMI",
+        "Maize_yield": "2.57"
+    },
+    {
+        "District": "ARGHAKHANCHI",
+        "Maize_yield": "3.45"
+    },
+    {
+        "District": "NAWALPARASI WEST",
+        "Maize_yield": "2.51"
+    },
+    {
+        "District": "RUPANDEHI",
+        "Maize_yield": "3.91"
+    },
+    {
+        "District": "KAPILBASTU",
+        "Maize_yield": "3.65"
+    },
+    {
+        "District": "DANG",
+        "Maize_yield": "2.42"
+    },
+    {
+        "District": "BANKE",
+        "Maize_yield": "2.22"
+    },
+    {
+        "District": "BARDIYA",
+        "Maize_yield": "2.94"
+    },
+    {
+        "District": "RUKUM EAST",
+        "Maize_yield": "2.34"
+    },
+    {
+        "District": "PYUTHAN",
+        "Maize_yield": "2.22"
+    },
+    {
+        "District": "ROLPA",
+        "Maize_yield": "2.59"
+    },
+    {
+        "District": "DOLPA",
+        "Maize_yield": "1.36"
+    },
+    {
+        "District": "MUGU",
+        "Maize_yield": "1.59"
+    },
+    {
+        "District": "HUMLA",
+        "Maize_yield": "1.81"
+    },
+    {
+        "District": "JUMLA",
+        "Maize_yield": "1.51"
+    },
+    {
+        "District": "KALIKOT",
+        "Maize_yield": "2.19"
+    },
+    {
+        "District": "RUKUM WEST",
+        "Maize_yield": "2.34"
+    },
+    {
+        "District": "SALYAN",
+        "Maize_yield": "2.29"
+    },
+    {
+        "District": "JAJARKOT",
+        "Maize_yield": "2.47"
+    },
+    {
+        "District": "DAILEKH",
+        "Maize_yield": "2.44"
+    },
+    {
+        "District": "SURKHET",
+        "Maize_yield": "2.79"
+    },
+    {
+        "District": "BAJURA",
+        "Maize_yield": "1.60"
+    },
+    {
+        "District": "BAJHANG",
+        "Maize_yield": "1.39"
+    },
+    {
+        "District": "DARCHULA",
+        "Maize_yield": "2.13"
+    },
+    {
+        "District": "ACHHAM",
+        "Maize_yield": "2.37"
+    },
+    {
+        "District": "DOTI",
+        "Maize_yield": "2.36"
+    },
+    {
+        "District": "BAITADI",
+        "Maize_yield": "1.85"
+    },
+    {
+        "District": "DADELDHURA",
+        "Maize_yield": "3.69"
+    },
+    {
+        "District": "KAILALI",
+        "Maize_yield": "2.87"
+    },
+    {
+        "District": "KANCHANPUR",
+        "Maize_yield": "2.34"
+    }
+]
