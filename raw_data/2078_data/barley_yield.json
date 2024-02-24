@@ -68,6 +68,10 @@
         "Barley_yield": "1.29"
     },
     {
+        "District": "MAHOTTARI",
+        "Barley_yield": "1.18"
+    },
+    {
         "District": "SARLAHI",
         "Barley_yield": "1.14"
     },
@@ -78,6 +82,10 @@
     {
         "District": "BARA",
         "Barley_yield": "2.23"
+    },
+    {
+        "District": "PARSA",
+        "Barley_yield": "1.46"
     },
     {
         "District": "DOLAKHA",
@@ -132,6 +140,18 @@
         "Barley_yield": "0.80"
     },
     {
+        "District": "MANANG",
+        "Barley_yield": "1.58"
+    },
+    {
+        "District": "MUSTANG",
+        "Barley_yield": "1.91"
+    },
+    {
+        "District": "GORKHA",
+        "Barley_yield": "1.41"
+    },
+    {
         "District": "LAMJUNG",
         "Barley_yield": "1.46"
     },
@@ -160,6 +180,10 @@
         "Barley_yield": "1.76"
     },
     {
+        "District": "NAWALPARASI EAST",
+        "Barley_yield": "1.25"
+    },
+    {
         "District": "PALPA",
         "Barley_yield": "1.67"
     },
@@ -172,16 +196,32 @@
         "Barley_yield": "1.92"
     },
     {
-        "District": "NAWALPARASI",
-        "Barley_yield": "6"
+        "District": "NAWALPARASI WEST",
+        "Barley_yield": "1.23"
     },
     {
-        "District": "Lumbini",
-        "Barley_yield": "145"
+        "District": "RUPANDEHI",
+        "Barley_yield": "1.96"
     },
     {
-        "District": "Lumbini",
+        "District": "KAPILBASTU",
         "Barley_yield": "1.87"
+    },
+    {
+        "District": "DANG",
+        "Barley_yield": "1.23"
+    },
+    {
+        "District": "BANKE",
+        "Barley_yield": "1.37"
+    },
+    {
+        "District": "BARDIYA",
+        "Barley_yield": "1.50"
+    },
+    {
+        "District": "RUKUM EAST",
+        "Barley_yield": "1.28"
     },
     {
         "District": "PYUTHAN",
@@ -210,6 +250,10 @@
     {
         "District": "KALIKOT",
         "Barley_yield": "1.58"
+    },
+    {
+        "District": "RUKUM WEST",
+        "Barley_yield": "1.25"
     },
     {
         "District": "SALYAN",
@@ -258,5 +302,9 @@
     {
         "District": "KAILALI",
         "Barley_yield": "1.56"
+    },
+    {
+        "District": "KANCHANPUR",
+        "Barley_yield": "1.50"
     }
 ]

@@ -68,6 +68,10 @@
         "Millet_yield": "1.02"
     },
     {
+        "District": "MAHOTTARI",
+        "Millet_yield": "-"
+    },
+    {
         "District": "SARLAHI",
         "Millet_yield": "0.90"
     },
@@ -78,6 +82,10 @@
     {
         "District": "BARA",
         "Millet_yield": "1.16"
+    },
+    {
+        "District": "PARSA",
+        "Millet_yield": "-"
     },
     {
         "District": "DOLAKHA",
@@ -132,6 +140,18 @@
         "Millet_yield": "1.12"
     },
     {
+        "District": "MANANG",
+        "Millet_yield": "-"
+    },
+    {
+        "District": "MUSTANG",
+        "Millet_yield": "-"
+    },
+    {
+        "District": "GORKHA",
+        "Millet_yield": "-"
+    },
+    {
         "District": "LAMJUNG",
         "Millet_yield": "1.09"
     },
@@ -160,6 +180,10 @@
         "Millet_yield": "1.26"
     },
     {
+        "District": "NAWALPARASI EAST" ,
+        "Millet_yield": "1.13"
+    },
+    {
         "District": "PALPA",
         "Millet_yield": "1.18"
     },
@@ -172,16 +196,32 @@
         "Millet_yield": "1.13"
     },
     {
-        "District": "NAWALPARASI",
-        "Millet_yield": "238"
+        "District": "NAWALPARASI WEST",
+        "Millet_yield": "1.04"
     },
     {
-        "District": "Lumbini",
-        "Millet_yield": "53"
+        "District": "RUPANDEHI",
+        "Millet_yield": "1.14"
     },
     {
-        "District": "Lumbini",
+        "District": "KAPILBASTU",
         "Millet_yield": "-"
+    },
+    {
+        "District": "DANG",
+        "Millet_yield": "1.06"
+    },
+    {
+        "District": "BANKE",
+        "Millet_yield": "-"
+    },
+    {
+        "District": "BARDIYA",
+        "Millet_yield": "-"
+    },
+    {
+        "District": "RUKUM EAST",
+        "Millet_yield": "1.28"
     },
     {
         "District": "PYUTHAN",
@@ -210,6 +250,10 @@
     {
         "District": "KALIKOT",
         "Millet_yield": "1.10"
+    },
+    {
+        "District": "RUKUM WEST",
+        "Millet_yield": "1.36"
     },
     {
         "District": "SALYAN",
@@ -258,5 +302,9 @@
     {
         "District": "KAILALI",
         "Millet_yield": "1.13"
+    },
+    {
+        "District": "KANCHANPUR",
+        "Millet_yield": "-"
     }
 ]

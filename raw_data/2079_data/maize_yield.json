@@ -132,7 +132,7 @@
         "Maize_yield": "2.32"
     },
     {
-        "District": "MAKWANPUR",
+        "District": "MAKAWANPUR",
         "Maize_yield": "3.24"
     },
     {
@@ -270,6 +270,10 @@
     {
         "District": "ARGHAKHANCHI",
         "Maize_yield": "3.24"
+    },
+    {
+        "District": "NAWALPARASI WEST",
+        "Maize_yield": "3.45"
     },
     {
         "District": "RUPANDEHI",

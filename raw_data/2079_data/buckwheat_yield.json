@@ -236,6 +236,26 @@
         "Buckwheat_yield": "1.28"
     },
     {
+        "District": "RUPANDEHI",
+        "Buckwheat_yield": "-"
+    },
+    {
+        "District": "KAPILBASTU",
+        "Buckwheat_yield": "-"
+    },
+    {
+        "District": "DANG",
+        "Buckwheat_yield": "1.11"
+    },
+    {
+        "District": "BANKE",
+        "Buckwheat_yield": "-"
+    },
+    {
+        "District": "BARDIYA",
+        "Buckwheat_yield": "-"
+    },
+    {
         "District": "RUKUM EAST",
         "Buckwheat_yield": "1.15"
     },
@@ -246,30 +266,6 @@
     {
         "District": "ROLPA",
         "Buckwheat_yield": "0.93"
-    },
-    {
-        "District": "DOLPA",
-        "Buckwheat_yield": "0.87"
-    },
-    {
-        "District": "MUGU",
-        "Buckwheat_yield": "0.94"
-    },
-    {
-        "District": "HUMLA",
-        "Buckwheat_yield": "1.05"
-    },
-    {
-        "District": "JUMLA",
-        "Buckwheat_yield": "1.17"
-    },
-    {
-        "District": "KALIKOT",
-        "Buckwheat_yield": "1.15"
-    },
-    {
-        "District": "RUKUM WEST",
-        "Buckwheat_yield": "1.25"
     },
     {
         "District": "DOLPA",

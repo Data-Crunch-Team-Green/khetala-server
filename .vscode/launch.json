@@ -5,10 +5,18 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Run yields",
+            "name": "Run test",
             "type": "debugpy",
             "request": "launch",
             "program": "api/testing_provinces.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Run script yields",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "scripts/report_2078.py",
             "console": "integratedTerminal",
             "justMyCode": true
         }

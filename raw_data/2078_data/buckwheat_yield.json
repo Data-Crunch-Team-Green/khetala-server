@@ -68,6 +68,10 @@
         "Buckwheat_yield": "-"
     },
     {
+        "District": "MAHOTTARI",
+        "Buckwheat_yield": "-"
+    },
+    {
         "District": "SARLAHI",
         "Buckwheat_yield": "-"
     },
@@ -77,6 +81,10 @@
     },
     {
         "District": "BARA",
+        "Buckwheat_yield": "-"
+    },
+    {
+        "District": "PARSA",
         "Buckwheat_yield": "-"
     },
     {
@@ -132,6 +140,18 @@
         "Buckwheat_yield": "2.20"
     },
     {
+        "District": "MANANG",
+        "Buckwheat_yield": "1.76"
+    },
+    {
+        "District": "MUSTANG",
+        "Buckwheat_yield": "1.95"
+    },
+    {
+        "District": "GORKHA",
+        "Buckwheat_yield": "1.33"
+    },
+    {
         "District": "LAMJUNG",
         "Buckwheat_yield": "0.88"
     },
@@ -160,6 +180,10 @@
         "Buckwheat_yield": "1.33"
     },
     {
+        "District": "NAWALPARASI EAST",
+        "Buckwheat_yield": "0.93"
+    },
+    {
         "District": "PALPA",
         "Buckwheat_yield": "1.17"
     },
@@ -172,17 +196,34 @@
         "Buckwheat_yield": "1.20"
     },
     {
-        "District": "NAWALPARASI",
-        "Buckwheat_yield": "6"
+        "District": "NAWALPARASI WEST",
+        "Buckwheat_yield": "1.20"
     },
     {
-        "District": "Lumbini",
-        "Buckwheat_yield": "89"
+        "District": "RUPANDEHI",
+        "Millet_yield": "1.20"
     },
     {
-        "District": "Lumbini",
-        "Buckwheat_yield": "1.04"
+        "District": "KAPILBASTU",
+        "Millet_yield": "1.04"
     },
+    {
+        "District": "DANG",
+        "Millet_yield": "1.04"
+    },
+    {
+        "District": "BANKE",
+        "Millet_yield": "1.38"
+    },
+    {
+        "District": "BARDIYA",
+        "Millet_yield": "1.50"
+    },
+    {
+        "District": "RUKUM EAST",
+        "Millet_yield": "1.16"
+    },
+
     {
         "District": "PYUTHAN",
         "Buckwheat_yield": "1.63"
@@ -210,6 +251,10 @@
     {
         "District": "KALIKOT",
         "Buckwheat_yield": "1.15"
+    },
+    {
+        "District": "RUKUM WEST",
+        "Buckwheat_yield": "1.29"
     },
     {
         "District": "SALYAN",
@@ -258,5 +303,10 @@
     {
         "District": "KAILALI",
         "Buckwheat_yield": "0.89"
+    },
+    {
+        "District": "KANCHANPUR",
+        "Buckwheat_yield": "0.80"
     }
+
 ]

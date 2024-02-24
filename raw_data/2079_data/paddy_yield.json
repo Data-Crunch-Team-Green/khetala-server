@@ -132,6 +132,12 @@
         "Total_yield": "4.90"
     },
     {
+        "District": "DOLAKHA",
+        "Spring_yield": "-",
+        "Main_yield": "2.47",
+        "Total_yield": "2.47"
+    },
+    {
         "District": "SINDHUPALCHOK",
         "Spring_yield": "4.40",
         "Main_yield": "2.90",
@@ -192,7 +198,7 @@
         "Total_yield": "4.04"
     },
     {
-        "District": "MAKWANPUR",
+        "District": "MAKAWANPUR",
         "Spring_yield": "3.96",
         "Main_yield": "3.72",
         "Total_yield": "3.77"
@@ -202,6 +208,18 @@
         "Spring_yield": "4.22",
         "Main_yield": "3.73",
         "Total_yield": "3.82"
+    },
+    {
+        "District": "MANANG",
+        "Spring_yield": "-",
+        "Main_yield": "-",
+        "Total_yield": "-"
+    },
+    {
+        "District": "MUSTANG",
+        "Spring_yield": "-",
+        "Main_yield": "-",
+        "Total_yield": "-"
     },
     {
         "District": "GORKHA",

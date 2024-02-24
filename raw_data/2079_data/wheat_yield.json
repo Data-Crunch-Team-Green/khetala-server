@@ -132,7 +132,7 @@
         "Wheat_yield": "3.26"
     },
     {
-        "District": "MAKWANPUR",
+        "District": "MAKAWANPUR",
         "Wheat_yield": "3.30"
     },
     {
@@ -270,6 +270,10 @@
     {
         "District": "ARGHAKHANCHI",
         "Wheat_yield": "2.72"
+    },
+    {
+        "District": "NAWALPARASI WEST",
+        "Wheat_yield": "2.92"
     },
     {
         "District": "RUPANDEHI",
