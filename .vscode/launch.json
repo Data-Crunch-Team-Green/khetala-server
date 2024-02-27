@@ -19,6 +19,22 @@
             "program": "scripts/report_2078.py",
             "console": "integratedTerminal",
             "justMyCode": true
-        }
+        },
+        {
+            "name": "Run api",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "yield_api.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Clean data",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "raw_datas/clean_data.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
     ]
 }
