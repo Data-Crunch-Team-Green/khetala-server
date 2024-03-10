@@ -6,8 +6,8 @@ import re
 
 class FormatConverter:
     
-    def converting_pdf_to_table_data(page_number: int) -> list:
-        open_file = open('./data/report76.pdf','rb' )
+    def converting_pdf_to_table_data(filepath, page_number: int) -> list:
+        open_file = open(filepath,'rb' )
         reader = PyPDF3.PdfFileReader(open_file)
         print(reader.numPages)
 
@@ -25,7 +25,7 @@ class FormatConverter:
             for row in reader:
                 for a in row:
                     data.append(a)
-        # print(data)
+        print(data)
         return data
     
 
@@ -60,7 +60,7 @@ class FormatConverter:
                     if starter%total_columns==0:
                         table_data.append(stripped)           
 
-
+        print(table_data)
         return table_data
 
 
@@ -81,7 +81,7 @@ class FormatConverter:
 
     def page_number_converter(page_number: int):
         # real_pg = page_number - 1 + 9
-        real_pg = page_number + 1
+        real_pg = page_number + 7
         return real_pg
 
 

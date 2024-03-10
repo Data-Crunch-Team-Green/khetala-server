@@ -5,12 +5,36 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Run yields",
+            "name": "Run test",
             "type": "debugpy",
             "request": "launch",
-            "program": "scripts/report_2076.py",
+            "program": "api/testing_provinces.py",
             "console": "integratedTerminal",
             "justMyCode": true
-        }
+        },
+        {
+            "name": "Run script yields",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "scripts/report_2078.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Run api",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "yield_api.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Clean data",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "raw_datas/clean_data.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
     ]
 }

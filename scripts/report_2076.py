@@ -68,7 +68,7 @@ def millet_barley():
 
 
 def paddy_yield():
-    paddy_data = fc.converting_csv_to_table_data("./data/paddy76.csv")
+    paddy_data = fc.converting_csv_to_table_data("./raw_data/paddy76.csv")
     filtered = fc.filtering_needed_data(extracted_data = paddy_data, 
                                         starting_chr=['1',	'TAPLEJUNG',	'-',	'-',	'-',	'3877',	'10352',	'2.67',	'3877',	'10352',	'2.67'], 
                                         ending_chr=['SUDURPASHCHIM','KANCHANPUR',	'700',	'3133',	'4.48',	'45515',	'176182',	'3.87',	'46215',	'179314',	'3.88'], 

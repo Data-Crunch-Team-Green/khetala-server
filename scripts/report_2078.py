@@ -17,7 +17,7 @@ def paddy_yield():
     t3 = pdc.converting_pdf_to_table_data(real_pg_no3)
     t4 = pdc.converting_pdf_to_table_data(real_pg_no4)
 
-    table1 = pdc.converting_pdf_to_table_data(t1, 
+    table1 = pdc.filtering_needed_data(t1, 
     ['1', 'TAPLEJUNG','32','135', '4.22', '7,405', '18,809', '2.54', '7,437', '18,944', '2.55'],
     ['1',	'SUNSARI',	'5,543',	'26,282',	'4.74',	'48,012',	'192,528',	'4.01',	'53,555',	'218,810',	'4.09'],
     11)  
@@ -86,106 +86,6 @@ def paddy_yield():
         json.dump(paddy_data, json_file)
 
     return paddy_data
-
-
-
-
-def wheat_maize_yield():
-
-    real_pg_no1 = pdc.page_number_converter(21)
-    real_pg_no2 = pdc.page_number_converter(22)
-    real_pg_no3 = pdc.page_number_converter(23)
-
-    t1 = pdc.converting_pdf_to_table_data(real_pg_no1)
-    t2 = pdc.converting_pdf_to_table_data(real_pg_no2)
-    t3 = pdc.converting_pdf_to_table_data(real_pg_no3)
-  
-
-    table1 = pdc.converting_pdf_to_table_data(t1, 
-    ['1',	'TAPLEJUNG',	'9,718',	'30,740',	'3.16',	'1,540',	'2,889',	'1.88'],
-    ['1',	'SUNSARI',	'8,968',	'28,799',	'3.21',	'12,765',	'41,486',	'3.25'],
-    8)  
-    table2 = pdc.converting_pdf_to_table_data(t1, 
-    ['Madhesh',	'SAPTARI',	'3,930',	'12,920',	'3.29',	'15,317',	'53,300',	'3.48'],
-    ['Madhesh',	'PARSA',	'4,589',	'18,566',	'4.05',	'21,998',	'81,758',	'3.72'],
-    8)
-    table3 = pdc.converting_pdf_to_table_data(t1, 
-    ['Bagmati',	'DOLAKHA',	'5730',	'17221',	'3.01',	'4246',	'7515',	'1.77'],
-    ['Bagmati',	'KATHMANDU',	'5544',	'22939',	'4.14',	'2565',	'9148',	'3.57'],
-    8)
-    table4 = pdc.converting_pdf_to_table_data(t2, 
-    ['Bagmati',	'NUWAKOT',	'15,952',	'60,239',	'3.78',	'4,495',	'17,044',	'3.79'],
-    ['Bagmati',	'CHITWAN',	'26,019',	'98,644',	'3.79',	'5,151',	'23,248',	'4.51'],
-    8)
-    table5 = pdc.converting_pdf_to_table_data(t2, 
-    ['Gandaki',	'MANANG',	'70',	'115',	'1.63',	'202',	'305',	'1.51',],
-    ['Gandaki',	'BAGLUNG',	'19,863',	'65,680',	'3.31',	'6,900',	'17,319',	'2.51',],
-    8)
-    table6 = pdc.converting_pdf_to_table_data(t2, 
-    ['Lumbini',	'PALPA',	'21,230',	'55,562',	'2.62',	'5,795',	'14,660',	'2.53'],
-    ['Lumbini',	'ARGHAKHANCHI',	'16,075',	'51,707',	'3.22',	'5,782',	'16,012',	'2.77'],
-    8)  
-    table7 = pdc.converting_pdf_to_table_data(t3, 
-    ['Lumbini',	'RUPANDEHI',	'3,145',	'10,693',	'3.4',	'26,118',	'103,167',	'3.95'],
-    ['Lumbini',	'ROLPA',	'13,966',	'37,593',	'2.69',	'8,429',	'24,864',	'2.95',],
-    8)  
-    table8 = pdc.converting_pdf_to_table_data(t2, 
-    ['Karnali',	'DOLPA',	'2,359',	'3,749',	'1.59',	'3,000',	'4,010',	'1.34'],
-    ['Karnali',	'MUGU',	'560',	'971',	'1.73',	'1,780',	'2,870',	'1.61'],
-    8) 
-    table9 = pdc.converting_pdf_to_table_data(t3, 
-    ['Karnali',	'HUMLA',	'149',	'274',	'1.84',	'1,072',	'1,526',	'1.42'],
-    ['Karnali',	'SURKHET',	'14,943',	'46,256',	'3.1',	'12,191',	'41,354',	'3.39'],
-    8) 
-    table10 = pdc.converting_pdf_to_table_data(t3, 
-    ['Sudurpashchim',	'BAJURA',	'918',	'1,507',	'1.64',	'9,831',	'15,675',	'1.59'],
-    ['Sudurpashchim',	'KANCHANPUR',	'3,378',	'9,248',	'2.74',	'31,210',	'99,995',	'3.14'],
-    8) 
-
-    headings = ['Province', 'District', 'MaizeArea', 'MaizeProduction', 'MaizeYield', 'WheatArea', 'WheatProduction', 'WheatYield']
-
-    added1 = pdc.groups_to_json(groups=table1,  
-    heading = headings)
-    added2 = pdc.groups_to_json(groups=table2,  
-        heading = headings)
-    added3 = pdc.groups_to_json(groups=table3,  
-        heading = headings)
-    added4 = pdc.groups_to_json(groups=table4,  
-        heading = headings)
-    added5 = pdc.groups_to_json(groups=table5,  
-        heading = headings)
-    added6 = pdc.groups_to_json(groups=table6,  
-        heading = headings)
-    added7 = pdc.groups_to_json(groups=table7,  
-        heading = headings)
-    added8 = pdc.groups_to_json(groups=table8,  
-        heading = headings)
-    added9 = pdc.groups_to_json(groups=table9,  
-        heading = headings)
-    added10 = pdc.groups_to_json(groups=table10,  
-        heading = headings)
-
-   
-    data = added1+added2+added3+added4+added5+added6+added7+added8+added9+added10
-    maize_data = [{'District': entry['District'],
-                    'Maize_yield': entry['MaizeYield']
-                    } for entry in data]
-
-    wheat_data = [{'District': entry['District'],
-                   'Wheat_yield': entry['WheatYield']
-                   } for entry in data]
-    print(wheat_data)
-    print(maize_data)
-    file_path1 = './data/maize_yield2078.json'
-    file_path2 = './data/wheat_yield2078.json'
-
-    with open(file_path1, 'w') as json_file:
-        json.dump(maize_data, json_file)
-    with open(file_path2, 'w') as json_file:
-        json.dump(wheat_data, json_file)
-    return wheat_data, maize_data
-
-
 
 
 def millet_barley_yield():
@@ -306,12 +206,86 @@ def millet_barley_yield():
         json.dump(barley_data, json_file)
     return millet_data, buckwheat_data, barley_data
 
+def maize_wheat_csv():
+    maize_wheat_data = pdc.converting_csv_to_table_data("./raw_data/2078_data/maize.csv")
+    filtered = pdc.filtering_needed_data(maize_wheat_data, 
+        ['1',	'TAPLEJUNG',	'9718',	'30740',	'3.16',	'1540',	'2889',	'1.88'],
+        ['Sudurpashchim',	'KANCHANPUR',	'3378',	'9248',	'2.74',	'31210',	'99995',	'3.14',],
+        8) 
+    headings = ['Province', 'District', 'MaizeArea', 'MaizeProduction', 'MaizeYield', 'WheatArea', 'WheatProduction', 'WheatYield']
+
+    grouping = pdc.groups_to_json(groups=filtered,  heading = headings)
+    maize_data = [{'District': entry['District'],
+                    'Maize_yield': entry['MaizeYield']
+                    } for entry in grouping]
+
+    wheat_data = [{'District': entry['District'],
+                   'Wheat_yield': entry['WheatYield']
+                   } for entry in grouping]
+    print(wheat_data)
+    print(maize_data)
+    file_path1 = './raw_data/2078_data/maize_yield2078.json'
+    file_path2 = './raw_data/2078_data/wheat_yield2078.json'
+
+    with open(file_path1, 'w') as json_file:
+        json.dump(maize_data, json_file)
+    with open(file_path2, 'w') as json_file:
+        json.dump(wheat_data, json_file)
+    return wheat_data, maize_data
+
+def paddy_csv():
+    paddy_data = pdc.converting_csv_to_table_data("./raw_data/2078_data/remaining.csv")
+    filtered = pdc.filtering_needed_data(extracted_data = paddy_data, 
+                                        starting_chr=['BAGMATI',
+                                                        'DOLAKHA',
+                                                        '-',
+                                                        '-',
+                                                        '-',
+                                                        '2814',
+                                                        '7457',
+                                                        '2.65',
+                                                        '2814',
+                                                        '7457',
+                                                        '2.65'], 
+                                        ending_chr=['SUDURPASHCHIM',
+                                                    'BAITADI',
+                                                    '-',
+                                                    '-',
+                                                    '4.55',
+                                                    '8447',
+                                                    '20695',
+                                                    '2.45',
+                                                    '8447',
+                                                    '20695',
+                                                    '2.45'], 
+                                        total_columns=11)
+    headings =  ['Province', 'District', 'SArea', 'SProduction', 'SpringYield', 'MArea', 'MProduction', 'MainYield', 'TArea', 'TProduction', 'TotalYield']
+    grouping = pdc.groups_to_json(groups=filtered,  heading = headings)
+    paddy_data = [{'District': entry['District'],
+                    'Spring_yield': entry['SpringYield'],
+                    'Main_yield': entry['MainYield'],
+                    'Total_yield': entry['TotalYield'],
+                    } for entry in grouping]
+
+
+    print(paddy_data)
+    file_path1 = './raw_data/2078_data/2078_paddy_yield2.json'
+  
+
+    with open(file_path1, 'w') as json_file:
+        json.dump(paddy_data, json_file)
+
+    return paddy_data
+
 
 
 if __name__ == '__main__':
     # paddy_yield()
-    millet_barley_yield()
+    # paddy_csv()
+    # millet_barley_yield()
     # wheat_maize_yield()
     # millet_barley_yield()
+    # wheat_maize_yield()
+    maize_wheat_csv()
 
 

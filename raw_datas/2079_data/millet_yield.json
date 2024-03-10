@@ -1,314 +1,310 @@
 [
     {
         "District": "TAPLEJUNG",
-        "Buckwheat_yield": "1.32"
+        "Millet_yield": "1.42"
     },
     {
         "District": "SANKHUWASABHA",
-        "Buckwheat_yield": "1.26"
+        "Millet_yield": "1.30"
     },
     {
         "District": "SOLUKHUMBU",
-        "Buckwheat_yield": "1.05"
+        "Millet_yield": "1.34"
     },
     {
         "District": "PANCHTHAR",
-        "Buckwheat_yield": "1.07"
+        "Millet_yield": "1.66"
     },
     {
         "District": "ILLAM",
-        "Buckwheat_yield": "1.64"
+        "Millet_yield": "1.58"
     },
     {
         "District": "TERHATHUM",
-        "Buckwheat_yield": "1.00"
+        "Millet_yield": "1.18"
     },
     {
         "District": "DHANKUTA",
-        "Buckwheat_yield": "1.79"
+        "Millet_yield": "1.21"
     },
     {
         "District": "BHOJPUR",
-        "Buckwheat_yield": "1.08"
+        "Millet_yield": "1.26"
     },
     {
         "District": "KHOTANG",
-        "Buckwheat_yield": "1.18"
+        "Millet_yield": "1.40"
     },
     {
         "District": "OKHALDHUNGA",
-        "Buckwheat_yield": "1.06"
+        "Millet_yield": "1.86"
     },
     {
         "District": "UDAYAPUR",
-        "Buckwheat_yield": "1.07"
+        "Millet_yield": "1.86"
     },
     {
         "District": "JHAPA",
-        "Buckwheat_yield": "1.74"
+        "Millet_yield": "1.30"
     },
     {
         "District": "MORANG",
-        "Buckwheat_yield": "1.04"
+        "Millet_yield": "1.20"
     },
     {
         "District": "SUNSARI",
-        "Buckwheat_yield": "1.27"
+        "Millet_yield": "1.16"
     },
     {
         "District": "SAPTARI",
-        "Buckwheat_yield": "-"
+        "Millet_yield": "1.26"
     },
     {
         "District": "SIRAHA",
-        "Buckwheat_yield": "-"
+        "Millet_yield": "1.04"
     },
     {
         "District": "DHANUSHA",
-        "Buckwheat_yield": "-"
+        "Millet_yield": "1.02"
     },
     {
         "District": "MAHOTTARI",
-        "Buckwheat_yield": "-"
+        "Millet_yield": "-"
     },
     {
         "District": "SARLAHI",
-        "Buckwheat_yield": "-"
+        "Millet_yield": "0.90"
     },
     {
         "District": "RAUTAHAT",
-        "Buckwheat_yield": "-"
+        "Millet_yield": "1.04"
     },
     {
         "District": "BARA",
-        "Buckwheat_yield": "-"
+        "Millet_yield": "1.16"
     },
     {
         "District": "PARSA",
-        "Buckwheat_yield": "-"
+        "Millet_yield": "-"
     },
     {
         "District": "DOLAKHA",
-        "Buckwheat_yield": "1.10"
+        "Millet_yield": "1.33"
     },
     {
         "District": "SINDHUPALCHOK",
-        "Buckwheat_yield": "0.91"
+        "Millet_yield": "1.07"
     },
     {
         "District": "RASUWA",
-        "Buckwheat_yield": "0.90"
+        "Millet_yield": "1.15"
     },
     {
         "District": "RAMECHAP",
-        "Buckwheat_yield": "0.96"
+        "Millet_yield": "1.14"
     },
     {
         "District": "SINDHULI",
-        "Buckwheat_yield": "1.01"
+        "Millet_yield": "0.95"
     },
     {
         "District": "KAVRE",
-        "Buckwheat_yield": "1.09"
+        "Millet_yield": "1.29"
     },
     {
         "District": "BHAKTAPUR",
-        "Buckwheat_yield": "1.03"
+        "Millet_yield": "1.06"
     },
     {
         "District": "LALITPUR",
-        "Buckwheat_yield": "1.03"
+        "Millet_yield": "1.34"
     },
     {
         "District": "KATHMANDU",
-        "Buckwheat_yield": "0.98"
+        "Millet_yield": "1.69"
     },
     {
         "District": "NUWAKOT",
-        "Buckwheat_yield": "1.05"
+        "Millet_yield": "1.42"
     },
     {
         "District": "DHADING",
-        "Buckwheat_yield": "1.04"
+        "Millet_yield": "1.07"
     },
     {
         "District": "MAKAWANPUR",
-        "Buckwheat_yield": "1.08"
+        "Millet_yield": "1.26"
     },
     {
         "District": "CHITWAN",
-        "Buckwheat_yield": "1.07"
+        "Millet_yield": "1.15"
     },
     {
         "District": "BAJURA",
-        "Buckwheat_yield": "1.05"
+        "Millet_yield": "1.01"
     },
     {
         "District": "BAJHANG",
-        "Buckwheat_yield": "1.36"
+        "Millet_yield": "1.28"
     },
     {
         "District": "DARCHULA",
-        "Buckwheat_yield": "1.04"
+        "Millet_yield": "1.26"
     },
     {
         "District": "ACHHAM",
-        "Buckwheat_yield": "0.92"
+        "Millet_yield": "1.27"
     },
     {
         "District": "DOTI",
-        "Buckwheat_yield": "0.96"
+        "Millet_yield": "1.28"
     },
     {
         "District": "BAITADI",
-        "Buckwheat_yield": "1.18"
+        "Millet_yield": "1.15"
     },
     {
         "District": "DADELDHURA",
-        "Buckwheat_yield": "1.32"
+        "Millet_yield": "1.13"
     },
     {
         "District": "KAILALI",
-        "Buckwheat_yield": "1.26"
+        "Millet_yield": "1.13"
     },
     {
         "District": "KANCHANPUR",
-        "Buckwheat_yield": "-"
+        "Millet_yield": "-"
     },
     {
         "District": "MANANG",
-        "Buckwheat_yield": "1.88"
+        "Millet_yield": "-"
     },
     {
         "District": "MUSTANG",
-        "Buckwheat_yield": "1.42"
+        "Millet_yield": "-"
     },
     {
         "District": "GORKHA",
-        "Buckwheat_yield": "1.42"
+        "Millet_yield": "1.22"
     },
     {
         "District": "LAMJUNG",
-        "Buckwheat_yield": "0.95"
+        "Millet_yield": "1.22"
     },
     {
         "District": "TANAHU",
-        "Buckwheat_yield": "1.01"
+        "Millet_yield": "1.14"
     },
     {
         "District": "KASKI",
-        "Buckwheat_yield": "1.19"
+        "Millet_yield": "1.55"
     },
     {
         "District": "PARBAT",
-        "Buckwheat_yield": "1.32"
+        "Millet_yield": "1.11"
     },
     {
         "District": "SYANGJA",
-        "Buckwheat_yield": "1.08"
+        "Millet_yield": "1.23"
     },
     {
         "District": "NAWALPARASI EAST",
-        "Buckwheat_yield": "0.99"
+        "Millet_yield": "1.13"
     },
     {
         "District": "MYAGDI",
-        "Buckwheat_yield": "1.11"
+        "Millet_yield": "1.23"
     },
     {
         "District": "BAGLUNG",
-        "Buckwheat_yield": "1.43"
+        "Millet_yield": "1.26"
     },
     {
         "District": "PALPA",
-        "Buckwheat_yield": "0.92"
+        "Millet_yield": "1.40"
     },
     {
         "District": "GULMI",
-        "Buckwheat_yield": "1.87"
+        "Millet_yield": "1.30"
     },
     {
         "District": "ARGHAKHANCHI",
-        "Buckwheat_yield": "1.28"
+        "Millet_yield": "1.13"
     },
     {
         "District": "NAWALPARASI WEST",
-        "Buckwheat_yield": "1.28"
+        "Millet_yield": "1.04"
+    },
+    {
+        "District": "RUPANDEHI",
+        "Millet_yield": "1.14"
+    },
+    {
+        "District": "KAPILBASTU",
+        "Millet_yield": "-"
+    },
+    {
+        "District": "DANG",
+        "Millet_yield": "1.06"
+    },
+    {
+        "District": "BANKE",
+        "Millet_yield": "-"
+    },
+    {
+        "District": "BARDIYA",
+        "Millet_yield": "-"
     },
     {
         "District": "RUKUM EAST",
-        "Buckwheat_yield": "1.15"
+        "Millet_yield": "1.30"
     },
     {
         "District": "PYUTHAN",
-        "Buckwheat_yield": "1.27"
+        "Millet_yield": "1.32"
     },
     {
         "District": "ROLPA",
-        "Buckwheat_yield": "0.93"
+        "Millet_yield": "1.33"
     },
     {
         "District": "DOLPA",
-        "Buckwheat_yield": "0.87"
+        "Millet_yield": "1.11"
     },
     {
         "District": "MUGU",
-        "Buckwheat_yield": "0.94"
+        "Millet_yield": "1.17"
     },
     {
         "District": "HUMLA",
-        "Buckwheat_yield": "1.05"
+        "Millet_yield": "1.23"
     },
     {
         "District": "JUMLA",
-        "Buckwheat_yield": "1.17"
+        "Millet_yield": "1.39"
     },
     {
         "District": "KALIKOT",
-        "Buckwheat_yield": "1.15"
+        "Millet_yield": "1.34"
     },
     {
         "District": "RUKUM WEST",
-        "Buckwheat_yield": "1.25"
-    },
-    {
-        "District": "DOLPA",
-        "Buckwheat_yield": "0.87"
-    },
-    {
-        "District": "MUGU",
-        "Buckwheat_yield": "0.94"
-    },
-    {
-        "District": "HUMLA",
-        "Buckwheat_yield": "1.05"
-    },
-    {
-        "District": "JUMLA",
-        "Buckwheat_yield": "1.17"
-    },
-    {
-        "District": "KALIKOT",
-        "Buckwheat_yield": "1.15"
-    },
-    {
-        "District": "RUKUM WEST",
-        "Buckwheat_yield": "1.25"
+        "Millet_yield": "1.36"
     },
     {
         "District": "SALYAN",
-        "Buckwheat_yield": "1.19"
+        "Millet_yield": "1.07"
     },
     {
         "District": "JAJARKOT",
-        "Buckwheat_yield": "1.25"
+        "Millet_yield": "1.30"
     },
     {
         "District": "DAILEKH",
-        "Buckwheat_yield": "1.01"
+        "Millet_yield": "1.12"
     },
     {
         "District": "SURKHET",
-        "Buckwheat_yield": "1.52"
+        "Millet_yield": "1.17"
     }
 ]

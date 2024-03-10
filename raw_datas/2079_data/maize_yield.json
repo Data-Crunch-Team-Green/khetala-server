@@ -1,306 +1,310 @@
 [
     {
         "District": "TAPLEJUNG",
-        "Wheat_yield": "1.87"
+        "Maize_yield": "3.42"
     },
     {
         "District": "SANKHUWASABHA",
-        "Wheat_yield": "2.31"
+        "Maize_yield": "2.66"
     },
     {
         "District": "SOLUKHUMBU",
-        "Wheat_yield": "1.99"
+        "Maize_yield": "2.84"
     },
     {
         "District": "PANCHTHAR",
-        "Wheat_yield": "1.66"
+        "Maize_yield": "2.30"
     },
     {
         "District": "ILLAM",
-        "Wheat_yield": "2.55"
+        "Maize_yield": "3.88"
     },
     {
         "District": "TERHATHUM",
-        "Wheat_yield": "2.00"
+        "Maize_yield": "3.01"
     },
     {
         "District": "DHANKUTA",
-        "Wheat_yield": "2.10"
+        "Maize_yield": "3.35"
     },
     {
         "District": "BHOJPUR",
-        "Wheat_yield": "1.80"
+        "Maize_yield": "2.64"
     },
     {
         "District": "KHOTANG",
-        "Wheat_yield": "1.85"
+        "Maize_yield": "2.74"
     },
     {
         "District": "OKHALDHUNGA",
-        "Wheat_yield": "1.55"
+        "Maize_yield": "3.20"
     },
     {
         "District": "UDAYAPUR",
-        "Wheat_yield": "2.50"
+        "Maize_yield": "3.10"
     },
     {
         "District": "JHAPA",
-        "Wheat_yield": "2.70"
+        "Maize_yield": "3.96"
     },
     {
         "District": "MORANG",
-        "Wheat_yield": "2.87"
+        "Maize_yield": "3.71"
     },
     {
         "District": "SUNSARI",
-        "Wheat_yield": "3.40"
+        "Maize_yield": "3.26"
     },
     {
         "District": "SAPTARI",
-        "Wheat_yield": "3.62"
+        "Maize_yield": "3.52"
     },
     {
         "District": "SIRAHA",
-        "Wheat_yield": "3.52"
+        "Maize_yield": "3.73"
     },
     {
         "District": "DHANUSHA",
-        "Wheat_yield": "3.34"
+        "Maize_yield": "3.26"
     },
     {
         "District": "MAHOTTARI",
-        "Wheat_yield": "3.26"
+        "Maize_yield": "3.05"
     },
     {
         "District": "SARLAHI",
-        "Wheat_yield": "3.36"
+        "Maize_yield": "3.51"
     },
     {
         "District": "RAUTAHAT",
-        "Wheat_yield": "3.31"
+        "Maize_yield": "3.65"
     },
     {
         "District": "BARA",
-        "Wheat_yield": "3.49"
+        "Maize_yield": "3.91"
     },
     {
         "District": "PARSA",
-        "Wheat_yield": "3.74"
+        "Maize_yield": "4.10"
     },
     {
         "District": "DOLAKHA",
-        "Wheat_yield": "1.77"
+        "Maize_yield": "3.59"
     },
     {
         "District": "SINDHUPALCHOK",
-        "Wheat_yield": "1.26"
+        "Maize_yield": "2.89"
     },
     {
         "District": "RASUWA",
-        "Wheat_yield": "1.62"
+        "Maize_yield": "2.50"
     },
     {
         "District": "RAMECHAP",
-        "Wheat_yield": "2.33"
+        "Maize_yield": "3.05"
     },
     {
         "District": "SINDHULI",
-        "Wheat_yield": "2.34"
+        "Maize_yield": "3.11"
     },
     {
         "District": "KAVRE",
-        "Wheat_yield": "3.24"
+        "Maize_yield": "3.40"
     },
     {
         "District": "BHAKTAPUR",
-        "Wheat_yield": "3.94"
+        "Maize_yield": "4.08"
     },
     {
         "District": "LALITPUR",
-        "Wheat_yield": "3.40"
+        "Maize_yield": "3.93"
     },
     {
         "District": "KATHMANDU",
-        "Wheat_yield": "3.49"
+        "Maize_yield": "4.31"
     },
     {
         "District": "NUWAKOT",
-        "Wheat_yield": "3.57"
+        "Maize_yield": "3.05"
     },
     {
         "District": "DHADING",
-        "Wheat_yield": "3.26"
+        "Maize_yield": "2.32"
     },
     {
-        "District": "MAKWANPUR",
-        "Wheat_yield": "3.30"
+        "District": "MAKAWANPUR",
+        "Maize_yield": "3.24"
     },
     {
         "District": "CHITWAN",
-        "Wheat_yield": "4.51"
+        "Maize_yield": "3.75"
     },
     {
         "District": "MANANG",
-        "Wheat_yield": "2.35"
+        "Maize_yield": "1.98"
     },
     {
         "District": "MUSTANG",
-        "Wheat_yield": "1.69"
+        "Maize_yield": "1.48"
     },
     {
         "District": "GORKHA",
-        "Wheat_yield": "2.36"
+        "Maize_yield": "2.45"
     },
     {
         "District": "LAMJUNG",
-        "Wheat_yield": "2.61"
+        "Maize_yield": "2.50"
     },
     {
         "District": "TANAHU",
-        "Wheat_yield": "2.51"
+        "Maize_yield": "3.34"
     },
     {
         "District": "KASKI",
-        "Wheat_yield": "2.52"
+        "Maize_yield": "2.97"
     },
     {
         "District": "PARBAT",
-        "Wheat_yield": "2.44"
+        "Maize_yield": "2.59"
     },
     {
         "District": "SYANGJA",
-        "Wheat_yield": "2.88"
+        "Maize_yield": "3.38"
     },
     {
         "District": "MYAGDI",
-        "Wheat_yield": "2.48"
+        "Maize_yield": "3.41"
     },
     {
         "District": "BAGLUNG",
-        "Wheat_yield": "2.51"
+        "Maize_yield": "3.41"
     },
     {
         "District": "NAWALPARASI EAST",
-        "Wheat_yield": "2.75"
+        "Maize_yield": "3.05"
     },
     {
         "District": "DOLPA",
-        "Wheat_yield": "1.43"
+        "Maize_yield": "1.27"
     },
     {
         "District": "MUGU",
-        "Wheat_yield": "1.04"
+        "Maize_yield": "2.10"
     },
     {
         "District": "HUMLA",
-        "Wheat_yield": "1.30"
+        "Maize_yield": "1.15"
     },
     {
         "District": "JUMLA",
-        "Wheat_yield": "2.25"
+        "Maize_yield": "1.60"
     },
     {
         "District": "KALIKOT",
-        "Wheat_yield": "1.56"
+        "Maize_yield": "2.81"
     },
     {
         "District": "RUKUM WEST",
-        "Wheat_yield": "2.37"
+        "Maize_yield": "3.83"
     },
     {
         "District": "SALYAN",
-        "Wheat_yield": "3.15"
+        "Maize_yield": "3.12"
     },
     {
         "District": "JAJARKOT",
-        "Wheat_yield": "2.50"
+        "Maize_yield": "3.30"
     },
     {
         "District": "DAILEKH",
-        "Wheat_yield": "2.47"
+        "Maize_yield": "2.99"
     },
     {
         "District": "SURKHET",
-        "Wheat_yield": "3.47"
+        "Maize_yield": "3.53"
     },
     {
         "District": "BAJURA",
-        "Wheat_yield": "1.50"
+        "Maize_yield": "1.47"
     },
     {
         "District": "BAJHANG",
-        "Wheat_yield": "2.01"
+        "Maize_yield": "1.63"
     },
     {
         "District": "DARCHULA",
-        "Wheat_yield": "1.62"
+        "Maize_yield": "2.78"
     },
     {
         "District": "ACHHAM",
-        "Wheat_yield": "1.68"
+        "Maize_yield": "3.10"
     },
     {
         "District": "DOTI",
-        "Wheat_yield": "1.97"
+        "Maize_yield": "3.01"
     },
     {
         "District": "BAITADI",
-        "Wheat_yield": "1.57"
+        "Maize_yield": "2.95"
     },
     {
         "District": "DADELDHURA",
-        "Wheat_yield": "2.73"
+        "Maize_yield": "3.00"
     },
     {
         "District": "KAILALI",
-        "Wheat_yield": "3.58"
+        "Maize_yield": "3.47"
     },
     {
         "District": "KANCHANPUR",
-        "Wheat_yield": "3.25"
+        "Maize_yield": "3.55"
     },
     {
         "District": "PALPA",
-        "Wheat_yield": "2.35"
+        "Maize_yield": "2.58"
     },
     {
         "District": "GULMI",
-        "Wheat_yield": "2.97"
+        "Maize_yield": "3.04"
     },
     {
         "District": "ARGHAKHANCHI",
-        "Wheat_yield": "2.72"
+        "Maize_yield": "3.24"
+    },
+    {
+        "District": "NAWALPARASI WEST",
+        "Maize_yield": "3.45"
     },
     {
         "District": "RUPANDEHI",
-        "Wheat_yield": "3.95"
+        "Maize_yield": "3.91"
     },
     {
         "District": "KAPILBASTU",
-        "Wheat_yield": "3.73"
+        "Maize_yield": "3.34"
     },
     {
         "District": "DANG",
-        "Wheat_yield": "3.13"
+        "Maize_yield": "3.13"
     },
     {
         "District": "BANKE",
-        "Wheat_yield": "3.36"
+        "Maize_yield": "3.18"
     },
     {
         "District": "BARDIYA",
-        "Wheat_yield": "3.38"
+        "Maize_yield": "3.74"
     },
     {
         "District": "RUKUM EAST",
-        "Wheat_yield": "2.74"
+        "Maize_yield": "2.89"
     },
     {
         "District": "PYUTHAN",
-        "Wheat_yield": "2.87"
+        "Maize_yield": "2.93"
     },
     {
         "District": "ROLPA",
-        "Wheat_yield": "2.84"
+        "Maize_yield": "3.12"
     }
 ]

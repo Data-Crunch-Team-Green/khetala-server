@@ -236,6 +236,26 @@
         "Barley_yield": "1.23"
     },
     {
+        "District": "RUPANDEHI",
+        "Barley_yield": "1.96"
+    },
+    {
+        "District": "KAPILBASTU",
+        "Barley_yield": "1.87"
+    },
+    {
+        "District": "DANG",
+        "Barley_yield": "1.23"
+    },
+    {
+        "District": "BANKE",
+        "Barley_yield": "1.37"
+    },
+    {
+        "District": "BARDIYA",
+        "Barley_yield": "1.50"
+    },
+    {
         "District": "RUKUM EAST",
         "Barley_yield": "1.01"
     },
@@ -246,30 +266,6 @@
     {
         "District": "ROLPA",
         "Barley_yield": "1.01"
-    },
-    {
-        "District": "DOLPA",
-        "Barley_yield": "1.03"
-    },
-    {
-        "District": "MUGU",
-        "Barley_yield": "1.21"
-    },
-    {
-        "District": "HUMLA",
-        "Barley_yield": "1.26"
-    },
-    {
-        "District": "JUMLA",
-        "Barley_yield": "1.54"
-    },
-    {
-        "District": "KALIKOT",
-        "Barley_yield": "1.19"
-    },
-    {
-        "District": "RUKUM WEST",
-        "Barley_yield": "1.46"
     },
     {
         "District": "DOLPA",
