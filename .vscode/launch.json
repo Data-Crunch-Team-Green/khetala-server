@@ -16,15 +16,15 @@
             "name": "Run script yields",
             "type": "debugpy",
             "request": "launch",
-            "program": "scripts/report_2078.py",
+            "program": "scripts/report_2076.py",
             "console": "integratedTerminal",
             "justMyCode": true
         },
         {
-            "name": "Run api",
+            "name": "Run yield api",
             "type": "debugpy",
             "request": "launch",
-            "program": "yield_api.py",
+            "program": "yield_apis_haru.py",
             "console": "integratedTerminal",
             "justMyCode": true
         },

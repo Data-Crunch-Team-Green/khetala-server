@@ -81,7 +81,7 @@ class FormatConverter:
 
     def page_number_converter(page_number: int):
         # real_pg = page_number - 1 + 9
-        real_pg = page_number + 7
+        real_pg = page_number -1
         return real_pg
 
 

@@ -1,0 +1,310 @@
+[
+    {
+        "District": "TAPLEJUNG",
+        "Potato_yield": "17.97"
+    },
+    {
+        "District": "SANKHUWASABHA",
+        "Potato_yield": "14.38"
+    },
+    {
+        "District": "SOLUKHUMBU",
+        "Potato_yield": "15.23"
+    },
+    {
+        "District": "PANCHTHAR",
+        "Potato_yield": "16.93"
+    },
+    {
+        "District": "ILLAM",
+        "Potato_yield": "19.32"
+    },
+    {
+        "District": "TERHATHUM",
+        "Potato_yield": "17.62"
+    },
+    {
+        "District": "DHANKUTA",
+        "Potato_yield": "19.11"
+    },
+    {
+        "District": "BHOJPUR",
+        "Potato_yield": "17.44"
+    },
+    {
+        "District": "KHOTANG",
+        "Potato_yield": "14.76"
+    },
+    {
+        "District": "OKHALDHUNGA",
+        "Potato_yield": "14.58"
+    },
+    {
+        "District": "UDAYAPUR",
+        "Potato_yield": "14.48"
+    },
+    {
+        "District": "JHAPA",
+        "Potato_yield": "17.04"
+    },
+    {
+        "District": "MORANG",
+        "Potato_yield": "16.56"
+    },
+    {
+        "District": "SUNSARI",
+        "Potato_yield": "16.24"
+    },
+    {
+        "District": "SAPTARI",
+        "Potato_yield": "15.31"
+    },
+    {
+        "District": "SIRAHA",
+        "Potato_yield": "15.47"
+    },
+    {
+        "District": "DHANUSHA",
+        "Potato_yield": "14.93"
+    },
+    {
+        "District": "MAHOTTARI",
+        "Potato_yield": "14.53"
+    },
+    {
+        "District": "SARLAHI",
+        "Potato_yield": "15.20"
+    },
+    {
+        "District": "RAUTAHAT",
+        "Potato_yield": "17.73"
+    },
+    {
+        "District": "BARA",
+        "Potato_yield": "15.23"
+    },
+    {
+        "District": "PARSA",
+        "Potato_yield": "15.86"
+    },
+    {
+        "District": "DOLAKHA",
+        "Potato_yield": "17.12"
+    },
+    {
+        "District": "SINDHUPALCHOK",
+        "Potato_yield": "17.28"
+    },
+    {
+        "District": "RASUWA",
+        "Potato_yield": "15.66"
+    },
+    {
+        "District": "RAMECHAP",
+        "Potato_yield": "16.03"
+    },
+    {
+        "District": "SINDHULI",
+        "Potato_yield": "17.72"
+    },
+    {
+        "District": "KAVRE",
+        "Potato_yield": "17.76"
+    },
+    {
+        "District": "BHAKTAPUR",
+        "Potato_yield": "21.48"
+    },
+    {
+        "District": "LALITPUR",
+        "Potato_yield": "20.25"
+    },
+    {
+        "District": "KATHMANDU",
+        "Potato_yield": "21.95"
+    },
+    {
+        "District": "NUWAKOT",
+        "Potato_yield": "20.20"
+    },
+    {
+        "District": "DHADING",
+        "Potato_yield": "14.60"
+    },
+    {
+        "District": "MAKWANPUR",
+        "Potato_yield": "22.84"
+    },
+    {
+        "District": "CHITWAN",
+        "Potato_yield": "20.72"
+    },
+    {
+        "District": "MANANG",
+        "Potato_yield": "18.59"
+    },
+    {
+        "District": "MUSTANG",
+        "Potato_yield": "19.92"
+    },
+    {
+        "District": "GORKHA",
+        "Potato_yield": "18.69"
+    },
+    {
+        "District": "LAMJUNG",
+        "Potato_yield": "15.09"
+    },
+    {
+        "District": "TANAHU",
+        "Potato_yield": "15.44"
+    },
+    {
+        "District": "KASKI",
+        "Potato_yield": "16.07"
+    },
+    {
+        "District": "PARBAT",
+        "Potato_yield": "15.71"
+    },
+    {
+        "District": "SYANGJA",
+        "Potato_yield": "15.96"
+    },
+    {
+        "District": "MYAGDI",
+        "Potato_yield": "15.67"
+    },
+    {
+        "District": "BAGLUNG",
+        "Potato_yield": "15.27"
+    },
+    {
+        "District": "NAWALPARASI EAST",
+        "Potato_yield": "16.45"
+    },
+    {
+        "District": "PALPA",
+        "Potato_yield": "17.00"
+    },
+    {
+        "District": "GULMI",
+        "Potato_yield": "17.47"
+    },
+    {
+        "District": "ARGHAKHANCHI",
+        "Potato_yield": "14.79"
+    },
+    {
+        "District": "NAWALPARASI WEST",
+        "Potato_yield": "16.21"
+    },
+    {
+        "District": "RUPANDEHI",
+        "Potato_yield": "16.25"
+    },
+    {
+        "District": "KAPILBASTU",
+        "Potato_yield": "14.62"
+    },
+    {
+        "District": "DANG",
+        "Potato_yield": "14.75"
+    },
+    {
+        "District": "BANKE",
+        "Potato_yield": "15.72"
+    },
+    {
+        "District": "BARDIYA",
+        "Potato_yield": "16.04"
+    },
+    {
+        "District": "RUKUM EAST",
+        "Potato_yield": "14.61"
+    },
+    {
+        "District": "PYUTHAN",
+        "Potato_yield": "15.96"
+    },
+    {
+        "District": "ROLPA",
+        "Potato_yield": "16.74"
+    },
+    {
+        "District": "DOLPA",
+        "Potato_yield": "16.76"
+    },
+    {
+        "District": "MUGU",
+        "Potato_yield": "17.78"
+    },
+    {
+        "District": "HUMLA",
+        "Potato_yield": "16.91"
+    },
+    {
+        "District": "JUMLA",
+        "Potato_yield": "16.79"
+    },
+    {
+        "District": "KALIKOT",
+        "Potato_yield": "17.41"
+    },
+    {
+        "District": "RUKUM WEST",
+        "Potato_yield": "17.76"
+    },
+    {
+        "District": "SALYAN",
+        "Potato_yield": "16.42"
+    },
+    {
+        "District": "JAJARKOT",
+        "Potato_yield": "16.09"
+    },
+    {
+        "District": "DAILEKH",
+        "Potato_yield": "16.46"
+    },
+    {
+        "District": "SURKHET",
+        "Potato_yield": "16.15"
+    },
+    {
+        "District": "BAJURA",
+        "Potato_yield": "15.94"
+    },
+    {
+        "District": "BAJHANG",
+        "Potato_yield": "16.14"
+    },
+    {
+        "District": "DARCHULA",
+        "Potato_yield": "15.32"
+    },
+    {
+        "District": "ACHHAM",
+        "Potato_yield": "15.35"
+    },
+    {
+        "District": "DOTI",
+        "Potato_yield": "14.91"
+    },
+    {
+        "District": "BAITADI",
+        "Potato_yield": "15.72"
+    },
+    {
+        "District": "DADELDHURA",
+        "Potato_yield": "15.65"
+    },
+    {
+        "District": "KAILALI",
+        "Potato_yield": "14.80"
+    },
+    {
+        "District": "KANCHANPUR",
+        "Potato_yield": "17.97"
+    }
+]

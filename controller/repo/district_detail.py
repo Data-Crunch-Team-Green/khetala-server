@@ -1,5 +1,5 @@
 import json 
-
+import pandas as pd
 
 class YieldData:
     def __init__(self):
@@ -85,9 +85,6 @@ class YieldData:
         percent_change = ((latest_yield - prev_yield)/prev_yield ) * 100
 
 
-
-
-
     def district_wise_latest_year_yield(self, district):
         
         district_yield_data = []
@@ -127,8 +124,6 @@ class YieldData:
         return district_yield_data
     
 
-
-
     def barley_national_rank(self, district):
         data_2079 = self.barley_2079
         rank = 0
@@ -155,8 +150,43 @@ class YieldData:
                 pass
 
 
+
+class YieldApi:
+
+
+    #1st - /crop/crop_name?district=query_param
+    '''
+    {yield: {2079: yield_value, 2078:7.8, 2077:2.6, 2076:6},
+    national_rank: 2,
+    soil: {
+        N:avg(n_value),
+        P:avg(),
+        K:avg()
+        pH:avg()
+    },
+    weather: {
+        temperature: [min_value, max_value] #eg: [20.3, 26.6] - one decimal place,
+        humidity: [min_value, max_value]- one decimal place,
+        rainfall: [min_value, max_value] - no decimal
+    },
+    price:{2079: price_value, 2078:7.8, 2077:2.6, 2076:6, ............} all years 10 years back 
+    }  
+    '''
+
+    yield_data = pd.read_csv('data/compiled_yield_data.csv')
+    def yearly_yield(self):
+        combined_data = self.yield_data
         
+   
+        print(combined_data)           
+
 
 
                     
 
+if __name__ == "__main__":
+    a = YieldApi()
+    # a.Spaddy_json_to_df('raw_datas/2078_data/2078_paddy_yield.json',  2078)
+    # a.Mpaddy_json_to_df('raw_datas/2078_data/2078_paddy_yield.json',  2078)
+    a.merging_cotton()
+        

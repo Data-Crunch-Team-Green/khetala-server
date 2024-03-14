@@ -1,0 +1,166 @@
+[
+    {
+        "District": "BHOJPUR",
+        "Coffee_yield": 200.0
+    },
+    {
+        "District": "DHANKUTA",
+        "Coffee_yield": 87.5
+    },
+    {
+        "District": "ILAM",
+        "Coffee_yield": 108.82
+    },
+    {
+        "District": "KHOTANG",
+        "Coffee_yield": 75.76
+    },
+    {
+        "District": "MORANG",
+        "Coffee_yield": 312.5
+    },
+    {
+        "District": "OKHALDHUNGA",
+        "Coffee_yield": 166.67
+    },
+    {
+        "District": "PANCHTHAR",
+        "Coffee_yield": 117.65
+    },
+    {
+        "District": "SANKHUWASHAVA",
+        "Coffee_yield": 307.69
+    },
+    {
+        "District": "SOLUKHUMBU",
+        "Coffee_yield": 400.0
+    },
+    {
+        "District": "TAPLEJUNG",
+        "Coffee_yield": 142.86
+    },
+    {
+        "District": "TERATHUM",
+        "Coffee_yield": 71.43
+    },
+    {
+        "District": "UDAYPUR",
+        "Coffee_yield": 300.0
+    },
+    {
+        "District": "CHITWAN",
+        "Coffee_yield": 500.0
+    },
+    {
+        "District": "DHADING",
+        "Coffee_yield": 103.9
+    },
+    {
+        "District": "DOLAKHA",
+        "Coffee_yield": 125.0
+    },
+    {
+        "District": "KAVRE",
+        "Coffee_yield": 158.88
+    },
+    {
+        "District": "LALITPUR",
+        "Coffee_yield": 189.47
+    },
+    {
+        "District": "MAKAWANPUR",
+        "Coffee_yield": 346.15
+    },
+    {
+        "District": "NUWAKOT",
+        "Coffee_yield": 111.11
+    },
+    {
+        "District": "RAMECHHAP",
+        "Coffee_yield": 166.67
+    },
+    {
+        "District": "RASUWA",
+        "Coffee_yield": 100.0
+    },
+    {
+        "District": "SINDHULI",
+        "Coffee_yield": 300.0
+    },
+    {
+        "District": "SINDHUPALCHOWK",
+        "Coffee_yield": 394.74
+    },
+    {
+        "District": "GORKHA",
+        "Coffee_yield": 129.03
+    },
+    {
+        "District": "KASKI",
+        "Coffee_yield": 124.14
+    },
+    {
+        "District": "LAMJUNG",
+        "Coffee_yield": 81.63
+    },
+    {
+        "District": "MYAGDI",
+        "Coffee_yield": 113.64
+    },
+    {
+        "District": "NAWALPUR",
+        "Coffee_yield": 166.67
+    },
+    {
+        "District": "PARBAT",
+        "Coffee_yield": 118.18
+    },
+    {
+        "District": "SYANGJA",
+        "Coffee_yield": 51.37
+    },
+    {
+        "District": "TANAHU",
+        "Coffee_yield": 203.12
+    },
+    {
+        "District": "ARGHAKHACHI",
+        "Coffee_yield": 71.43
+    },
+    {
+        "District": "GULMI",
+        "Coffee_yield": 131.87
+    },
+    {
+        "District": "PALPA",
+        "Coffee_yield": 150.94
+    },
+    {
+        "District": "PYUTHAN",
+        "Coffee_yield": 147.06
+    },
+    {
+        "District": "ROLPA",
+        "Coffee_yield": 500.0
+    },
+    {
+        "District": "RUKUM EAST",
+        "Coffee_yield": 500.0
+    },
+    {
+        "District": "DAILEKH",
+        "Coffee_yield": 750.0
+    },
+    {
+        "District": "JAJARKOT",
+        "Coffee_yield": 500.0
+    },
+    {
+        "District": "SALYAN",
+        "Coffee_yield": 500.0
+    },
+    {
+        "District": "SURKHET",
+        "Coffee_yield": 125.0
+    }
+]

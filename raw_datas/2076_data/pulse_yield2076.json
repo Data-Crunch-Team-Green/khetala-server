@@ -1,0 +1,386 @@
+[
+    {
+        "District": "SANKHUWASABHA",
+        "Lentil_yield": "1.27",
+        "Chickpea_yield": "0.92",
+        "Pigeonpea_yield": "-"
+    },
+    {
+        "District": "PANCHTHAR",
+        "Lentil_yield": "1.14",
+        "Chickpea_yield": "0.67",
+        "Pigeonpea_yield": "1"
+    },
+    {
+        "District": "ILLAM",
+        "Lentil_yield": "1.08",
+        "Chickpea_yield": "0.64",
+        "Pigeonpea_yield": "0.71"
+    },
+    {
+        "District": "TERHATHUM",
+        "Lentil_yield": "1.02",
+        "Chickpea_yield": "-",
+        "Pigeonpea_yield": "1"
+    },
+    {
+        "District": "DHANKUTA",
+        "Lentil_yield": "1.11",
+        "Chickpea_yield": "1.17",
+        "Pigeonpea_yield": "1"
+    },
+    {
+        "District": "BHOJPUR",
+        "Lentil_yield": "0.92",
+        "Chickpea_yield": "-",
+        "Pigeonpea_yield": "-"
+    },
+    {
+        "District": "KHOTANG",
+        "Lentil_yield": "1.11",
+        "Chickpea_yield": "-",
+        "Pigeonpea_yield": "-"
+    },
+    {
+        "District": "OKHALDHUNGA",
+        "Lentil_yield": "1.07",
+        "Chickpea_yield": "0.88",
+        "Pigeonpea_yield": "-"
+    },
+    {
+        "District": "UDAYAPUR",
+        "Lentil_yield": "0.98",
+        "Chickpea_yield": "0.87",
+        "Pigeonpea_yield": "1.02"
+    },
+    {
+        "District": "JHAPA",
+        "Lentil_yield": "1.34",
+        "Chickpea_yield": "1.44",
+        "Pigeonpea_yield": "1.01"
+    },
+    {
+        "District": "MORANG",
+        "Lentil_yield": "1.1",
+        "Chickpea_yield": "1.26",
+        "Pigeonpea_yield": "0.98"
+    },
+    {
+        "District": "SUNSARI",
+        "Lentil_yield": "1.19",
+        "Chickpea_yield": "1.39",
+        "Pigeonpea_yield": "0.87"
+    },
+    {
+        "District": "SAPTARI",
+        "Lentil_yield": "1.13",
+        "Chickpea_yield": "1.03",
+        "Pigeonpea_yield": "0.69"
+    },
+    {
+        "District": "SIRAHA",
+        "Lentil_yield": "1.1",
+        "Chickpea_yield": "1.14",
+        "Pigeonpea_yield": "0.95"
+    },
+    {
+        "District": "DHANUSHA",
+        "Lentil_yield": "1.1",
+        "Chickpea_yield": "1.16",
+        "Pigeonpea_yield": "0.93"
+    },
+    {
+        "District": "MAHOTTARI",
+        "Lentil_yield": "1.03",
+        "Chickpea_yield": "1.09",
+        "Pigeonpea_yield": "0.98"
+    },
+    {
+        "District": "SARLAHI",
+        "Lentil_yield": "1.11",
+        "Chickpea_yield": "1.32",
+        "Pigeonpea_yield": "1.01"
+    },
+    {
+        "District": "RAUTAHAT",
+        "Lentil_yield": "1.19",
+        "Chickpea_yield": "1.14",
+        "Pigeonpea_yield": "1.28"
+    },
+    {
+        "District": "BARA",
+        "Lentil_yield": "1.24",
+        "Chickpea_yield": "1.51",
+        "Pigeonpea_yield": "1.15"
+    },
+    {
+        "District": "PARSA",
+        "Lentil_yield": "1.1",
+        "Chickpea_yield": "1.37",
+        "Pigeonpea_yield": "0.93"
+    },
+    {
+        "District": "BAGMATIDOLAKHA",
+        "Lentil_yield": "0.75",
+        "Chickpea_yield": "0.86",
+        "Pigeonpea_yield": "1.17"
+    },
+    {
+        "District": "SINDHUPALCHOK",
+        "Lentil_yield": "0.94",
+        "Chickpea_yield": "1.17",
+        "Pigeonpea_yield": "0.92"
+    },
+    {
+        "District": "RASUWA",
+        "Lentil_yield": "0.57",
+        "Chickpea_yield": "-",
+        "Pigeonpea_yield": "-"
+    },
+    {
+        "District": "RAMECHAP",
+        "Lentil_yield": "0.83",
+        "Chickpea_yield": "0.56",
+        "Pigeonpea_yield": "1.13"
+    },
+    {
+        "District": "SINDHULI",
+        "Lentil_yield": "1.4",
+        "Chickpea_yield": "1.03",
+        "Pigeonpea_yield": "0.97"
+    },
+    {
+        "District": "KAVRE",
+        "Lentil_yield": "1.12",
+        "Chickpea_yield": "0.89",
+        "Pigeonpea_yield": "1.03"
+    },
+    {
+        "District": "BHAKTAPUR",
+        "Lentil_yield": "1.17",
+        "Chickpea_yield": "0.93",
+        "Pigeonpea_yield": "-"
+    },
+    {
+        "District": "LALITPUR",
+        "Lentil_yield": "1.08",
+        "Chickpea_yield": "0.93",
+        "Pigeonpea_yield": "-"
+    },
+    {
+        "District": "KATHMANDU",
+        "Lentil_yield": "0",
+        "Chickpea_yield": "1.07",
+        "Pigeonpea_yield": "-"
+    },
+    {
+        "District": "NUWAKOT",
+        "Lentil_yield": "1.12",
+        "Chickpea_yield": "0.89",
+        "Pigeonpea_yield": "1"
+    },
+    {
+        "District": "DHADING202",
+        "Lentil_yield": "1.22",
+        "Chickpea_yield": "0.67",
+        "Pigeonpea_yield": "-"
+    },
+    {
+        "District": "MAKWANPUR",
+        "Lentil_yield": "1.21",
+        "Chickpea_yield": "0.92",
+        "Pigeonpea_yield": "1"
+    },
+    {
+        "District": "CHITWAN",
+        "Lentil_yield": "1.23",
+        "Chickpea_yield": "1",
+        "Pigeonpea_yield": "1.23"
+    },
+    {
+        "District": "GORKHA",
+        "Lentil_yield": "0.96",
+        "Chickpea_yield": "1.06",
+        "Pigeonpea_yield": "0.88"
+    },
+    {
+        "District": "LAMJUNG",
+        "Lentil_yield": "0.91",
+        "Chickpea_yield": "-",
+        "Pigeonpea_yield": "-"
+    },
+    {
+        "District": "TANAHU",
+        "Lentil_yield": "1.05",
+        "Chickpea_yield": "1",
+        "Pigeonpea_yield": "0.89"
+    },
+    {
+        "District": "KASKI",
+        "Lentil_yield": "1.1",
+        "Chickpea_yield": "1",
+        "Pigeonpea_yield": "1"
+    },
+    {
+        "District": "PARBAT",
+        "Lentil_yield": "0.85",
+        "Chickpea_yield": "1",
+        "Pigeonpea_yield": "0.88"
+    },
+    {
+        "District": "SYANGJA",
+        "Lentil_yield": "0.95",
+        "Chickpea_yield": "0.92",
+        "Pigeonpea_yield": "1"
+    },
+    {
+        "District": "MYAGDI",
+        "Lentil_yield": "0.94",
+        "Chickpea_yield": "-",
+        "Pigeonpea_yield": "1.37"
+    },
+    {
+        "District": "BAGLUNG",
+        "Lentil_yield": "0.94",
+        "Chickpea_yield": "1.33",
+        "Pigeonpea_yield": "0.8"
+    },
+    {
+        "District": "NAWALPARASI EAST",
+        "Lentil_yield": "1.19",
+        "Chickpea_yield": "1.19",
+        "Pigeonpea_yield": "0.51"
+    },
+    {
+        "District": "PALPA",
+        "Lentil_yield": "1.07",
+        "Chickpea_yield": "1.08",
+        "Pigeonpea_yield": "0.85"
+    },
+    {
+        "District": "GULMI",
+        "Lentil_yield": "1.37",
+        "Chickpea_yield": "1.2",
+        "Pigeonpea_yield": "1.5"
+    },
+    {
+        "District": "ARGHAKHANCHI",
+        "Lentil_yield": "0.94",
+        "Chickpea_yield": "0.96",
+        "Pigeonpea_yield": "-"
+    },
+    {
+        "District": "NAWALPARASI WEST",
+        "Lentil_yield": "1.22",
+        "Chickpea_yield": "1.19",
+        "Pigeonpea_yield": "0.51"
+    },
+    {
+        "District": "RUPANDEHI",
+        "Lentil_yield": "1.55",
+        "Chickpea_yield": "1.13",
+        "Pigeonpea_yield": "1.57"
+    },
+    {
+        "District": "KAPILBASTU",
+        "Lentil_yield": "1.19",
+        "Chickpea_yield": "1.1",
+        "Pigeonpea_yield": "1.27"
+    },
+    {
+        "District": "DANG",
+        "Lentil_yield": "1.07",
+        "Chickpea_yield": "0.97",
+        "Pigeonpea_yield": "1.2"
+    },
+    {
+        "District": "BANKE",
+        "Lentil_yield": "1.32",
+        "Chickpea_yield": "0.96",
+        "Pigeonpea_yield": "0.95"
+    },
+    {
+        "District": "BARDIYA",
+        "Lentil_yield": "1.36",
+        "Chickpea_yield": "1.21",
+        "Pigeonpea_yield": "0.97"
+    },
+    {
+        "District": "RUKUM EAST",
+        "Lentil_yield": "0.9",
+        "Chickpea_yield": "0.8",
+        "Pigeonpea_yield": "0.5"
+    },
+    {
+        "District": "PYUTHAN",
+        "Lentil_yield": "0.91",
+        "Chickpea_yield": "1.32",
+        "Pigeonpea_yield": "-"
+    },
+    {
+        "District": "ROLPA",
+        "Lentil_yield": "0.95",
+        "Chickpea_yield": "0.9",
+        "Pigeonpea_yield": "-"
+    },
+    {
+        "District": "DOLPA",
+        "Lentil_yield": "0.5",
+        "Chickpea_yield": "-",
+        "Pigeonpea_yield": "-"
+    },
+    {
+        "District": "MUGU",
+        "Lentil_yield": "0.86",
+        "Chickpea_yield": "-",
+        "Pigeonpea_yield": "-"
+    },
+    {
+        "District": "HUMLA",
+        "Lentil_yield": "0.86",
+        "Chickpea_yield": "-",
+        "Pigeonpea_yield": "-"
+    },
+    {
+        "District": "JUMLA",
+        "Lentil_yield": "0.86",
+        "Chickpea_yield": "-",
+        "Pigeonpea_yield": "-"
+    },
+    {
+        "District": "KALIKOT",
+        "Lentil_yield": "0.52",
+        "Chickpea_yield": "-",
+        "Pigeonpea_yield": "-"
+    },
+    {
+        "District": "RUKUM WEST",
+        "Lentil_yield": "0.77",
+        "Chickpea_yield": "0.83",
+        "Pigeonpea_yield": "0.67"
+    },
+    {
+        "District": "SALYAN",
+        "Lentil_yield": "0.74",
+        "Chickpea_yield": "1.01",
+        "Pigeonpea_yield": "0.92"
+    },
+    {
+        "District": "JAJARKOT",
+        "Lentil_yield": "0.67",
+        "Chickpea_yield": "0.91",
+        "Pigeonpea_yield": "-"
+    },
+    {
+        "District": "DAILEKH",
+        "Lentil_yield": "0.91",
+        "Chickpea_yield": "1.02",
+        "Pigeonpea_yield": "-"
+    },
+    {
+        "District": "SURKHET",
+        "Lentil_yield": "1.05",
+        "Chickpea_yield": "1.16",
+        "Pigeonpea_yield": "1.51"
+    }
+]

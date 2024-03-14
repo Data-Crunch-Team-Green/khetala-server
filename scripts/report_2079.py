@@ -308,9 +308,62 @@ def millet_barley_yield():
 
 
 
+def coffee_yield():
+
+    t1 = pdc.converting_pdf_to_table_data('./raw_datas/2079_data/report1.pdf', 38+9)
+    t2 = pdc.converting_pdf_to_table_data('./raw_datas/2079_data/report1.pdf', 39+9)
+
+    table1 = pdc.filtering_needed_data(t1, 
+    ['1',	'ARGHAKHANCHI',	'1,705',	'130',	'16',	'123.08'],
+    ['16',	'KASKI',	'4,305',	'169',	'21',	'124.26'],
+    6)  
+
+    table2 = pdc.filtering_needed_data(t1, 
+    ['18',	'KHOTANG',	'255',	'34',	'1.4',	'41.18'],
+    ['29',	'PARBAT',	'1,840',	'127',	'12.5',	'98.43'],
+    6)  
+
+    table3 = pdc.filtering_needed_data(t2, 
+    ['30',	'PYUTHAN',	'175',	'37',	'4.5',	'121.62'],
+    ['44',	'UDAYAPUR',	'92',	'15',	'1.2',	'80.00'],
+    6)  
+
+   
+    headings = ['sno', 'District', 'plant1', 'plant2','production', 'yield']
+
+    
+    added1 = pdc.groups_to_json(groups=table1,  
+    heading = headings )
+    added2 = pdc.groups_to_json(groups=table2,  
+    heading = headings )
+    added3 = pdc.groups_to_json(groups=table3,  
+    heading = headings )
+
+
+
+
+    data = added1+added2+added3
+    coffee_data = [{'District': entry['District'],
+                    'Coffee_yield': entry['yield']
+                    } for entry in data]
+
+    print(coffee_data)
+    file_path1 = './raw_datas/coffee_yield2079.json'
+ 
+    with open(file_path1, 'w') as json_file:
+        json.dump(coffee_data, json_file)
+   
+    return coffee_data
+
+
+
+
+
+
 if __name__ == '__main__':
-    paddy_yield()
-    millet_barley_yield()
+    coffee_yield()
+    # paddy_yield()
+    # millet_barley_yield()
 
 
 

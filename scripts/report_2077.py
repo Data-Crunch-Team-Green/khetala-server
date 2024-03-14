@@ -302,8 +302,171 @@ def millet_barley_yield():
 
 
 
+def potato_yield():
+
+    real_pg_no1 = pdc.page_number_converter(27)
+    real_pg_no2 = pdc.page_number_converter(28)
+    real_pg_no3 = pdc.page_number_converter(29)
+    real_pg_no4 = pdc.page_number_converter(30)
+   
+    t1 = pdc.converting_pdf_to_table_data('./raw_datas/2077_data/report2077.pdf', real_pg_no1)
+    t2 = pdc.converting_pdf_to_table_data('./raw_datas/2077_data/report2077.pdf', real_pg_no2)
+    t3 = pdc.converting_pdf_to_table_data('./raw_datas/2077_data/report2077.pdf', real_pg_no3)
+    t4 = pdc.converting_pdf_to_table_data('./raw_datas/2077_data/report2077.pdf', real_pg_no4)
+
+    table1 = pdc.filtering_needed_data(t1, 
+    ['1',	'TAPLEJUNG',	'441',	'521',	'1.18',	'2',	'74',	'37.00',	'2,155',	'38,734',	'17.97'],
+    ['1',	'SUNSARI',	'10,904',	'16,895',	'1.55',	'4,912',	'254,785',	'51.87',	'4,015',	'65,223',	'16.24'],
+    11)  
+    table2 = pdc.filtering_needed_data(t1, 
+    ['2',	'SAPTARI',	'6,233',	'6,360',	'1.02',	'201',	'8,040',	'40.00',	'4,205',	'64,374',	'15.31'],
+    ['2',	'RAUTAHAT',	'8,376',	'9,000',	'1.07',	'7,112',	'342,585',	'48.17',	'2,817',	'49,952',	'17.73'],
+    11)
+    table3 = pdc.filtering_needed_data(t2, 
+    ['2',	'BARA',	'4,751',	'5,162',	'1.09',	'2,890',	'143,917',	'49.80',	'4,194',	'63,873',	'15.23'],
+    ['2',	'PARSA',	'9,670',	'10,338',	'1.07',	'1,045',	'49,115',	'47.00',	'3,128',	'49,621',	'15.86'],
+    11)  
+    table4 = pdc.filtering_needed_data(t2, 
+    ['Bagmati',	'DOLAKHA',	'350',	'297',	'0.85',	'4',	'128',	'32.00',	'2,503',	'42,849',	'17.12'],
+    ['Bagmati',	'KAVRE',	'933',	'946',	'1.01',	'15',	'615',	'41.00',	'8,169',	'145,103',	'17.76'],
+    11)  
+    table5 = pdc.filtering_needed_data(t2, 
+    ['Bagmati',	'LALITPUR',	'9',	'9',	'1.06',	'12',	'456',	'38.00',	'2,291',	'46,401',	'20.25'],
+    ['Bagmati',	'CHITWAN',	'12,861',	'12,783',	'0.99',	'32',	'1,440',	'45.00',	'2,019',	'41,829',	'20.72'],
+    11)
+    table6 = pdc.filtering_needed_data(t2, 
+    ['Gandaki',	'MANANG',	'5',	'4',	'0.80',	'-',	'-',	'-',	'366',	'6,804',	'18.59'],
+    ['Gandaki',	'LAMJUNG',	'1,178',	'1,107',	'0.94',	'20',	'840',	'42.00',	'2,105',	'31,757',	'15.09'],
+    11)
+    table7 = pdc.filtering_needed_data(t3, 
+    ['Gandaki',	'TANAHU',	'606',	'720',	'1.19',	'23',	'989',	'43.00',	'2,197',	'33,927',	'15.44'],
+    ['Gandaki',	'NAWALPARASI EAST',	'4,327',	'4,871',	'1.13',	'238',	'10,829',	'45.50',	'2,187',	'35,982',	'16.45'],
+    11)
+    table8 = pdc.filtering_needed_data(t3, 
+    ['Lumbini',	'PALPA',	'1,191',	'1,103',	'0.93',	'15',	'705',	'47.00',	'865',	'14,701',	'17.00'],
+    ['Lumbini',	'ROLPA',	'382',	'375',	'0.98',	'2',	'78',	'39.00',	'1,398',	'23,405',	'16.74'],
+    11)
+    table9 = pdc.filtering_needed_data(t4, 
+    ['Karnali',	'DOLPA',	'25',	'24',	'0.96',	'-',	'-',	'-',	'943',	'15,804',	'16.76'],
+    ['Karnali',	'SURKHET',	'12,796',	'9,903',	'0.77',	'32',	'1,248',	'39.00',	'2,476',	'39,991',	'16.15'],
+    11)
+    table10 = pdc.filtering_needed_data(t4, 
+    ['Sudurpashchim',	'BAJURA',	'256',	'158',	'0.62',	'5',	'228',	'46.00',	'1,304',	'20,784',	'15.94'],
+    ['Sudurpashchim',	'KANCHANPUR',	'8,609',	'8,767',	'1.02',	'10,042',	'485,838',	'48.38',	'1,983',	'35,643',	'17.97'],
+    11)
+    
+    headings = ['Province', 'District', 'OilArea', 'OilProduction', 'OilYield', 'sArea', 'sProduction', 'sYield', 'PArea', 'PProduction', 'PYield']
+
+    # paddy_heading = ['Province', 'District', 'MArea', 'MProduction', 'MYield', 'BArea', 'BProduction', 'BYield', 'BarArea', 'BarProduction', 'BarYield']
+    added1 = pdc.groups_to_json(groups=table1,  
+    heading = headings )
+    added2 = pdc.groups_to_json(groups=table2,  
+    heading = headings )
+    added3 = pdc.groups_to_json(groups=table3,  
+    heading = headings )
+    added4 = pdc.groups_to_json(groups=table4,  
+    heading = headings )
+    added5 = pdc.groups_to_json(groups=table5,  
+    heading = headings )
+    added6 = pdc.groups_to_json(groups=table6,  
+    heading = headings )
+    added7 = pdc.groups_to_json(groups=table7,  
+    heading = headings )
+    added8 = pdc.groups_to_json(groups=table8,  
+    heading = headings )
+    added9 = pdc.groups_to_json(groups=table9,  
+    heading = headings )
+    added10 = pdc.groups_to_json(groups=table10,  
+    heading = headings )
+
+
+
+    data = added1+added2+added3+added4+added5+added6+added7+added8+added9+added10
+    potato_data = [{'District': entry['District'],
+                    'Potato_yield': entry['PYield']
+                    } for entry in data]
+
+    print(potato_data)
+    file_path1 = './raw_datas/r_potato_yield2076.json'
+ 
+    with open(file_path1, 'w') as json_file:
+        json.dump(potato_data, json_file)
+   
+    return potato_data
+
+
+
+
+def coffee_yield():
+
+    # real_pg_no1 = pdc.page_number_converter(41)
+   
+   
+    t1 = pdc.converting_pdf_to_table_data('./raw_datas/2077_data/report2077.pdf', 49)
+    t2 = pdc.converting_pdf_to_table_data('./raw_datas/2077_data/report2077.pdf', 50)
+
+    table1 = pdc.filtering_needed_data(t1, 
+    ['1','Province 1',	'BHOJPUR',	'7',	'3',	'10',	'2.0',	'166'],
+    ['12', 'Province 1',	'UDAYPUR',	'3',	'2',	'5',	'1.5',	'23'],
+    8)  
+
+    table2 = pdc.filtering_needed_data(t1, 
+    ['13',	'Bagmati',	'CHITWAN',	'5',	'2',	'7',	'3.5',	'25'],
+    ['23',	'Bagmati',	'SINDHUPALCHOWK',	'23',	'15',	'38',	'15.0',	'1596'],
+    8)  
+
+    table3 = pdc.filtering_needed_data(t2, 
+    ['25',	'Gandaki',	'GORKHA',	'27',	'35',	'62',	'8.0',	'685'],
+    ['32',	'Gandaki',	'TANAHU',	'26',	'6',	'32',	'6.5',	'526'],   
+    8                        
+    )
+
+    table4 = pdc.filtering_needed_data(t2, 
+    ['33',	'Lumbini',	'ARGHAKHACHI',	'108',	'4',	'112',	'8.0',	'1585'],
+    ['38',	'Lumbini',	'RUKUM EAST',	'1',	'0',	'1',	'0.5',	'8'],     
+    8                      
+    )
+    
+
+    table5 = pdc.filtering_needed_data(t2, 
+    ['39',	'Karnali',	'DAILEKH',	'2',	'0',	'2',	'1.5',	'15'],
+    ['42',	'Karnali',	'SURKHET',	'4',	'0',	'4',	'0.5',	'25'],     
+    8                      
+    )
+
+   
+    headings = ['sno', 'province', 'District', 'plant1', 'plant2', 'total_plantation', 'production', 'farmer']
+
+    
+    added1 = pdc.groups_to_json(groups=table1,  
+    heading = headings )
+    added2 = pdc.groups_to_json(groups=table2,  
+    heading = headings )
+    added3 = pdc.groups_to_json(groups=table3,  
+    heading = headings )
+    added4 = pdc.groups_to_json(groups=table4,  
+    heading = headings )
+    added5 = pdc.groups_to_json(groups=table5,  
+    heading = headings )
+
+
+
+    data = added1+added2+added3+added4+added5
+    coffee_data = [{'District': entry['District'],
+                    'Coffee_yield': round((float(entry['production'])/float(entry['total_plantation']))*1000,2)
+                    } for entry in data]
+
+    print(coffee_data)
+    file_path1 = './raw_datas/coffee_yield2077.json'
+ 
+    with open(file_path1, 'w') as json_file:
+        json.dump(coffee_data, json_file)
+   
+    return coffee_data
+
+
 
 if __name__ == '__main__':
-    millet_barley_yield()
+    coffee_yield()
     # wheat_maize_yield()
     # paddy_yield()
