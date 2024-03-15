@@ -1,5 +1,8 @@
 # khetala-server
 
+The user interface of this project is here:
+<a href="https://github.com/Data-Crunch-Team-Green/Khetala-ui">link</a>
+
 ## Running the server
 Clone the repo:
 ``` sh
@@ -16,5 +19,7 @@ Run the server
 $ uvicorn main:app --reload
 ```
 The Uvicorn server runs on http://127.0.0.1:8000
+
+
 
 
