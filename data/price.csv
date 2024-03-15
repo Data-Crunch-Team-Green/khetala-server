@@ -19,10 +19,10 @@ wheat,Producer Ppaddy Index (2014-2016 = 100),1992,1992,,17.76
 barley,Producer Ppaddy Index (2014-2016 = 100),1992,1992,,17.78
 lentil,Producer Ppaddy Index (2014-2016 = 100),1997,1997,,18
 millet,Producer Ppaddy Index (2014-2016 = 100),1993,1993,,18.1
-"jute, raw or retted",Producer Ppaddy Index (2014-2016 = 100),1992,1992,,18.63
+jute,Producer Ppaddy Index (2014-2016 = 100),1992,1992,,18.63
 jute,Producer Ppaddy Index (2014-2016 = 100),1992,1992,,18.63
 potato,Producer Ppaddy Index (2014-2016 = 100),1994,1994,,18.79
-"jute, raw or retted",Producer Ppaddy Index (2014-2016 = 100),1993,1993,,18.87
+jute,Producer Ppaddy Index (2014-2016 = 100),1993,1993,,18.87
 jute,Producer Ppaddy Index (2014-2016 = 100),1993,1993,,18.87
 potato,Producer Ppaddy Index (2014-2016 = 100),1995,1995,,19.85
 paddy,Producer Ppaddy Index (2014-2016 = 100),1992,1992,,20.3
@@ -36,9 +36,9 @@ wheat,Producer Ppaddy Index (2014-2016 = 100),1994,1994,,21.04
 barley,Producer Ppaddy Index (2014-2016 = 100),1994,1994,,21.06
 wheat,Producer Ppaddy Index (2014-2016 = 100),1995,1995,,21.4
 barley,Producer Ppaddy Index (2014-2016 = 100),1995,1995,,21.42
-"jute, raw or retted",Producer Ppaddy Index (2014-2016 = 100),1994,1994,,21.86
 jute,Producer Ppaddy Index (2014-2016 = 100),1994,1994,,21.86
-"jute, raw or retted",Producer Ppaddy Index (2014-2016 = 100),1991,1991,,22.28
+jute,Producer Ppaddy Index (2014-2016 = 100),1994,1994,,21.86
+jute,Producer Ppaddy Index (2014-2016 = 100),1991,1991,,22.28
 jute,Producer Ppaddy Index (2014-2016 = 100),1991,1991,,22.28
 paddy,Producer Ppaddy Index (2014-2016 = 100),1993,1993,,22.88
 millet,Producer Ppaddy Index (2014-2016 = 100),1995,1995,,22.96
@@ -46,7 +46,7 @@ paddy,Producer Ppaddy Index (2014-2016 = 100),1994,1994,,23.16
 potato,Producer Ppaddy Index (2014-2016 = 100),1997,1997,,23.59
 lentil,Producer Ppaddy Index (2014-2016 = 100),1998,1998,,24.01
 lentil,Producer Ppaddy Index (2014-2016 = 100),1999,1999,,24.01
-"jute, raw or retted",Producer Ppaddy Index (2014-2016 = 100),1995,1995,,24.86
+jute,Producer Ppaddy Index (2014-2016 = 100),1995,1995,,24.86
 jute,Producer Ppaddy Index (2014-2016 = 100),1995,1995,,24.86
 maize,Producer Ppaddy Index (2014-2016 = 100),1997,1997,,24.87
 lentil,Producer Ppaddy Index (2014-2016 = 100),2000,2000,,25.21
@@ -59,7 +59,7 @@ potato,Producer Ppaddy Index (2014-2016 = 100),2003,2003,,26.3
 lentil,Producer Ppaddy Index (2014-2016 = 100),2001,2001,,26.41
 millet,Producer Ppaddy Index (2014-2016 = 100),1996,1996,,27.08
 paddy,Producer Ppaddy Index (2014-2016 = 100),1999,1999,,27.56
-"jute, raw or retted",Producer Ppaddy Index (2014-2016 = 100),1996,1996,,27.86
+jute,Producer Ppaddy Index (2014-2016 = 100),1996,1996,,27.86
 jute,Producer Ppaddy Index (2014-2016 = 100),1996,1996,,27.86
 paddy,Producer Ppaddy Index (2014-2016 = 100),1997,1997,,28.06
 maize,Producer Ppaddy Index (2014-2016 = 100),1999,1999,,28.34
@@ -71,7 +71,7 @@ paddy,Producer Ppaddy Index (2014-2016 = 100),2001,2001,,29.65
 potato,Producer Ppaddy Index (2014-2016 = 100),2004,2004,,30.26
 millet,Producer Ppaddy Index (2014-2016 = 100),1999,1999,,30.37
 potato,Producer Ppaddy Index (2014-2016 = 100),1998,1998,,30.64
-"jute, raw or retted",Producer Ppaddy Index (2014-2016 = 100),1997,1997,,30.86
+jute,Producer Ppaddy Index (2014-2016 = 100),1997,1997,,30.86
 jute,Producer Ppaddy Index (2014-2016 = 100),1997,1997,,30.86
 wheat,Producer Ppaddy Index (2014-2016 = 100),1999,1999,,30.98
 paddy,Producer Ppaddy Index (2014-2016 = 100),1998,1998,,31.01
@@ -89,7 +89,7 @@ millet,Producer Ppaddy Index (2014-2016 = 100),1998,1998,,33.32
 millet,Producer Ppaddy Index (2014-2016 = 100),2001,2001,,33.43
 potato,Producer Ppaddy Index (2014-2016 = 100),1999,1999,,33.66
 tea,Producer Ppaddy Index (2014-2016 = 100),1993,1993,,33.68
-"jute, raw or retted",Producer Ppaddy Index (2014-2016 = 100),1998,1998,,33.86
+jute,Producer Ppaddy Index (2014-2016 = 100),1998,1998,,33.86
 jute,Producer Ppaddy Index (2014-2016 = 100),1998,1998,,33.86
 paddy,Producer Ppaddy Index (2014-2016 = 100),2000,2000,,34.1
 potato,Producer Ppaddy Index (2014-2016 = 100),2001,2001,,34.23
@@ -116,7 +116,7 @@ maize,Producer Ppaddy Index (2014-2016 = 100),2005,2005,,36.07
 tea,Producer Ppaddy Index (2014-2016 = 100),1996,1996,,36.25
 lentil,Producer Ppaddy Index (2014-2016 = 100),2003,2003,,36.37
 maize,Producer Ppaddy Index (2014-2016 = 100),2006,2006,,36.66
-"jute, raw or retted",Producer Ppaddy Index (2014-2016 = 100),1999,1999,,36.86
+jute,Producer Ppaddy Index (2014-2016 = 100),1999,1999,,36.86
 tea,Producer Ppaddy Index (2014-2016 = 100),2001,2001,,36.86
 jute,Producer Ppaddy Index (2014-2016 = 100),1999,1999,,36.86
 chickpeas,Producer Ppaddy Index (2014-2016 = 100),1992,1992,,36.87
@@ -134,7 +134,7 @@ potato,Producer Ppaddy Index (2014-2016 = 100),2008,2008,,39.26
 maize,Producer Ppaddy Index (2014-2016 = 100),2004,2004,,39.29
 chickpeas,Producer Ppaddy Index (2014-2016 = 100),1998,1998,,39.4
 tea,Producer Ppaddy Index (2014-2016 = 100),1991,1991,,39.77
-"jute, raw or retted",Producer Ppaddy Index (2014-2016 = 100),2000,2000,,39.86
+jute,Producer Ppaddy Index (2014-2016 = 100),2000,2000,,39.86
 jute,Producer Ppaddy Index (2014-2016 = 100),2000,2000,,39.86
 chickpeas,Producer Ppaddy Index (2014-2016 = 100),1996,1996,,40.18
 paddy,Producer Ppaddy Index (2014-2016 = 100),2005,2005,,40.18
@@ -184,22 +184,22 @@ cotton,Producer Ppaddy Index (2014-2016 = 100),1995,1995,,51.94
 coffee,Producer Ppaddy Index (2014-2016 = 100),1992,1992,,51.97
 cotton seed,Producer Ppaddy Index (2014-2016 = 100),1996,1996,,52.02
 cotton,Producer Ppaddy Index (2014-2016 = 100),1999,1999,,52.18
-"jute, raw or retted",Producer Ppaddy Index (2014-2016 = 100),2001,2001,,52.21
-"jute, raw or retted",Producer Ppaddy Index (2014-2016 = 100),2002,2002,,52.21
+jute,Producer Ppaddy Index (2014-2016 = 100),2001,2001,,52.21
+jute,Producer Ppaddy Index (2014-2016 = 100),2002,2002,,52.21
 jute,Producer Ppaddy Index (2014-2016 = 100),2001,2001,,52.21
 jute,Producer Ppaddy Index (2014-2016 = 100),2002,2002,,52.21
 potato,Producer Ppaddy Index (2014-2016 = 100),2006,2006,,52.54
 coffee,Producer Ppaddy Index (2014-2016 = 100),1993,1993,,52.62
 cotton seed,Producer Ppaddy Index (2014-2016 = 100),2001,2001,,52.88
-"jute, raw or retted",Producer Ppaddy Index (2014-2016 = 100),2006,2006,,52.91
+jute,Producer Ppaddy Index (2014-2016 = 100),2006,2006,,52.91
 jute,Producer Ppaddy Index (2014-2016 = 100),2006,2006,,52.91
 cotton seed,Producer Ppaddy Index (2014-2016 = 100),1995,1995,,53.02
 cotton,Producer Ppaddy Index (2014-2016 = 100),1997,1997,,53.03
 cotton seed,Producer Ppaddy Index (2014-2016 = 100),1999,1999,,53.27
 cotton,Producer Ppaddy Index (2014-2016 = 100),2000,2000,,53.62
-"jute, raw or retted",Producer Ppaddy Index (2014-2016 = 100),2003,2003,,53.62
-"jute, raw or retted",Producer Ppaddy Index (2014-2016 = 100),2004,2004,,53.62
-"jute, raw or retted",Producer Ppaddy Index (2014-2016 = 100),2005,2005,,53.62
+jute,Producer Ppaddy Index (2014-2016 = 100),2003,2003,,53.62
+jute,Producer Ppaddy Index (2014-2016 = 100),2004,2004,,53.62
+jute,Producer Ppaddy Index (2014-2016 = 100),2005,2005,,53.62
 jute,Producer Ppaddy Index (2014-2016 = 100),2003,2003,,53.62
 jute,Producer Ppaddy Index (2014-2016 = 100),2004,2004,,53.62
 jute,Producer Ppaddy Index (2014-2016 = 100),2005,2005,,53.62
@@ -226,7 +226,7 @@ coffee,Producer Ppaddy Index (2014-2016 = 100),1997,1997,,58.95
 maize,Producer Ppaddy Index (2014-2016 = 100),2009,2009,,59.2
 coffee,Producer Ppaddy Index (2014-2016 = 100),2000,2000,,59.61
 tea,Producer Ppaddy Index (2014-2016 = 100),2008,2008,,59.66
-"jute, raw or retted",Producer Ppaddy Index (2014-2016 = 100),2007,2007,,60.32
+jute,Producer Ppaddy Index (2014-2016 = 100),2007,2007,,60.32
 jute,Producer Ppaddy Index (2014-2016 = 100),2007,2007,,60.32
 tea,Producer Ppaddy Index (2014-2016 = 100),2009,2009,,60.41
 potato,Producer Ppaddy Index (2014-2016 = 100),2007,2007,,60.62
@@ -234,7 +234,7 @@ potato,Producer Ppaddy Index (2014-2016 = 100),2009,2009,,60.62
 cotton,Producer Ppaddy Index (2014-2016 = 100),2010,2010,,60.8
 coffee,Producer Ppaddy Index (2014-2016 = 100),2002,2002,,60.98
 coffee,Producer Ppaddy Index (2014-2016 = 100),2003,2003,,60.98
-"jute, raw or retted",Producer Ppaddy Index (2014-2016 = 100),2008,2008,,61.73
+jute,Producer Ppaddy Index (2014-2016 = 100),2008,2008,,61.73
 jute,Producer Ppaddy Index (2014-2016 = 100),2008,2008,,61.73
 wheat,Producer Ppaddy Index (2014-2016 = 100),2009,2009,,61.94
 barley,Producer Ppaddy Index (2014-2016 = 100),2009,2009,,61.99
@@ -258,13 +258,13 @@ cotton seed,Producer Ppaddy Index (2014-2016 = 100),2002,2002,,67.48
 coffee,Producer Ppaddy Index (2014-2016 = 100),2006,2006,,68.04
 paddy,Producer Ppaddy Index (2014-2016 = 100),2009,2009,,68.39
 cotton,Producer Ppaddy Index (2014-2016 = 100),2005,2005,,69.75
-"jute, raw or retted",Producer Ppaddy Index (2014-2016 = 100),2011,2011,,70.68
+jute,Producer Ppaddy Index (2014-2016 = 100),2011,2011,,70.68
 jute,Producer Ppaddy Index (2014-2016 = 100),2011,2011,,70.68
 cotton seed,Producer Ppaddy Index (2014-2016 = 100),2005,2005,,71.2
 wheat,Producer Ppaddy Index (2014-2016 = 100),2010,2010,,72.04
 coffee,Producer Ppaddy Index (2014-2016 = 100),2007,2007,,72.13
 tea,Producer Ppaddy Index (2014-2016 = 100),2011,2011,,72.5
-"jute, raw or retted",Producer Ppaddy Index (2014-2016 = 100),2009,2009,,72.6
+jute,Producer Ppaddy Index (2014-2016 = 100),2009,2009,,72.6
 jute,Producer Ppaddy Index (2014-2016 = 100),2009,2009,,72.6
 coffee,Producer Ppaddy Index (2014-2016 = 100),2009,2009,,73.17
 coffee,Producer Ppaddy Index (2014-2016 = 100),2010,2010,,73.17
@@ -280,8 +280,8 @@ paddy,Producer Ppaddy Index (2014-2016 = 100),2011,2011,,77.16
 coffee,Producer Ppaddy Index (2014-2016 = 100),2013,2013,,77.19
 tea,Producer Ppaddy Index (2014-2016 = 100),2013,2013,,77.19
 cotton,Producer Ppaddy Index (2014-2016 = 100),2013,2013,,78
-"jute, raw or retted",Producer Ppaddy Index (2014-2016 = 100),2012,2012,,78
-"jute, raw or retted",Producer Ppaddy Index (2014-2016 = 100),2013,2013,,78
+jute,Producer Ppaddy Index (2014-2016 = 100),2012,2012,,78
+jute,Producer Ppaddy Index (2014-2016 = 100),2013,2013,,78
 jute,Producer Ppaddy Index (2014-2016 = 100),2012,2012,,78
 jute,Producer Ppaddy Index (2014-2016 = 100),2013,2013,,78
 barley,Producer Ppaddy Index (2014-2016 = 100),2010,2010,,78.34
@@ -290,7 +290,7 @@ potato,Producer Ppaddy Index (2014-2016 = 100),2010,2010,,78.8
 maize,Producer Ppaddy Index (2014-2016 = 100),2011,2011,,78.95
 wheat,Producer Ppaddy Index (2014-2016 = 100),2012,2012,,79.03
 paddy,Producer Ppaddy Index (2014-2016 = 100),2012,2012,,79.44
-"jute, raw or retted",Producer Ppaddy Index (2014-2016 = 100),2010,2010,,79.49
+jute,Producer Ppaddy Index (2014-2016 = 100),2010,2010,,79.49
 jute,Producer Ppaddy Index (2014-2016 = 100),2010,2010,,79.49
 cotton seed,Producer Ppaddy Index (2014-2016 = 100),2012,2012,,79.62
 cotton seed,Producer Ppaddy Index (2014-2016 = 100),2013,2013,,79.62
@@ -315,7 +315,7 @@ cotton,Producer Ppaddy Index (2014-2016 = 100),2008,2008,,89.22
 coffee,Producer Ppaddy Index (2014-2016 = 100),2014,2014,,89.31
 tea,Producer Ppaddy Index (2014-2016 = 100),2014,2014,,89.31
 cotton,Producer Ppaddy Index (2014-2016 = 100),2014,2014,,89.69
-"jute, raw or retted",Producer Ppaddy Index (2014-2016 = 100),2014,2014,,89.69
+jute,Producer Ppaddy Index (2014-2016 = 100),2014,2014,,89.69
 jute,Producer Ppaddy Index (2014-2016 = 100),2014,2014,,89.69
 cotton seed,Producer Ppaddy Index (2014-2016 = 100),2008,2008,,91.08
 cotton seed,Producer Ppaddy Index (2014-2016 = 100),2014,2014,,91.57
@@ -357,7 +357,7 @@ paddy,Producer Ppaddy Index (2014-2016 = 100),2018,2018,,101.49
 maize,Producer Ppaddy (USD/tonne),1992,1992,USD,102.4
 cotton seed,Producer Ppaddy Index (2014-2016 = 100),2016,2016,,103.13
 cotton,Producer Ppaddy Index (2014-2016 = 100),2015,2015,,103.15
-"jute, raw or retted",Producer Ppaddy Index (2014-2016 = 100),2015,2015,,103.15
+jute,Producer Ppaddy Index (2014-2016 = 100),2015,2015,,103.15
 jute,Producer Ppaddy Index (2014-2016 = 100),2015,2015,,103.15
 coffee,Producer Ppaddy Index (2014-2016 = 100),2015,2015,,103.34
 tea,Producer Ppaddy Index (2014-2016 = 100),2015,2015,,103.34
@@ -380,7 +380,7 @@ maize,Producer Ppaddy (USD/tonne),1998,1998,USD,106.3
 paddy,Producer Ppaddy (USD/tonne),1995,1995,USD,106.8
 cotton seed,Producer Ppaddy Index (2014-2016 = 100),2009,2009,,107.11
 cotton,Producer Ppaddy Index (2014-2016 = 100),2016,2016,,107.16
-"jute, raw or retted",Producer Ppaddy Index (2014-2016 = 100),2016,2016,,107.16
+jute,Producer Ppaddy Index (2014-2016 = 100),2016,2016,,107.16
 jute,Producer Ppaddy Index (2014-2016 = 100),2016,2016,,107.16
 coffee,Producer Ppaddy Index (2014-2016 = 100),2016,2016,,107.35
 tea,Producer Ppaddy Index (2014-2016 = 100),2016,2016,,107.35
@@ -390,7 +390,7 @@ lentil,Producer Ppaddy Index (2014-2016 = 100),2022,2022,,109.34
 millet,Producer Ppaddy Index (2014-2016 = 100),2018,2018,,110.06
 paddy,Producer Ppaddy Index (2014-2016 = 100),2019,2019,,110.26
 cotton,Producer Ppaddy Index (2014-2016 = 100),2017,2017,,110.83
-"jute, raw or retted",Producer Ppaddy Index (2014-2016 = 100),2017,2017,,110.83
+jute,Producer Ppaddy Index (2014-2016 = 100),2017,2017,,110.83
 jute,Producer Ppaddy Index (2014-2016 = 100),2017,2017,,110.83
 coffee,Producer Ppaddy Index (2014-2016 = 100),2017,2017,,111
 tea,Producer Ppaddy Index (2014-2016 = 100),2017,2017,,111
@@ -461,7 +461,7 @@ barley,Producer Ppaddy Index (2014-2016 = 100),2020,2020,,129.7
 wheat,Producer Ppaddy (USD/tonne),2003,2003,USD,129.8
 wheat,Producer Ppaddy (USD/tonne),2001,2001,USD,130.6
 paddy,Producer Ppaddy Index (2014-2016 = 100),2021,2021,,130.82
-"jute, raw or retted",Producer Ppaddy Index (2014-2016 = 100),2018,2018,,131.1
+jute,Producer Ppaddy Index (2014-2016 = 100),2018,2018,,131.1
 jute,Producer Ppaddy Index (2014-2016 = 100),2018,2018,,131.1
 cotton seed,Producer Ppaddy Index (2014-2016 = 100),2022,2022,,131.83
 potato,Producer Ppaddy (USD/tonne),2001,2001,USD,132.3
@@ -479,7 +479,7 @@ cotton seed,Producer Ppaddy Index (2014-2016 = 100),2019,2019,,135.99
 wheat,Producer Ppaddy (USD/tonne),1997,1997,USD,136.2
 maize,Producer Ppaddy (USD/tonne),1995,1995,USD,136.4
 millet,Producer Ppaddy (USD/tonne),2002,2002,USD,136.8
-"jute, raw or retted",Producer Ppaddy Index (2014-2016 = 100),2020,2020,,137.61
+jute,Producer Ppaddy Index (2014-2016 = 100),2020,2020,,137.61
 jute,Producer Ppaddy Index (2014-2016 = 100),2020,2020,,137.61
 millet,Producer Ppaddy (USD/tonne),2001,2001,USD,137.9
 maize,Producer Ppaddy (USD/tonne),2006,2006,USD,139
@@ -491,7 +491,7 @@ cotton,Producer Ppaddy Index (2014-2016 = 100),2022,2022,,141.02
 millet,Producer Ppaddy (USD/tonne),2003,2003,USD,142.6
 millet,Producer Ppaddy Index (2014-2016 = 100),2022,2022,,142.73
 potato,Producer Ppaddy (USD/tonne),1999,1999,USD,142.9
-"jute, raw or retted",Producer Ppaddy Index (2014-2016 = 100),2019,2019,,144.02
+jute,Producer Ppaddy Index (2014-2016 = 100),2019,2019,,144.02
 jute,Producer Ppaddy Index (2014-2016 = 100),2019,2019,,144.02
 wheat,Producer Ppaddy (USD/tonne),2004,2004,USD,145.9
 maize,Producer Ppaddy (USD/tonne),2004,2004,USD,147.1
@@ -502,7 +502,7 @@ barley,Producer Ppaddy Index (2014-2016 = 100),2022,2022,,150.6
 paddy,Producer Ppaddy (USD/tonne),2005,2005,USD,150.9
 millet,Producer Ppaddy Index (2014-2016 = 100),2021,2021,,154.85
 maize,Producer Ppaddy (USD/tonne),1996,1996,USD,157.3
-"jute, raw or retted",Producer Ppaddy (USD/tonne),1993,1993,USD,159.2
+jute,Producer Ppaddy (USD/tonne),1993,1993,USD,159.2
 potato,Producer Ppaddy (USD/tonne),2008,2008,USD,163
 potato,Producer Ppaddy (USD/tonne),2005,2005,USD,163.2
 tea,Producer Ppaddy Index (2014-2016 = 100),2022,2022,,164.08
@@ -528,9 +528,9 @@ barley,Producer Ppaddy (USD/tonne),2021,2021,USD,220.1
 barley,Producer Ppaddy (USD/tonne),2008,2008,USD,220.5
 wheat,Producer Ppaddy (USD/tonne),2008,2008,USD,220.5
 potato,Producer Ppaddy (USD/tonne),2009,2009,USD,226.3
-"jute, raw or retted",Producer Ppaddy Index (2014-2016 = 100),2022,2022,,227.82
 jute,Producer Ppaddy Index (2014-2016 = 100),2022,2022,,227.82
-"jute, raw or retted",Producer Ppaddy Index (2014-2016 = 100),2021,2021,,230.04
+jute,Producer Ppaddy Index (2014-2016 = 100),2022,2022,,227.82
+jute,Producer Ppaddy Index (2014-2016 = 100),2021,2021,,230.04
 jute,Producer Ppaddy Index (2014-2016 = 100),2021,2021,,230.04
 paddy,Producer Ppaddy (USD/tonne),2009,2009,USD,236.3
 lentil,Producer Ppaddy (USD/tonne),1992,1992,USD,237.8
@@ -574,7 +574,7 @@ maize,Producer Ppaddy (USD/tonne),2020,2020,USD,272.1
 wheat,Producer Ppaddy (USD/tonne),2015,2015,USD,272.2
 maize,Producer Ppaddy (USD/tonne),2015,2015,USD,273.4
 potato,Producer Ppaddy (USD/tonne),2020,2020,USD,273.4
-"jute, raw or retted",Producer Ppaddy (USD/tonne),2002,2002,USD,275.1
+jute,Producer Ppaddy (USD/tonne),2002,2002,USD,275.1
 maize,Producer Ppaddy (USD/tonne),2017,2017,USD,275.6
 wheat,Producer Ppaddy (USD/tonne),2018,2018,USD,275.7
 maize,Producer Ppaddy (USD/tonne),2022,2022,USD,276.8
@@ -586,11 +586,11 @@ potato,Producer Ppaddy (USD/tonne),2022,2022,USD,279.6
 potato,Producer Ppaddy (USD/tonne),2016,2016,USD,282
 potato,Producer Ppaddy (USD/tonne),2012,2012,USD,284.6
 wheat,Producer Ppaddy (USD/tonne),2019,2019,USD,285
-"jute, raw or retted",Producer Ppaddy (USD/tonne),2001,2001,USD,285.8
+jute,Producer Ppaddy (USD/tonne),2001,2001,USD,285.8
 barley,Producer Ppaddy (USD/tonne),2019,2019,USD,286.2
 paddy,Producer Ppaddy (USD/tonne),2022,2022,USD,286.8
 potato,Producer Ppaddy (USD/tonne),2015,2015,USD,287
-"jute, raw or retted",Producer Ppaddy (USD/tonne),2003,2003,USD,288.9
+jute,Producer Ppaddy (USD/tonne),2003,2003,USD,288.9
 maize,Producer Ppaddy (USD/tonne),2010,2010,USD,289
 millet,Producer Ppaddy (USD/tonne),2013,2013,USD,289
 wheat,Producer Ppaddy (USD/tonne),2011,2011,USD,292.2
@@ -606,8 +606,8 @@ lentil,Producer Ppaddy (USD/tonne),2000,2000,USD,295.4
 maize,Producer Ppaddy (USD/tonne),2021,2021,USD,295.8
 paddy,Producer Ppaddy (USD/tonne),2021,2021,USD,296.8
 millet,Producer Ppaddy (USD/tonne),2014,2014,USD,297.8
-"jute, raw or retted",Producer Ppaddy (USD/tonne),2006,2006,USD,298.4
-"jute, raw or retted",Producer Ppaddy (USD/tonne),2004,2004,USD,298.6
+jute,Producer Ppaddy (USD/tonne),2006,2006,USD,298.4
+jute,Producer Ppaddy (USD/tonne),2004,2004,USD,298.6
 barley,Producer Ppaddy (USD/tonne),2011,2011,USD,300.6
 barley,Producer Ppaddy (USD/tonne),2020,2020,USD,300.8
 millet,Producer Ppaddy (USD/tonne),2016,2016,USD,301.1
@@ -616,7 +616,7 @@ barley,Producer Ppaddy (USD/tonne),2018,2018,USD,303.5
 millet,Producer Ppaddy (USD/tonne),2015,2015,USD,306.4
 potato,Producer Ppaddy (USD/tonne),2021,2021,USD,307.8
 wheat,Producer Ppaddy (USD/tonne),2021,2021,USD,307.9
-"jute, raw or retted",Producer Ppaddy (USD/tonne),2005,2005,USD,308.3
+jute,Producer Ppaddy (USD/tonne),2005,2005,USD,308.3
 millet,Producer Ppaddy (USD/tonne),2020,2020,USD,309
 tea,Producer Ppaddy (USD/tonne),2005,2005,USD,310.8
 potato,Producer Ppaddy (USD/tonne),2010,2010,USD,311.5
@@ -626,30 +626,30 @@ millet,Producer Ppaddy (USD/tonne),2017,2017,USD,313
 potato,Producer Ppaddy (USD/tonne),2011,2011,USD,322.3
 tea,Producer Ppaddy (USD/tonne),2006,2006,USD,329.9
 barley,Producer Ppaddy (USD/tonne),2022,2022,USD,330.2
-"jute, raw or retted",Producer Ppaddy (USD/tonne),2013,2013,USD,343.8
+jute,Producer Ppaddy (USD/tonne),2013,2013,USD,343.8
 tea,Producer Ppaddy (USD/tonne),2009,2009,USD,348.1
 millet,Producer Ppaddy (USD/tonne),2022,2022,USD,352.5
-"jute, raw or retted",Producer Ppaddy (USD/tonne),2008,2008,USD,363.1
+jute,Producer Ppaddy (USD/tonne),2008,2008,USD,363.1
 tea,Producer Ppaddy (USD/tonne),2013,2013,USD,370.6
-"jute, raw or retted",Producer Ppaddy (USD/tonne),2007,2007,USD,372.6
-"jute, raw or retted",Producer Ppaddy (USD/tonne),2012,2012,USD,375.5
-"jute, raw or retted",Producer Ppaddy (USD/tonne),2014,2014,USD,377.2
+jute,Producer Ppaddy (USD/tonne),2007,2007,USD,372.6
+jute,Producer Ppaddy (USD/tonne),2012,2012,USD,375.5
+jute,Producer Ppaddy (USD/tonne),2014,2014,USD,377.2
 tea,Producer Ppaddy (USD/tonne),2008,2008,USD,382.2
 tea,Producer Ppaddy (USD/tonne),2007,2007,USD,383
-"jute, raw or retted",Producer Ppaddy (USD/tonne),2009,2009,USD,384
-"jute, raw or retted",Producer Ppaddy (USD/tonne),2011,2011,USD,391.8
+jute,Producer Ppaddy (USD/tonne),2009,2009,USD,384
+jute,Producer Ppaddy (USD/tonne),2011,2011,USD,391.8
 tea,Producer Ppaddy (USD/tonne),2012,2012,USD,393.1
 tea,Producer Ppaddy (USD/tonne),2010,2010,USD,395.8
 lentil,Producer Ppaddy (USD/tonne),2003,2003,USD,397.9
 millet,Producer Ppaddy (USD/tonne),2021,2021,USD,405.3
 tea,Producer Ppaddy (USD/tonne),2018,2018,USD,407
 tea,Producer Ppaddy (USD/tonne),2014,2014,USD,409.2
-"jute, raw or retted",Producer Ppaddy (USD/tonne),2016,2016,USD,409.4
-"jute, raw or retted",Producer Ppaddy (USD/tonne),2015,2015,USD,413.3
-"jute, raw or retted",Producer Ppaddy (USD/tonne),2017,2017,USD,435.1
+jute,Producer Ppaddy (USD/tonne),2016,2016,USD,409.4
+jute,Producer Ppaddy (USD/tonne),2015,2015,USD,413.3
+jute,Producer Ppaddy (USD/tonne),2017,2017,USD,435.1
 tea,Producer Ppaddy (USD/tonne),2011,2011,USD,437.7
 chickpeas,Producer Ppaddy (USD/tonne),2002,2002,USD,442.7
-"jute, raw or retted",Producer Ppaddy (USD/tonne),2010,2010,USD,445.2
+jute,Producer Ppaddy (USD/tonne),2010,2010,USD,445.2
 tea,Producer Ppaddy (USD/tonne),2016,2016,USD,446.8
 tea,Producer Ppaddy (USD/tonne),2015,2015,USD,451
 tea,Producer Ppaddy (USD/tonne),2019,2019,USD,454
@@ -657,11 +657,11 @@ chickpeas,Producer Ppaddy (USD/tonne),2001,2001,USD,454.1
 chickpeas,Producer Ppaddy (USD/tonne),2003,2003,USD,456.9
 tea,Producer Ppaddy (USD/tonne),2017,2017,USD,474.7
 lentil,Producer Ppaddy (USD/tonne),2002,2002,USD,475.1
-"jute, raw or retted",Producer Ppaddy (USD/tonne),2020,2020,USD,477.1
-"jute, raw or retted",Producer Ppaddy (USD/tonne),2018,2018,USD,493.8
+jute,Producer Ppaddy (USD/tonne),2020,2020,USD,477.1
+jute,Producer Ppaddy (USD/tonne),2018,2018,USD,493.8
 chickpeas,Producer Ppaddy (USD/tonne),2004,2004,USD,496.6
 tea,Producer Ppaddy (USD/tonne),2020,2020,USD,508.1
-"jute, raw or retted",Producer Ppaddy (USD/tonne),2019,2019,USD,524.7
+jute,Producer Ppaddy (USD/tonne),2019,2019,USD,524.7
 chickpeas,Producer Ppaddy (USD/tonne),2005,2005,USD,532.9
 cotton,Producer Ppaddy (USD/tonne),2001,2001,USD,549.4
 chickpeas,Producer Ppaddy (USD/tonne),2006,2006,USD,560.7
@@ -683,7 +683,7 @@ lentil,Producer Ppaddy (USD/tonne),2022,2022,USD,727.6
 cotton,Producer Ppaddy (USD/tonne),2014,2014,USD,730.9
 chickpeas,Producer Ppaddy (USD/tonne),2007,2007,USD,737
 tea,Producer Ppaddy (USD/tonne),2021,2021,USD,741.8
-"jute, raw or retted",Producer Ppaddy (USD/tonne),2022,2022,USD,746.6
+jute,Producer Ppaddy (USD/tonne),2022,2022,USD,746.6
 lentil,Producer Ppaddy (USD/tonne),2018,2018,USD,758.2
 chickpeas,Producer Ppaddy (USD/tonne),2015,2015,USD,770.1
 lentil,Producer Ppaddy (USD/tonne),2015,2015,USD,770.1
@@ -693,7 +693,7 @@ cotton,Producer Ppaddy (USD/tonne),2016,2016,USD,793.2
 chickpeas,Producer Ppaddy (USD/tonne),2008,2008,USD,795.3
 chickpeas,Producer Ppaddy (USD/tonne),2014,2014,USD,798.8
 lentil,Producer Ppaddy (USD/tonne),2014,2014,USD,798.8
-"jute, raw or retted",Producer Ppaddy (USD/tonne),2021,2021,USD,798.9
+jute,Producer Ppaddy (USD/tonne),2021,2021,USD,798.9
 cotton,Producer Ppaddy (USD/tonne),2015,2015,USD,800.7
 cotton,Producer Ppaddy (USD/tonne),2006,2006,USD,824.7
 chickpeas,Producer Ppaddy (USD/tonne),2013,2013,USD,827.2
@@ -784,8 +784,8 @@ paddy,Producer Ppaddy (LCU/tonne),1997,1997,LCU,7520
 paddy,Producer Ppaddy (SLC/tonne),1997,1997,SLC,7520
 potato,Producer Ppaddy (LCU/tonne),2003,2003,LCU,7618
 potato,Producer Ppaddy (SLC/tonne),2003,2003,SLC,7618
-"jute, raw or retted",Producer Ppaddy (LCU/tonne),1993,1993,LCU,7740
-"jute, raw or retted",Producer Ppaddy (SLC/tonne),1993,1993,SLC,7740
+jute,Producer Ppaddy (LCU/tonne),1993,1993,LCU,7740
+jute,Producer Ppaddy (SLC/tonne),1993,1993,SLC,7740
 maize,Producer Ppaddy (LCU/tonne),1999,1999,LCU,7819
 maize,Producer Ppaddy (SLC/tonne),1999,1999,SLC,7819
 wheat,Producer Ppaddy (LCU/tonne),1998,1998,LCU,7860
@@ -934,28 +934,28 @@ maize,Producer Ppaddy (LCU/tonne),2010,2010,LCU,21170
 maize,Producer Ppaddy (SLC/tonne),2010,2010,SLC,21170
 paddy,Producer Ppaddy (LCU/tonne),2012,2012,LCU,21290
 paddy,Producer Ppaddy (SLC/tonne),2012,2012,SLC,21290
-"jute, raw or retted",Producer Ppaddy (LCU/tonne),2001,2001,LCU,21420
-"jute, raw or retted",Producer Ppaddy (LCU/tonne),2002,2002,LCU,21420
-"jute, raw or retted",Producer Ppaddy (SLC/tonne),2001,2001,SLC,21420
-"jute, raw or retted",Producer Ppaddy (SLC/tonne),2002,2002,SLC,21420
+jute,Producer Ppaddy (LCU/tonne),2001,2001,LCU,21420
+jute,Producer Ppaddy (LCU/tonne),2002,2002,LCU,21420
+jute,Producer Ppaddy (SLC/tonne),2001,2001,SLC,21420
+jute,Producer Ppaddy (SLC/tonne),2002,2002,SLC,21420
 paddy,Producer Ppaddy (LCU/tonne),2010,2010,LCU,21430
 paddy,Producer Ppaddy (SLC/tonne),2010,2010,SLC,21430
 barley,Producer Ppaddy (LCU/tonne),2010,2010,LCU,21502
 barley,Producer Ppaddy (SLC/tonne),2010,2010,SLC,21502
 wheat,Producer Ppaddy (LCU/tonne),2011,2011,LCU,21630
 wheat,Producer Ppaddy (SLC/tonne),2011,2011,SLC,21630
-"jute, raw or retted",Producer Ppaddy (LCU/tonne),2006,2006,LCU,21710
-"jute, raw or retted",Producer Ppaddy (SLC/tonne),2006,2006,SLC,21710
+jute,Producer Ppaddy (LCU/tonne),2006,2006,LCU,21710
+jute,Producer Ppaddy (SLC/tonne),2006,2006,SLC,21710
 wheat,Producer Ppaddy (LCU/tonne),2012,2012,LCU,21710
 wheat,Producer Ppaddy (SLC/tonne),2012,2012,SLC,21710
 maize,Producer Ppaddy (LCU/tonne),2011,2011,LCU,21780
 maize,Producer Ppaddy (SLC/tonne),2011,2011,SLC,21780
-"jute, raw or retted",Producer Ppaddy (LCU/tonne),2003,2003,LCU,22000
-"jute, raw or retted",Producer Ppaddy (LCU/tonne),2004,2004,LCU,22000
-"jute, raw or retted",Producer Ppaddy (LCU/tonne),2005,2005,LCU,22000
-"jute, raw or retted",Producer Ppaddy (SLC/tonne),2003,2003,SLC,22000
-"jute, raw or retted",Producer Ppaddy (SLC/tonne),2004,2004,SLC,22000
-"jute, raw or retted",Producer Ppaddy (SLC/tonne),2005,2005,SLC,22000
+jute,Producer Ppaddy (LCU/tonne),2003,2003,LCU,22000
+jute,Producer Ppaddy (LCU/tonne),2004,2004,LCU,22000
+jute,Producer Ppaddy (LCU/tonne),2005,2005,LCU,22000
+jute,Producer Ppaddy (SLC/tonne),2003,2003,SLC,22000
+jute,Producer Ppaddy (SLC/tonne),2004,2004,SLC,22000
+jute,Producer Ppaddy (SLC/tonne),2005,2005,SLC,22000
 lentil,Producer Ppaddy (LCU/tonne),2001,2001,LCU,22000
 lentil,Producer Ppaddy (SLC/tonne),2001,2001,SLC,22000
 tea,Producer Ppaddy (LCU/tonne),2005,2005,LCU,22178
@@ -982,14 +982,14 @@ tea,Producer Ppaddy (LCU/tonne),2006,2006,LCU,24000
 tea,Producer Ppaddy (SLC/tonne),2006,2006,SLC,24000
 potato,Producer Ppaddy (LCU/tonne),2012,2012,LCU,24254.7
 potato,Producer Ppaddy (SLC/tonne),2012,2012,SLC,24254.7
-"jute, raw or retted",Producer Ppaddy (LCU/tonne),2007,2007,LCU,24749
-"jute, raw or retted",Producer Ppaddy (SLC/tonne),2007,2007,SLC,24749
+jute,Producer Ppaddy (LCU/tonne),2007,2007,LCU,24749
+jute,Producer Ppaddy (SLC/tonne),2007,2007,SLC,24749
 potato,Producer Ppaddy (LCU/tonne),2013,2013,LCU,25200
 potato,Producer Ppaddy (SLC/tonne),2013,2013,SLC,25200
 paddy,Producer Ppaddy (LCU/tonne),2014,2014,LCU,25263
 paddy,Producer Ppaddy (SLC/tonne),2014,2014,SLC,25263
-"jute, raw or retted",Producer Ppaddy (LCU/tonne),2008,2008,LCU,25328.3
-"jute, raw or retted",Producer Ppaddy (SLC/tonne),2008,2008,SLC,25328.3
+jute,Producer Ppaddy (LCU/tonne),2008,2008,LCU,25328.3
+jute,Producer Ppaddy (SLC/tonne),2008,2008,SLC,25328.3
 tea,Producer Ppaddy (LCU/tonne),2007,2007,LCU,25440
 tea,Producer Ppaddy (SLC/tonne),2007,2007,SLC,25440
 barley,Producer Ppaddy (LCU/tonne),2014,2014,LCU,25790
@@ -1038,8 +1038,8 @@ maize,Producer Ppaddy (LCU/tonne),2017,2017,LCU,28807.1
 maize,Producer Ppaddy (SLC/tonne),2017,2017,SLC,28807.1
 maize,Producer Ppaddy (LCU/tonne),2016,2016,LCU,28844.6
 maize,Producer Ppaddy (SLC/tonne),2016,2016,SLC,28844.6
-"jute, raw or retted",Producer Ppaddy (LCU/tonne),2011,2011,LCU,29000
-"jute, raw or retted",Producer Ppaddy (SLC/tonne),2011,2011,SLC,29000
+jute,Producer Ppaddy (LCU/tonne),2011,2011,LCU,29000
+jute,Producer Ppaddy (SLC/tonne),2011,2011,SLC,29000
 tea,Producer Ppaddy (LCU/tonne),2010,2010,LCU,29000
 tea,Producer Ppaddy (SLC/tonne),2010,2010,SLC,29000
 barley,Producer Ppaddy (LCU/tonne),2017,2017,LCU,29039
@@ -1052,8 +1052,8 @@ potato,Producer Ppaddy (LCU/tonne),2015,2015,LCU,29393
 potato,Producer Ppaddy (SLC/tonne),2015,2015,SLC,29393
 paddy,Producer Ppaddy (LCU/tonne),2019,2019,LCU,29550
 paddy,Producer Ppaddy (SLC/tonne),2019,2019,SLC,29550
-"jute, raw or retted",Producer Ppaddy (LCU/tonne),2009,2009,LCU,29785
-"jute, raw or retted",Producer Ppaddy (SLC/tonne),2009,2009,SLC,29785
+jute,Producer Ppaddy (LCU/tonne),2009,2009,LCU,29785
+jute,Producer Ppaddy (SLC/tonne),2009,2009,SLC,29785
 wheat,Producer Ppaddy (LCU/tonne),2018,2018,LCU,30030
 wheat,Producer Ppaddy (SLC/tonne),2018,2018,SLC,30030
 potato,Producer Ppaddy (LCU/tonne),2016,2016,LCU,30286.8
@@ -1066,10 +1066,10 @@ paddy,Producer Ppaddy (LCU/tonne),2020,2020,LCU,31070
 paddy,Producer Ppaddy (SLC/tonne),2020,2020,SLC,31070
 millet,Producer Ppaddy (LCU/tonne),2015,2015,LCU,31376
 millet,Producer Ppaddy (SLC/tonne),2015,2015,SLC,31376
-"jute, raw or retted",Producer Ppaddy (LCU/tonne),2012,2012,LCU,32000
-"jute, raw or retted",Producer Ppaddy (LCU/tonne),2013,2013,LCU,32000
-"jute, raw or retted",Producer Ppaddy (SLC/tonne),2012,2012,SLC,32000
-"jute, raw or retted",Producer Ppaddy (SLC/tonne),2013,2013,SLC,32000
+jute,Producer Ppaddy (LCU/tonne),2012,2012,LCU,32000
+jute,Producer Ppaddy (LCU/tonne),2013,2013,LCU,32000
+jute,Producer Ppaddy (SLC/tonne),2012,2012,SLC,32000
+jute,Producer Ppaddy (SLC/tonne),2013,2013,SLC,32000
 wheat,Producer Ppaddy (LCU/tonne),2019,2019,LCU,32090
 wheat,Producer Ppaddy (SLC/tonne),2019,2019,SLC,32090
 maize,Producer Ppaddy (LCU/tonne),2020,2020,LCU,32200
@@ -1082,8 +1082,8 @@ potato,Producer Ppaddy (LCU/tonne),2020,2020,LCU,32350
 potato,Producer Ppaddy (SLC/tonne),2020,2020,SLC,32350
 tea,Producer Ppaddy (LCU/tonne),2011,2011,LCU,32400
 tea,Producer Ppaddy (SLC/tonne),2011,2011,SLC,32400
-"jute, raw or retted",Producer Ppaddy (LCU/tonne),2010,2010,LCU,32614.5
-"jute, raw or retted",Producer Ppaddy (SLC/tonne),2010,2010,SLC,32614.5
+jute,Producer Ppaddy (LCU/tonne),2010,2010,LCU,32614.5
+jute,Producer Ppaddy (SLC/tonne),2010,2010,SLC,32614.5
 millet,Producer Ppaddy (LCU/tonne),2017,2017,LCU,32711.5
 millet,Producer Ppaddy (SLC/tonne),2017,2017,SLC,32711.5
 barley,Producer Ppaddy (LCU/tonne),2018,2018,LCU,33060
@@ -1126,8 +1126,8 @@ chickpeas,Producer Ppaddy (LCU/tonne),2004,2004,LCU,36584
 chickpeas,Producer Ppaddy (SLC/tonne),2004,2004,SLC,36584
 wheat,Producer Ppaddy (LCU/tonne),2022,2022,LCU,36740
 wheat,Producer Ppaddy (SLC/tonne),2022,2022,SLC,36740
-"jute, raw or retted",Producer Ppaddy (LCU/tonne),2014,2014,LCU,36800
-"jute, raw or retted",Producer Ppaddy (SLC/tonne),2014,2014,SLC,36800
+jute,Producer Ppaddy (LCU/tonne),2014,2014,LCU,36800
+jute,Producer Ppaddy (SLC/tonne),2014,2014,SLC,36800
 lentil,Producer Ppaddy (LCU/tonne),2002,2002,LCU,37000
 lentil,Producer Ppaddy (SLC/tonne),2002,2002,SLC,37000
 chickpeas,Producer Ppaddy (LCU/tonne),2005,2005,LCU,38029
@@ -1140,12 +1140,12 @@ cotton,Producer Ppaddy (LCU/tonne),2001,2001,LCU,41179
 cotton,Producer Ppaddy (SLC/tonne),2001,2001,SLC,41179
 barley,Producer Ppaddy (LCU/tonne),2022,2022,LCU,41336
 barley,Producer Ppaddy (SLC/tonne),2022,2022,SLC,41336
-"jute, raw or retted",Producer Ppaddy (LCU/tonne),2015,2015,LCU,42320
-"jute, raw or retted",Producer Ppaddy (SLC/tonne),2015,2015,SLC,42320
+jute,Producer Ppaddy (LCU/tonne),2015,2015,LCU,42320
+jute,Producer Ppaddy (SLC/tonne),2015,2015,SLC,42320
 lentil,Producer Ppaddy (LCU/tonne),2004,2004,LCU,43040
 lentil,Producer Ppaddy (SLC/tonne),2004,2004,SLC,43040
-"jute, raw or retted",Producer Ppaddy (LCU/tonne),2016,2016,LCU,43964.7
-"jute, raw or retted",Producer Ppaddy (SLC/tonne),2016,2016,SLC,43964.7
+jute,Producer Ppaddy (LCU/tonne),2016,2016,LCU,43964.7
+jute,Producer Ppaddy (SLC/tonne),2016,2016,SLC,43964.7
 millet,Producer Ppaddy (LCU/tonne),2022,2022,LCU,44130
 millet,Producer Ppaddy (SLC/tonne),2022,2022,SLC,44130
 tea,Producer Ppaddy (LCU/tonne),2018,2018,LCU,44330
@@ -1154,8 +1154,8 @@ lentil,Producer Ppaddy (LCU/tonne),2005,2005,LCU,44745
 lentil,Producer Ppaddy (SLC/tonne),2005,2005,SLC,44745
 cotton,Producer Ppaddy (LCU/tonne),2004,2004,LCU,45358
 cotton,Producer Ppaddy (SLC/tonne),2004,2004,SLC,45358
-"jute, raw or retted",Producer Ppaddy (LCU/tonne),2017,2017,LCU,45470.4
-"jute, raw or retted",Producer Ppaddy (SLC/tonne),2017,2017,SLC,45470.4
+jute,Producer Ppaddy (LCU/tonne),2017,2017,LCU,45470.4
+jute,Producer Ppaddy (SLC/tonne),2017,2017,SLC,45470.4
 tea,Producer Ppaddy (LCU/tonne),2015,2015,LCU,46183.4
 tea,Producer Ppaddy (SLC/tonne),2015,2015,SLC,46183.4
 millet,Producer Ppaddy (LCU/tonne),2021,2021,LCU,47880
@@ -1182,16 +1182,16 @@ lentil,Producer Ppaddy (LCU/tonne),2007,2007,LCU,52278
 lentil,Producer Ppaddy (SLC/tonne),2007,2007,SLC,52278
 cotton,Producer Ppaddy (LCU/tonne),2002,2002,LCU,52547
 cotton,Producer Ppaddy (SLC/tonne),2002,2002,SLC,52547
-"jute, raw or retted",Producer Ppaddy (LCU/tonne),2018,2018,LCU,53790
-"jute, raw or retted",Producer Ppaddy (SLC/tonne),2018,2018,SLC,53790
+jute,Producer Ppaddy (LCU/tonne),2018,2018,LCU,53790
+jute,Producer Ppaddy (SLC/tonne),2018,2018,SLC,53790
 cotton,Producer Ppaddy (LCU/tonne),2005,2005,LCU,55445
 cotton,Producer Ppaddy (SLC/tonne),2005,2005,SLC,55445
 chickpeas,Producer Ppaddy (LCU/tonne),2008,2008,LCU,55478.4
 chickpeas,Producer Ppaddy (SLC/tonne),2008,2008,SLC,55478.4
-"jute, raw or retted",Producer Ppaddy (LCU/tonne),2020,2020,LCU,56460
-"jute, raw or retted",Producer Ppaddy (SLC/tonne),2020,2020,SLC,56460
-"jute, raw or retted",Producer Ppaddy (LCU/tonne),2019,2019,LCU,59090
-"jute, raw or retted",Producer Ppaddy (SLC/tonne),2019,2019,SLC,59090
+jute,Producer Ppaddy (LCU/tonne),2020,2020,LCU,56460
+jute,Producer Ppaddy (SLC/tonne),2020,2020,SLC,56460
+jute,Producer Ppaddy (LCU/tonne),2019,2019,LCU,59090
+jute,Producer Ppaddy (SLC/tonne),2019,2019,SLC,59090
 cotton,Producer Ppaddy (LCU/tonne),2006,2006,LCU,60000
 cotton,Producer Ppaddy (SLC/tonne),2006,2006,SLC,60000
 tea,Producer Ppaddy (LCU/tonne),2020,2020,LCU,60130
@@ -1262,10 +1262,10 @@ chickpeas,Producer Ppaddy (LCU/tonne),2016,2016,LCU,93154.9
 chickpeas,Producer Ppaddy (SLC/tonne),2016,2016,SLC,93154.9
 lentil,Producer Ppaddy (LCU/tonne),2016,2016,LCU,93154.9
 lentil,Producer Ppaddy (SLC/tonne),2016,2016,SLC,93154.9
-"jute, raw or retted",Producer Ppaddy (LCU/tonne),2022,2022,LCU,93470
-"jute, raw or retted",Producer Ppaddy (SLC/tonne),2022,2022,SLC,93470
-"jute, raw or retted",Producer Ppaddy (LCU/tonne),2021,2021,LCU,94380
-"jute, raw or retted",Producer Ppaddy (SLC/tonne),2021,2021,SLC,94380
+jute,Producer Ppaddy (LCU/tonne),2022,2022,LCU,93470
+jute,Producer Ppaddy (SLC/tonne),2022,2022,SLC,93470
+jute,Producer Ppaddy (LCU/tonne),2021,2021,LCU,94380
+jute,Producer Ppaddy (SLC/tonne),2021,2021,SLC,94380
 coffee,Producer Ppaddy (LCU/tonne),2004,2004,LCU,95000
 coffee,Producer Ppaddy (SLC/tonne),2004,2004,SLC,95000
 chickpeas,Producer Ppaddy (LCU/tonne),2017,2017,LCU,96345.5
