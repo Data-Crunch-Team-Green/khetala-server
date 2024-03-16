@@ -13,9 +13,11 @@ responses={404: {"description": "Not found"}},
 
 @router.get("/{crop_name}")
 async def get_crop_details(district, crop_name, response:Response):
-    # TODO: is there a better way of handling bad requests
+    # TODO: a better way of handling bad requests
     if district is None:
         raise HTTPException(status_code=400, detail="Name of a district is required")
+    
+    # TODO: raise exception if the crop_name requested is not our dataset
     
     result ={}
     result['crop'] = crop_name
