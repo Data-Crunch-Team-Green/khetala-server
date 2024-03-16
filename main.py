@@ -15,7 +15,7 @@ app.include_router(crop.router)
 app.include_router(recommend.router)
 
 @app.get("/")
-async def root():
+async def ping():
     return {"message": "Alive"}
 
 

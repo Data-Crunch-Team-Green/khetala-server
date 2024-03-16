@@ -7,6 +7,7 @@ from controller.crop import get_yields, get_national_rank, get_soil_profile, get
 
 router = APIRouter(
     prefix="/recommend",
+    tags=['recommendation'],
     responses={404: {"description": "Not found"}},
 )
 
@@ -85,8 +86,7 @@ async def recommend_crops_by_price(response:Response):
     price_data = price_data.drop(['Element', 'year Code', 'Unit', 'Unit'],axis=1)
 
     # sorting the crop by the price for the recent year only --for now
-    # might be better to calculate the score and sort by the score as the yields above
-
+    # might be better to calculate the score and sort by the score just like the yields above
     price_data = price_data[price_data['year']==2022]
     sorted_price = price_data.sort_values(by='value', ascending=False)
 
