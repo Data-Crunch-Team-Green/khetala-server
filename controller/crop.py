@@ -107,7 +107,7 @@ def get_weather_profile(crop:str):
     '''
 
     crop = crop.lower()
-    crop_weather = weather_df.loc[weather_data['label']==crop]
+    crop_weather = weather_df.loc[weather_df['label']==crop]
 
     temp_max = round(crop_weather.loc[:,'temperature'].max(),1)
     temp_min = round(crop_weather.loc[:,'temperature'].min(),1)
