@@ -5,11 +5,9 @@ import pickle
 
 from controller.repo.yield_apis_haru import YieldApi
 
-
-
 router = APIRouter(
-prefix="/reco",
-responses={404: {"description": "Not found"}},
+    prefix="/reco",
+    responses={404: {"description": "Not found"}},
 )
 
 
