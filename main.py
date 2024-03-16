@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from router import crop, reco
+from router import crop, recommend
 
 app = FastAPI()
 
@@ -12,7 +12,7 @@ app.add_middleware(CORSMiddleware,
                    )
 
 app.include_router(crop.router)
-app.include_router(reco.router)
+app.include_router(recommend.router)
 
 @app.get("/")
 async def root():
