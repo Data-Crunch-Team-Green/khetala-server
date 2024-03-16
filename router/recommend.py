@@ -13,6 +13,7 @@ router = APIRouter(
 
 @router.get("/yield")
 async def recommend_crops_by_yield(district, response:Response):
+    # TODO: error response if district is not provided
 
     data = pd.read_csv('./data/compiled-yield-data.csv')
     dist = data[data['District'] == district.upper()]
@@ -50,6 +51,8 @@ async def recommend_crops_by_yield(district, response:Response):
 
 @router.get('/soil')
 async def recommend_crops_by_soil(N, P, K, pH, response:Response):
+    # TODO: error response if N,P,K or pH is not provided
+
     NB_pkl = open('./src/model_ml/naive_bayes_classifier.pkl', 'rb')
     NB_model = pickle.load(NB_pkl)
 
@@ -63,6 +66,8 @@ async def recommend_crops_by_soil(N, P, K, pH, response:Response):
     df = pd.DataFrame(curr_soil, columns=['N','P','K','pH'], index=[0])
 
     crop = NB_model.predict(df)[0]
+    # TODO: provide message if no crops could be recommended
+
     result = {}
     result['crop'] = crop
     result['soil'] = get_soil_profile(crop)
