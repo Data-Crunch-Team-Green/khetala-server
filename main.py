@@ -1,8 +1,6 @@
 from fastapi import FastAPI
-from fastapi.responses import FileResponse
 from fastapi.middleware.cors import CORSMiddleware
-from router import yields, crop, reco
-
+from router import crop, reco
 
 app = FastAPI()
 
@@ -13,7 +11,6 @@ app.add_middleware(CORSMiddleware,
                    allow_headers= ['*']
                    )
 
-app.include_router(yields.router)
 app.include_router(crop.router)
 app.include_router(reco.router)
 
