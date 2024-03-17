@@ -3,7 +3,7 @@ Khetala
 
 **Khetala**, is a crop recommendation application that aims to bridge the knowledge gap between nepali farmers and the scattered data online to help them make data driven decision. Khetala integrates 3 major factors (Yield, Soil, Price) to provide crop recommendation to farmers. Here's how each aspect contributes to its recommendations:
 1. ### District wise yield data
-Khetala analyzes historical crop yield data for the specific region or locality. By understanding which crops have performed well in the past ===under=== similar conditions, it can suggest crops with higher potential for success in terms of yield.
+Khetala analyzes historical crop yield data for the specific region or locality. By understanding which crops have performed well in the past under similar conditions, it can suggest crops with higher potential for success in terms of yield.
 
 2. ### Soil Profile 
 The application collects soil data from various sources or may even employ on-the-ground testing. By analyzing soil composition, pH levels, nutrient content, and other relevant factors, Khetala can recommend crops that are well-suited to the specific soil conditions of a farmer's land. 
