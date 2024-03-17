@@ -3,26 +3,27 @@ from fastapi.responses import JSONResponse
 import pandas as pd
 import pickle
 
-from controller.repo.yield_apis_haru import YieldApi
-
-
+from controller.crop import get_yields, get_national_rank, get_soil_profile, get_prices
 
 router = APIRouter(
-prefix="/reco",
-responses={404: {"description": "Not found"}},
+    prefix="/recommend",
+    tags=['recommendation'],
+    responses={404: {"description": "Not found"}},
 )
 
 
-y = YieldApi()
-
-
 @router.get("/yield")
-async def reco_crops_yield(district, response:Response):
+async def recommend_crops_by_yield(district, response:Response):
+    # TODO: error response if district is not provided
 
-    data = pd.read_csv('./data/compiled_yield_data.csv')
+    data = pd.read_csv('./data/compiled-yield-data.csv')
     dist = data[data['District'] == district.upper()]
     dist.set_index("Year", inplace=True)
     dist = dist.drop(["District"], axis=1)
+
+    # calculate a score from yield performance over the 4 years
+    # the crops will be ranked based on this score and top four will be recommended
+    # TODO: create separate util function to calculate score using the values of the parameter (yield like here) over the years. This function could be used in the recommendation by price below
 
     scores = {}
     for(columnName, columnData) in dist.items():
@@ -39,8 +40,8 @@ async def reco_crops_yield(district, response:Response):
     for crop in crops:
         crop_details = {}
         crop_details['crop'] = crop
-        crop_details['yield'] = y.yearly_yield(district=district, crop=crop)
-        crop_details['national_rank'] = y.national_rank(district=district, crop=crop)
+        crop_details['yield'] = get_yields(district, crop)
+        crop_details['national_rank'] = get_national_rank(district, crop)
         result.append(crop_details)
 
     # print(result)
@@ -50,8 +51,10 @@ async def reco_crops_yield(district, response:Response):
 
 
 @router.get('/soil')
-async def reco_crops_soil(N, P, K, pH, response:Response):
-    NB_pkl = open('./controller/naive_bayes_classifier.pkl', 'rb')
+async def recommend_crops_by_soil(N, P, K, pH, response:Response):
+    # TODO: error response if N,P,K or pH is not provided
+
+    NB_pkl = open('./src/model_ml/naive_bayes_classifier.pkl', 'rb')
     NB_model = pickle.load(NB_pkl)
 
     curr_soil = {}
@@ -64,22 +67,26 @@ async def reco_crops_soil(N, P, K, pH, response:Response):
     df = pd.DataFrame(curr_soil, columns=['N','P','K','pH'], index=[0])
 
     crop = NB_model.predict(df)[0]
+    # TODO: provide message if no crops could be recommended
+
     result = {}
     result['crop'] = crop
-    result['soil'] = y.soil_profile(crop=crop)
+    result['soil'] = get_soil_profile(crop)
+
     return JSONResponse(result)
 
 
 
 
 @router.get("/price")
-async def reco_crops_yield(response:Response):
+async def recommend_crops_by_price(response:Response):
 
     data = pd.read_csv('./data/price.csv')
     price_data = data.loc[data['Unit']=='LCU']
     price_data = price_data.drop(['Element', 'year Code', 'Unit', 'Unit'],axis=1)
 
-    # sort by the price for the recent year only --for now
+    # sorting the crop by the price for the recent year only --for now
+    # might be better to calculate the score and sort by the score just like the yields above
     price_data = price_data[price_data['year']==2022]
     sorted_price = price_data.sort_values(by='value', ascending=False)
 
@@ -93,8 +100,7 @@ async def reco_crops_yield(response:Response):
     for crop in crops:
         crop_details = {}
         crop_details['crop'] = crop
-        crop_details['price'] = y.get_price_data(crop=crop)
+        crop_details['price'] = get_prices(crop=crop)
         result.append(crop_details)
-    
 
     return JSONResponse(result)

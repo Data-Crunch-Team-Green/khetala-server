@@ -1,42 +1,32 @@
-from fastapi import APIRouter, Response
+from fastapi import APIRouter, Response, HTTPException
 from fastapi.responses import JSONResponse
 
-from controller.repo.yield_apis_haru import YieldApi
+from controller.crop import get_yields, get_national_rank, get_soil_profile, get_weather_profile, get_prices
 
 
 router = APIRouter(
 prefix="/crop",
+tags=['crop'],
 responses={404: {"description": "Not found"}},
 )
 
-y = YieldApi()
-#1st - /crop/crop_name?district=query_param
-'''
-{yield: {2079: yield_value, 2078:7.8, 2077:2.6, 2076:6},
-national_rank: 2,
-soil: {
-    N:avg(n_value),
-    P:avg(),
-    K:avg()
-    pH:avg()
-},
-weather: {
-    temperature: [min_value, max_value] #eg: [20.3, 26.6] - one decimal place,
-    humidity: [min_value, max_value]- one decimal place,
-    rainfall: [min_value, max_value] - no decimal
-},
-price:{2079: price_value, 2078:7.8, 2077:2.6, 2076:6, ............} all years 10 years back 
-}  
-'''
 
-
-
-
-
-@router.get("/{crop}")
-async def crop_page_yield(district, crop, response:Response):
+@router.get("/{crop_name}")
+async def get_crop_details(district, crop_name, response:Response):
+    # TODO: a better way of handling bad requests
     if district is None:
-        return response.status_code== 404
-    result = y.crop_page_api(district, crop)
+        raise HTTPException(status_code=400, detail="Name of a district is required")
+    
+    # TODO: raise exception if the crop_name requested is not our dataset
+    
+    result ={}
+    result['crop'] = crop_name
+    result['district'] = district
+    result['national_rank'] = get_national_rank(district, crop=crop_name)
+    result['yield'] = get_yields(district, crop=crop_name)
+    result['soil'] = get_soil_profile(crop=crop_name)
+    result['weather'] = get_weather_profile(crop=crop_name)
+    result['price'] = get_prices(crop=crop_name)
+
     return JSONResponse(result)
 

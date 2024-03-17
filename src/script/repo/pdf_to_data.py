@@ -4,9 +4,23 @@ import csv
 import re
 
 
-class FormatConverter:
-    
+class FormatConverter:  
+    '''
+    Convert the pdf or csv file into json format. This is for the yield data obtained from MoALD.
+    '''
+
     def converting_pdf_to_table_data(filepath, page_number: int) -> list:
+        '''
+        Extracting the pdf page.
+        
+        Parameters:
+        filepath (str): Filepath to the pdf file
+        page_number (int): Page number of the pdf you want to extract
+
+        Returns:
+        extracted_file_in_list (list) : Returns the pdf page in list format
+        '''
+        
         open_file = open(filepath,'rb' )
         reader = PyPDF3.PdfFileReader(open_file)
         print(reader.numPages)
@@ -19,6 +33,13 @@ class FormatConverter:
     
     
     def converting_csv_to_table_data(filepath):
+        '''
+        Converting csv file. 
+        Parameters:
+        filepath (str): Filepath to the csv file
+        Returns:
+        extracted_file_in_list (list) : Returns the csv file in list format
+        '''
         data = []
         with open(filepath, newline='') as csvfile:
             reader = csv.reader(csvfile)
@@ -30,6 +51,15 @@ class FormatConverter:
     
 
     def filtering_needed_data(extracted_data, starting_chr: list, ending_chr: list, total_columns: int):
+        '''
+        Filters the required yield data from extracted file and groups them according to the column. 
+        Parameters:
+        starting_chr (list): List of the first row of the yield table.
+        ending_chr (list): List of the last row of the yield table.
+        total_column (list): Total column in the yield table, used for grouping district data.
+        Returns:
+        table_data : Returns list of grouped yield data as per district
+        '''
         base_a = 0
         table_data = []
         end = 0 
@@ -60,11 +90,19 @@ class FormatConverter:
                     if starter%total_columns==0:
                         table_data.append(stripped)           
 
-        print(table_data)
+     
         return table_data
 
 
     def groups_to_json(groups : list, heading):
+        '''
+        Converts the filtered data into json.
+        Parameters:
+        groups (list): Data that had been filtered and grouped
+        heading (list): Heading of the columns used as keys
+        Returns:
+        naya_list(list) : Provides the grouped data in json format
+        '''
         data = groups
         naya_list = []
         

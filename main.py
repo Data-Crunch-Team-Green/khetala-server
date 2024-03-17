@@ -1,10 +1,12 @@
 from fastapi import FastAPI
-from fastapi.responses import FileResponse
 from fastapi.middleware.cors import CORSMiddleware
-from router import yields, crop, reco
+from router import crop, recommend
 
-
-app = FastAPI()
+app = FastAPI(
+    title = "Khetala",
+    summary = "Public api of Khetala crop recommendation and analysis",
+    version = '1.0.0'
+)
 
 app.add_middleware(CORSMiddleware,
                    allow_origins= ['*'],
@@ -13,12 +15,11 @@ app.add_middleware(CORSMiddleware,
                    allow_headers= ['*']
                    )
 
-app.include_router(yields.router)
 app.include_router(crop.router)
-app.include_router(reco.router)
+app.include_router(recommend.router)
 
 @app.get("/")
-async def root():
+async def ping():
     return {"message": "Alive"}
 
 

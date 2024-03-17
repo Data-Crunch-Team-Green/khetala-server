@@ -163,3 +163,4 @@ cython_debug/
 **.sma
 data_folders_trial
 
+src/script/yield
